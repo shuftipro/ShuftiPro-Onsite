@@ -552,7 +552,7 @@ SWIFT_CLASS("_TtC9ShuftiPro8DropDown")
 
 
 @interface DropDown (SWIFT_EXTENSION(ShuftiPro))
-- (void)selectRow:(NSInteger)index scrollPosition:(enum UITableViewScrollPosition)scrollPosition;
+- (void)selectRow:(NSInteger)index scrollPosition:(UITableViewScrollPosition)scrollPosition;
 - (void)clearSelection;
 - (void)deselectRow:(NSInteger)index;
 @property (nonatomic, readonly, strong) NSIndexPath * _Nullable indexPathForSelectedRow;
