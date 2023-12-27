@@ -657,7 +657,9 @@ SWIFT_CLASS("_TtC9ShuftiPro26OCRDataInputViewController")
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
 - (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField reason:(UITextFieldDidEndEditingReason)reason;
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidChange:(UITextField * _Nonnull)textField;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1220,6 +1222,7 @@ SWIFT_CLASS("_TtC9ShuftiPro32VerificationSectionTableViewCell")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified arrowTopView;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified typesTableView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightTableView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified sectionImageView;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
