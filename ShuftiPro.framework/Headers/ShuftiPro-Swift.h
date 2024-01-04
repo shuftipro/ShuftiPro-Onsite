@@ -1265,6 +1265,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 
 @interface UserConsentTakingViewController (SWIFT_EXTENSION(ShuftiPro)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
+- (void)textViewDidChangeSelection:(UITextView * _Nonnull)textView;
 @end
 
 @class UIGestureRecognizer;
