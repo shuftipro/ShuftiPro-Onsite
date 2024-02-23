@@ -331,6 +331,12 @@ SWIFT_PROTOCOL("_TtP9ShuftiPro10AnchorView_")
 @end
 
 
+SWIFT_CLASS("_TtC9ShuftiPro22AutoCatupreFramesModel")
+@interface AutoCatupreFramesModel : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro18BracketsBorderView")
 @interface BracketsBorderView : UIView
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
@@ -346,6 +352,7 @@ SWIFT_CLASS("_TtC9ShuftiPro7CallApi")
 @end
 
 @class UIImageView;
+@class UIStackView;
 @class NSString;
 @class NSBundle;
 
@@ -358,7 +365,6 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified docLabel4;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified docLabel5;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleForInstructions;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified crossImage;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified documentView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified commonInstructionView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified commonLabel1;
@@ -367,14 +373,41 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified commonImage1;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified commonImage2;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified commonImage3;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified blurrView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified gestureLineView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified swipeDownView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified commonGestureLineView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified commonSwipeDownView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified commonInstructionTopLabel;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified commonStck;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified addressView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressInstructionTopLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified addressSwipeDownView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified addressGestureLineView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressLabel1;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressLabel2;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressLabel3;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressLabel4;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressLabel5;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified addressStck;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified addressStck2;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified addressImage1;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified addressImage2;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified addressImage3;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified addressImage4;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified addressImage5;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
-- (IBAction)crossButtonClickAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIGestureRecognizer;
+
+@interface CameraInstructionViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)respondToSwipeGestureWithGesture:(UIGestureRecognizer * _Nonnull)gesture;
+@end
 
 @class UIWindow;
 @class UIApplication;
@@ -386,6 +419,14 @@ SWIFT_CLASS("_TtC9ShuftiPro17CustomAppDelegate")
 - (void)application:(UIApplication * _Nonnull)application handleEventsForBackgroundURLSession:(NSString * _Nonnull)handleEventsForBackgroundURLSessionidentifier completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9ShuftiPro15CustomCodeField")
+@interface CustomCodeField : UITextField
+- (void)deleteBackward;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSLayoutConstraint;
@@ -411,6 +452,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31DataLoadingScreenViewController")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified loaderBackView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -435,6 +477,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified verificationText;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified termsAndConditionTextView;
 @property (nonatomic, weak) IBOutlet LoadingButton * _Null_unspecified proceedButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified privacyPolicyTextLable;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)proceedButtonClickAction:(id _Nonnull)sender;
@@ -537,6 +580,28 @@ SWIFT_CLASS("_TtC9ShuftiPro12DropDownCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIScrollView;
+@class UIButton;
+
+SWIFT_CLASS("_TtC9ShuftiPro23ImageZoomViewController")
+@interface ImageZoomViewController : UIViewController <UIScrollViewDelegate>
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified imageScrollView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageViewToZoom;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backImage;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (IBAction)backAction:(id _Nonnull)sender;
+- (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)scrollView SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ImageZoomViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)handleDoubleTapWithSender:(UITapGestureRecognizer * _Nonnull)sender;
+@end
+
 
 
 SWIFT_CLASS("_TtC9ShuftiPro21LanguageTableViewCell")
@@ -562,7 +627,6 @@ SWIFT_CLASS("_TtC9ShuftiPro18NFCDetailTableCell")
 @interface NFCDetailTableCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nfcDetailHeading;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nfcDetailSubText;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified sepratorView;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -579,7 +643,6 @@ SWIFT_CLASS("_TtC9ShuftiPro17NFCImageTableCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
 
 SWIFT_CLASS("_TtC9ShuftiPro26OCRDataInputViewController")
 @interface OCRDataInputViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
@@ -636,11 +699,8 @@ SWIFT_CLASS("_TtC9ShuftiPro26OCRDataInputViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified idNumberTitle;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addressTitle;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified dobCalender;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified dobDownArrow;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified expiryCalender;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified expiryDownArrow;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified issueCalender;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified issueDownArrow;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified genderDownArrow;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified dobBorderView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified issueDataBorderView;
@@ -684,7 +744,69 @@ SWIFT_CLASS("_TtC9ShuftiPro13OCRFieldModel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIStackView;
+
+SWIFT_CLASS("_TtC9ShuftiPro35PersistentDataConsentViewController")
+@interface PersistentDataConsentViewController : UIViewController <UIGestureRecognizerDelegate, UITextViewDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified consentHeadingLabel;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified consentDetail;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified notNowBtn;
+@property (nonatomic, weak) IBOutlet LoadingButton * _Null_unspecified confirmBtn;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified policyCheckBoxImg;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified privacyPolicyClickButton;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified langIcon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified langNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified downArrow;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified languageChangeView;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified termsAndConditionTextView;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (IBAction)privacyPolicyClickAction:(id _Nonnull)sender;
+- (IBAction)confirmButtonClickAction:(id _Nonnull)sender;
+- (IBAction)notNowButtonClickAction:(id _Nonnull)sender;
+- (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
+- (void)textViewDidChangeSelection:(UITextView * _Nonnull)textView;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
+@interface PhoneEmailInputViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified serviceIcon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified headingLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified subHeadingLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryFlag;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryCode;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified countryCodeView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified phoneEmailInputField;
+@property (nonatomic, weak) IBOutlet LoadingButton * _Null_unspecified continueBtn;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified textViewWidth;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified wrongView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified wrongInputLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified emailIconTopView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified emailIcon;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified fieldStackView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified countryCodeStackView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified emailStackView;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
+- (IBAction)sendCode:(id _Nonnull)sender;
+- (IBAction)countrySelectButtonActio:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface PhoneEmailInputViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)textFieldDidChange:(UITextField * _Nonnull)textField;
+- (void)mainViewTap:(UITapGestureRecognizer * _Nullable)sender;
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 SWIFT_CLASS("_TtC9ShuftiPro22PoweredByShuftiProView")
 @interface PoweredByShuftiProView : UIView
@@ -721,12 +843,20 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified documentInstructionLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified demoAppDocTypesLabel;
 @property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified instructionLabelsStackView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topSpaceInstructionLables;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified instructionsTopView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified autoCaptureCountdownLabel;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topSpaceforAutoCaptureCountdown;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified poweredByLabel;
 - (void)viewDidLoad;
 - (void)appEnterForGround;
 - (void)appEnterBackGround;
+- (void)autofocusContineusly;
 - (void)timerChangeAutoCapture;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
+- (void)timerChangeautoCountdown;
 - (IBAction)capturePicture:(id _Nonnull)sender;
 - (IBAction)recordButtonClickAction:(id _Nonnull)sender;
 - (IBAction)stopRecordingButtonClickAction:(id _Nonnull)sender;
@@ -737,6 +867,7 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 - (void)timerChangeVideo;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)presentGeneralAlertInternetIssue;
+- (void)internetConnect;
 - (void)startAnimation;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
@@ -759,11 +890,15 @@ SWIFT_CLASS("_TtC9ShuftiPro26ProofPreviewViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified consentText;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified imageViewWidth;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified imageViewHeight;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified imageZoomButton;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified imageZoomTopView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified zoomImageLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (IBAction)contineuButtonClickAction:(id _Nonnull)sender;
 - (IBAction)retakeButtonClickAction:(id _Nonnull)sender;
+- (IBAction)zoomButtonClickAction:(id _Nonnull)sender;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)presentGeneralAlertInternetIssue;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -791,6 +926,9 @@ SWIFT_CLASS("_TtC9ShuftiPro32ProofSubmitOptionsViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified cameraArrowImg;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified uploadArrowImg;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified recordArrowImg;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified topStackView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomLineView2;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomLineView1;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)takePhotoBtnPressed:(id _Nonnull)sender;
@@ -835,9 +973,11 @@ SWIFT_CLASS("_TtC9ShuftiPro20ResultViewController")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified showResultView;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified retryButton;
 @property (nonatomic, weak) IBOutlet LoadingButton * _Null_unspecified proceedButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified privacyPolicyTextLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)updateScreenOnInternetError;
 - (IBAction)retryAction:(id _Nonnull)sender;
 - (IBAction)proceedAction:(id _Nonnull)sender;
@@ -887,6 +1027,10 @@ SWIFT_CLASS("_TtC9ShuftiPro26SelectCountryTableViewCell")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryLabel;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomLineView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryFlagLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryCodeLabel;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified countryLabelStackView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryFlagLabel1;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryCodeLabel1;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -925,6 +1069,35 @@ SWIFT_CLASS("_TtC9ShuftiPro27SelectCountryViewController")
 
 
 
+SWIFT_CLASS("_TtC9ShuftiPro35SelectCountryWithCodeViewController")
+@interface SelectCountryWithCodeViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified countryTableView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified topInstructionLabel;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified topStack;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified crossButton;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified crossImage;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (IBAction)crossClickAction:(id _Nonnull)sender;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface SelectCountryWithCodeViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)topViewClick:(UITapGestureRecognizer * _Nullable)sender;
+- (void)handleKeyboardWillHide:(NSNotification * _Nonnull)notification;
+- (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro34SelectLanguageScreenViewController")
 @interface SelectLanguageScreenViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
@@ -935,6 +1108,7 @@ SWIFT_CLASS("_TtC9ShuftiPro34SelectLanguageScreenViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified crossImage;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)sender;
 - (void)crossImageClick:(UITapGestureRecognizer * _Nullable)sender;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)notification;
@@ -997,6 +1171,7 @@ SWIFT_CLASS("_TtC9ShuftiPro11StepperView")
 @property (nonatomic, weak) IBOutlet UIProgressView * _Null_unspecified stepperProgressBar;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified servicesLabel;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backButtonView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified IconView;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (IBAction)backAction:(id _Nonnull)sender;
@@ -1082,6 +1257,11 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
+
+
+
+
+
 @interface UIView (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
 @property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
@@ -1096,13 +1276,17 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @interface UploadProofViewController : UIViewController <UIDocumentPickerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (nonatomic, weak) IBOutlet RectangularDashedView * _Null_unspecified uploadProofMainView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified documentstypesLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified browseLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified maximumSizeLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified instructionLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified consentText;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified documentIconImage;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified uploadViewColorHolder;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified pdfView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified videoView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified photoView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified pdfLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified videoLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified photoLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)browseClickAction:(id _Nonnull)sender;
@@ -1116,13 +1300,10 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @end
 
 
-@class UIGestureRecognizer;
 
 SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 @interface UserConsentTakingViewController : UIViewController <UIGestureRecognizerDelegate, UITextViewDelegate>
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified consentHeadingLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified consentDetail;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified cancelBtn;
 @property (nonatomic, weak) IBOutlet LoadingButton * _Null_unspecified continueBtn;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified policyCheckBoxImg;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified privacyPolicyClickButton;
@@ -1131,22 +1312,29 @@ SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified downArrow;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified languageChangeView;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified termsAndConditionTextView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified topContentView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified cancelBtn;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified cancelwarningTopView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cancelWarningLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified cancelIcon;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightConstraintCancel;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpaceCancel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified policyTextLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)privacyPolicyClickAction:(id _Nonnull)sender;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)selectLanguage:(UITapGestureRecognizer * _Nonnull)sender;
 - (IBAction)contineuButtonClickAction:(id _Nonnull)sender;
-- (IBAction)cancelButtonClickAction:(id _Nonnull)sender;
+- (IBAction)cancelAction:(id _Nonnull)sender;
 - (void)callBackWithNotification:(NSNotification * _Nonnull)notification;
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
+- (void)handleTapOnTextView:(UITapGestureRecognizer * _Nonnull)sender;
 - (void)textViewDidChangeSelection:(UITextView * _Nonnull)textView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIScrollView;
 
 SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 @interface UserFeedBackViewController : UIViewController <UITextViewDelegate>
@@ -1241,6 +1429,7 @@ SWIFT_CLASS("_TtC9ShuftiPro30VerificationTypesTableViewCell")
 @interface VerificationTypesTableViewCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified iconImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified typeLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified documentSidesLabel;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified arrowButton;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified leadingConstraintforlabel;
@@ -1250,6 +1439,66 @@ SWIFT_CLASS("_TtC9ShuftiPro30VerificationTypesTableViewCell")
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIActivityIndicatorView;
+
+SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
+@interface VerifyCodeViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified serviceIcon;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView1;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView2;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView3;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView4;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView5;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView6;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView7;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView8;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView9;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified textFieldView10;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField1;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField2;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField3;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField4;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField5;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField6;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField7;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField8;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField9;
+@property (nonatomic, weak) IBOutlet CustomCodeField * _Null_unspecified textField10;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified infoLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified phoneEmailLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomCodesView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified dontReceivedCodeTopView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified countDownStart;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countDownLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dontRecieveCode2;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dontReceCode1;
+@property (nonatomic, weak) IBOutlet LoadingButton * _Null_unspecified verifyButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified cancelButton;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified wriningView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified warningLabel;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified codesStckView1;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified codesStackView2;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified loaderWidth;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loaderView;
+- (void)viewDidLoad;
+- (void)timerChangeautoCountdown;
+- (void)tapCodeSendWithSender:(UITapGestureRecognizer * _Nonnull)sender;
+- (IBAction)cancelButtonAction:(id _Nonnull)sender;
+- (IBAction)verifyCode:(id _Nonnull)sender;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface VerifyCodeViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)mainViewTap:(UITapGestureRecognizer * _Nullable)sender;
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
 @end
 
 @class WKNavigation;

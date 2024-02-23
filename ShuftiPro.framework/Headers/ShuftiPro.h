@@ -1,9 +1,3 @@
-//
-//  ShuftiPro.h
-//  ShuftiPro
-//
-//  Created by Zubair Ismail on 18/08/2023.
-//
 
 #import <Foundation/Foundation.h>
 
