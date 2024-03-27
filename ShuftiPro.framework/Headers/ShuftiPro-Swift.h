@@ -745,6 +745,26 @@ SWIFT_CLASS("_TtC9ShuftiPro13OCRFieldModel")
 @end
 
 
+SWIFT_CLASS("_TtC9ShuftiPro34PersistenPofileHeaderTableViewCell")
+@interface PersistenPofileHeaderTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewHeight;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified tableViewTopView;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface PersistenPofileHeaderTableViewCell (SWIFT_EXTENSION(ShuftiPro)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro35PersistentDataConsentViewController")
 @interface PersistentDataConsentViewController : UIViewController <UIGestureRecognizerDelegate, UITextViewDelegate>
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified consentHeadingLabel;
@@ -769,6 +789,34 @@ SWIFT_CLASS("_TtC9ShuftiPro35PersistentDataConsentViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class UIActivityIndicatorView;
+
+SWIFT_CLASS("_TtC9ShuftiPro32PersistentProfilesViewController")
+@interface PersistentProfilesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified headingLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified subHeadingLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified arrowIcon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified skipStandardFlow;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified activityView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified skipFlowView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified loaderTopView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (IBAction)backAction:(id _Nonnull)sender;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface PersistentProfilesViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)skipToTapAction:(UITapGestureRecognizer * _Nullable)sender;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
+@end
 
 
 SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
@@ -816,6 +864,26 @@ SWIFT_CLASS("_TtC9ShuftiPro22PoweredByShuftiProView")
 @property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified mainStackForShuftiLogo;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9ShuftiPro26ProfileDetailTableViewCell")
+@interface ProfileDetailTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified arrowIcon;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified seperatorView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified namelabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified nameicon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameValueLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified idNolabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified idNoicon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified idNoValueLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified doblabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified dobicon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dobValueLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITouch;
@@ -1172,6 +1240,7 @@ SWIFT_CLASS("_TtC9ShuftiPro11StepperView")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified servicesLabel;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backButtonView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified IconView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified leadingConstraintlabel;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (IBAction)backAction:(id _Nonnull)sender;
@@ -1441,7 +1510,6 @@ SWIFT_CLASS("_TtC9ShuftiPro30VerificationTypesTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIActivityIndicatorView;
 
 SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 @interface VerifyCodeViewController : UIViewController <UITextFieldDelegate>
