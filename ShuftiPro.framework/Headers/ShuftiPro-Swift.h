@@ -1227,6 +1227,42 @@ SWIFT_CLASS("_TtC9ShuftiPro15ShuftiProRouter")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+/// Represents the type of engine.io packet types.
+typedef SWIFT_ENUM(NSInteger, SocketEnginePacketType, closed) {
+/// Open message.
+  SocketEnginePacketTypeOpen = 0,
+/// Close message.
+  SocketEnginePacketTypeClose = 1,
+/// Ping message.
+  SocketEnginePacketTypePing = 2,
+/// Pong message.
+  SocketEnginePacketTypePong = 3,
+/// Regular message.
+  SocketEnginePacketTypeMessage = 4,
+/// Upgrade message.
+  SocketEnginePacketTypeUpgrade = 5,
+/// NOOP.
+  SocketEnginePacketTypeNoop = 6,
+};
+
+/// Represents the type of engine.io packet types.
+typedef SWIFT_ENUM(NSInteger, SocketEnginePackettType, closed) {
+/// Open message.
+  SocketEnginePackettTypeOpen = 0,
+/// Close message.
+  SocketEnginePackettTypeClose = 1,
+/// Ping message.
+  SocketEnginePackettTypePing = 2,
+/// Pong message.
+  SocketEnginePackettTypePong = 3,
+/// Regular message.
+  SocketEnginePackettTypeMessage = 4,
+/// Upgrade message.
+  SocketEnginePackettTypeUpgrade = 5,
+/// NOOP.
+  SocketEnginePackettTypeNoop = 6,
+};
+
 @class UIProgressView;
 
 SWIFT_CLASS("_TtC9ShuftiPro11StepperView")
