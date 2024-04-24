@@ -1425,6 +1425,11 @@ SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightConstraintCancel;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpaceCancel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified policyTextLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified hbtfLabel;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightFortheHBTFLabel;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified widthConsentTextView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified mainViewHeight;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified hbtfTopSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)privacyPolicyClickAction:(id _Nonnull)sender;
