@@ -838,6 +838,7 @@ SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
 @property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified fieldStackView;
 @property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified countryCodeStackView;
 @property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified emailStackView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified downArrowIcon;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
@@ -1063,6 +1064,7 @@ SWIFT_CLASS("_TtC9ShuftiPro20ResultViewController")
 SWIFT_CLASS("_TtC9ShuftiPro24RetryReasonTableViewCell")
 @interface RetryReasonTableViewCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reasonLabel;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topSpaceForThelabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -1367,6 +1369,7 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
+
 @interface UIView (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
 @property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
@@ -1392,6 +1395,9 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified pdfLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified videoLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified photoLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified pdfIcon;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified videoIcon;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoIcon;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)browseClickAction:(id _Nonnull)sender;
