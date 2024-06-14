@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "ShuftiPro-Onsite"
-spec.version      = "1.1.10"
+spec.version      = "1.1.11"
 spec.summary      = "Shufti Pro is designed to verify documents in realtime."
 
 spec.description  = <<-DESC
@@ -16,7 +16,7 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author       = { "Shufti Pro" => "support@shuftipro.com" }
 
 
-spec.platform     = :ios, "11.0"
+spec.platform     = :ios, "13.0"
 
 spec.source       = { :git => "https://github.com/shuftipro/ShuftiPro-Onsite.git", :tag => "#{spec.version}" }
 
