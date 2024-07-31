@@ -37,15 +37,6 @@ import zlib
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PersistentDataConsentViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate, UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc public func textView(_ textView: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in characterRange: Foundation.NSRange, interaction: UIKit.UITextItemInteraction) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func textViewDidChangeSelection(_ textView: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ResultViewController : UIKit.UIViewController, Foundation.URLSessionTaskDelegate, Foundation.URLSessionDownloadDelegate, Foundation.URLSessionDelegate, UIKit.UITextViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
@@ -239,39 +230,6 @@ public class ServerConnection : ShuftiPro.Connection, ShuftiPro.HTTPServerDelega
   public func didForm(event: ShuftiPro.FrameCollector.Event)
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
   @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class MonthYearWheelPicker : UIKit.UIPickerView {
-  @_Concurrency.MainActor(unsafe) open var maximumDate: Foundation.Date {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) open var minimumDate: Foundation.Date {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) open var date: Foundation.Date {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) open var month: Swift.Int {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) open var year: Swift.Int {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) open var onDateSelected: ((_ month: Swift.Int, _ year: Swift.Int) -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) public func addTarget(_ target: Any?, action: ObjectiveC.Selector, for controlEvents: UIKit.UIControl.Event)
-  @_Concurrency.MainActor(unsafe) public func removeTarget()
-  @_Concurrency.MainActor(unsafe) public func removeTarget(_ target: Any?, action: ObjectiveC.Selector?, for controlEvents: UIKit.UIControl.Event)
-  @_Concurrency.MainActor(unsafe) public func setDate(_ date: Foundation.Date, animated: Swift.Bool)
-  @objc deinit
-}
-extension ShuftiPro.MonthYearWheelPicker : UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic open func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic open func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic open func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, attributedTitleForRow row: Swift.Int, forComponent component: Swift.Int) -> Foundation.NSAttributedString?
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SupportedDocumentsListViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
