@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WaKIAU3fQOsCL4xAlAlY1H8d5dc=
+		Yaqf7gT0GJrK7dHPTseF5mlAr1c=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		J6ADmH/E1wPQY6LYJjceZZDKEx0=
+		L4csTfKlCKmbCnhOl3ABzZiLeOc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -602,7 +602,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PWFgT1cT1FSjjP6cXX6P3Ch5w3gMJ/n0O1+jmYLye+M=
+			kfIyZHBIturZUrWVtjFmB1tgsZ1lBYdNxjdFO/fsDsA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -630,7 +630,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hwIOmiiISx0cirrkWNtMtOUOVV0AArdo37aIz42vxA8=
+			5/6PYq/mrCTeuis524D5UflJGSgHzAyfzLYwNU6BDEQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
