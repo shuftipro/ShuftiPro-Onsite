@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fv1ATCKWLbU16vwhPGWu1WqTFdE=
+		wqEpHeEuQ5dHEF8FGwmxUF+yN5o=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ieXiM6rjP3stBH2QUVdwdy8cWmY=
+		eU1jsD8HCjguMlEz07WxoKTxUEg=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fv1ATCKWLbU16vwhPGWu1WqTFdE=
+		wqEpHeEuQ5dHEF8FGwmxUF+yN5o=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HavVt8x9VjnGQOyiVZLP1/q+Ygk=
+		q5jb81PZaQxzBWsm2YTlJ+mkohk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -626,7 +626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BOCv0N5aEDilYg0nm3j7WumqKzlumK2FSL6H43uzMpA=
+			iD6QlLHK9wMqyIyVeLfda8S/4fOhZCVSeEBcPbMcFpI=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -654,14 +654,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			82HGmTc2b9+y6Ql4XfilTApq45YxL6HZ/sAwCFbHKGY=
+			c2BnvUQNGcapPgVBgNJOI03EmhLP4bVQWZM4kif28mY=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BOCv0N5aEDilYg0nm3j7WumqKzlumK2FSL6H43uzMpA=
+			iD6QlLHK9wMqyIyVeLfda8S/4fOhZCVSeEBcPbMcFpI=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -689,7 +689,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eaS14kb/2NItPhlWilpqsrM7Oh0zrkSPOpVhvRpMMZQ=
+			FWwDZ4/As5pGV1htgmEQc22hEOl1yjRApozNIa2A8As=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
