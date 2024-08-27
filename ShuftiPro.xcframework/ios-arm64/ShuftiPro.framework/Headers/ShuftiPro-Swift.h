@@ -402,6 +402,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified doctInstImage4;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified doctInstImage5;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified addressFirstLabelTopConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified commonLabel1TopConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;

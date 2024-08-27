@@ -33463,7 +33463,7 @@
       "kind": "StringLiteral",
       "offset": 832,
       "length": 7,
-      "value": "\"1.2.4\""
+      "value": "\"1.2.5\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/StarScream\/FrameCollector.swift",
@@ -34455,7 +34455,7 @@
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32502,
+      "offset": 32683,
       "length": 22,
       "value": "\"ShuftiPro.CustomVisualEffectView\""
     },
@@ -36240,21 +36240,21 @@
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 54625,
+      "offset": 55132,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 57834,
+      "offset": 58341,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 57873,
+      "offset": 58380,
       "length": 2,
       "value": "50"
     },
@@ -36871,6 +36871,13 @@
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
       "offset": 1697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1746,
       "length": 5,
       "value": "false"
     },
@@ -39362,336 +39369,357 @@
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12338,
+      "offset": 12352,
+      "length": 22,
+      "value": "\"face_instruction_one\""
+    },
+    {
+      "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12526,
+      "length": 24,
+      "value": "\"face_instruction_three\""
+    },
+    {
+      "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12698,
+      "length": 22,
+      "value": "\"face_instruction_two\""
+    },
+    {
+      "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12854,
       "length": 14,
       "value": "\"flashDisable\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12484,
+      "offset": 13000,
       "length": 13,
       "value": "\"flashEnbale\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12627,
+      "offset": 13143,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12771,
+      "offset": 13287,
       "length": 13,
       "value": "\"handwritten\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12912,
+      "offset": 13428,
       "length": 11,
       "value": "\"helpLight\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13046,
+      "offset": 13562,
       "length": 9,
       "value": "\"id_card\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13181,
+      "offset": 13697,
       "length": 10,
       "value": "\"infoIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13323,
+      "offset": 13839,
       "length": 13,
       "value": "\"infoWarning\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13483,
+      "offset": 13999,
       "length": 21,
       "value": "\"insurance_agreement\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13641,
+      "offset": 14157,
       "length": 16,
       "value": "\"insurance_card\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13798,
+      "offset": 14314,
       "length": 18,
       "value": "\"insurance_policy\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13960,
+      "offset": 14476,
       "length": 19,
       "value": "\"languageWorldIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14118,
+      "offset": 14634,
       "length": 17,
       "value": "\"lease_agreement\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14261,
+      "offset": 14777,
       "length": 10,
       "value": "\"mailIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14403,
+      "offset": 14919,
       "length": 13,
       "value": "\"maxFileSize\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14573,
+      "offset": 15089,
       "length": 27,
       "value": "\"national_proof_of_address\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14726,
+      "offset": 15242,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14864,
+      "offset": 15380,
       "length": 11,
       "value": "\"passport1\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15003,
+      "offset": 15519,
       "length": 11,
       "value": "\"passport2\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15142,
+      "offset": 15658,
       "length": 11,
       "value": "\"passport3\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15281,
+      "offset": 15797,
       "length": 11,
       "value": "\"passport4\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15420,
+      "offset": 15936,
       "length": 11,
       "value": "\"passport5\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15559,
+      "offset": 16075,
       "length": 11,
       "value": "\"pauseIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15694,
+      "offset": 16210,
       "length": 9,
       "value": "\"pdfIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15863,
+      "offset": 16379,
       "length": 28,
       "value": "\"permanent_residence_permit\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16035,
+      "offset": 16551,
       "length": 19,
       "value": "\"phoneSeriviceIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16182,
+      "offset": 16698,
       "length": 11,
       "value": "\"photoIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16319,
+      "offset": 16835,
       "length": 10,
       "value": "\"playIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16453,
+      "offset": 16969,
       "length": 9,
       "value": "\"printed\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16602,
+      "offset": 17118,
       "length": 18,
       "value": "\"proof_of_address\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16753,
+      "offset": 17269,
       "length": 14,
       "value": "\"property_tax\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16893,
+      "offset": 17409,
       "length": 10,
       "value": "\"radioOff\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17027,
+      "offset": 17543,
       "length": 9,
       "value": "\"radioOn\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17166,
+      "offset": 17682,
       "length": 12,
       "value": "\"reasonicon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17318,
+      "offset": 17834,
       "length": 17,
       "value": "\"recordVideoICon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17472,
+      "offset": 17988,
       "length": 16,
       "value": "\"rent_agreement\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17619,
+      "offset": 18135,
       "length": 13,
       "value": "\"salary_slip\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17772,
+      "offset": 18288,
       "length": 17,
       "value": "\"shuftiLogoBlack\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17929,
+      "offset": 18445,
       "length": 17,
       "value": "\"shuftiLogoWhite\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18094,
+      "offset": 18610,
       "length": 21,
       "value": "\"supportedTypesArrow\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18240,
+      "offset": 18756,
       "length": 10,
       "value": "\"tax_bill\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18376,
+      "offset": 18892,
       "length": 10,
       "value": "\"tickIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18512,
+      "offset": 19028,
       "length": 10,
       "value": "\"userIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18655,
+      "offset": 19171,
       "length": 14,
       "value": "\"utility_bill\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18797,
+      "offset": 19313,
       "length": 11,
       "value": "\"videoIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18944,
+      "offset": 19460,
       "length": 15,
       "value": "\"whileHelpIcon\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19097,
+      "offset": 19613,
       "length": 16,
       "value": "\"whiteBackArrow\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-flcrnfazasldguambmdsfbgbprva\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19244,
+      "offset": 19760,
       "length": 13,
       "value": "\"work_permit\""
     }

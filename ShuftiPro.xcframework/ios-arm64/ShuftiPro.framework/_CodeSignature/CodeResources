@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		a7j2p/kKx9+OnlUmlv4B1XFGhPw=
+		p+TfT7wMyvY6Vz48ZgrB2zRYv3g=
 		</data>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>CameraInstruction.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		QhWg4CBUHJTvBkV7ItVWJ4ruoIU=
+		hsbc0WDcEtmIRs4gS5OHa/+L39Y=
 		</data>
 		<key>CustomSwitch.nib</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		D24SVleza+ZJLDSseNLnYbQjSzA=
+		k9fQOuLh33ltPL0xRfFQ2o+KVvI=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GLWCDa77EtDPWZTD3aif8BTVwbo=
+		uY7uru5PyRwX2M8Wmh9LoKBofPE=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		d2qNcNmgXuZKgqkqIcNOMH00rIA=
+		/7KwFmJDf5n5cq617UNmCUn8vao=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -346,7 +346,7 @@
 		</data>
 		<key>UploadProof.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		wz4U3rjopV5eI59/unSzlZGtZHc=
+		kjoR3HOVewNnbUM7UsukX03Ds+4=
 		</data>
 		<key>UserConsentTaking.storyboardc/Info.plist</key>
 		<data>
@@ -431,7 +431,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cK9FRammdSZqqFYe6UuNUz/Q88+ZWuVO8QAf5TCmrj8=
+			/csTlJTjftGGzmNCqeUnDBXA+aiOXAjJ+YMlZEobTEY=
 			</data>
 		</dict>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
@@ -452,7 +452,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			68maLiDh/XzmjmdTcilm2W6OZcc+RDrnDPZO/oOm4K4=
+			D5vEJkdqhxFct2jV7FEe1LYuYbv94X1dACbtGFSLJ/4=
 			</data>
 		</dict>
 		<key>CustomSwitch.nib</key>
@@ -564,7 +564,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wUSE6VxXn7pPwr+E+Zm1Xq673Wfxk4cvsd8YZKqySTE=
+			lXTbd0OiCYyr9ilo3agR6l2DeWLKp+/IU+Eyez9u+SY=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -606,7 +606,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zojsQQw3SE/Q85Ix2Rpme+iv6R/6wD9g+ErNV5W7GjA=
+			Z/XNkkHRz6mjvQcLSTDdFV3CSyVyT5tvbf7aKeBz9P4=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -634,7 +634,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5wechPm/1WgzU3laLmcrM0LrxRRQOQxjuucqDWGjKI=
+			JfA2VEPWJR0DVO3wHVkUcEqZwx+OcoGjbHGAWPSADLk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1019,7 +1019,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E8Z4qEoryZTojOhmJMk12VrZ+vSk0+z7AYb9tdBt5f0=
+			QVSH0Dg/qyQZ915Dq6tl05a4T/qweD4CFHM6DwVkyGc=
 			</data>
 		</dict>
 		<key>UserConsentTaking.storyboardc/Info.plist</key>
