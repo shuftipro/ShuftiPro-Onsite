@@ -33209,14 +33209,14 @@
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34701,
+      "offset": 34878,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36362,
+      "offset": 36539,
       "length": 2,
       "value": "\"\""
     },
@@ -33463,7 +33463,7 @@
       "kind": "StringLiteral",
       "offset": 832,
       "length": 7,
-      "value": "\"1.2.6\""
+      "value": "\"1.2.7\""
     },
     {
       "filePath": "\/Users\/zubairismail\/Desktop\/Shufti with NSServer\/DevlopmentLIVecode AlrajhiBank\/ShuftiPro\/StarScream\/FrameCollector.swift",
