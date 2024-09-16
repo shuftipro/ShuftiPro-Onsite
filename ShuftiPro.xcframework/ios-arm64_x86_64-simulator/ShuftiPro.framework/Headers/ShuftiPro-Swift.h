@@ -1550,6 +1550,8 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
+
+
 @interface UIView (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
 @property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
@@ -3385,6 +3387,8 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 @interface UIBarButtonItem (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
 @property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
+
+
 
 
 
