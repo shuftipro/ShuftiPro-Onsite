@@ -703,6 +703,25 @@ SWIFT_CLASS("_TtC9ShuftiPro24EDDServiceViewController")
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
 @end
 
+@class WKNavigationAction;
+@class WKNavigation;
+
+SWIFT_CLASS("_TtC9ShuftiPro18EKYCViewController")
+@interface EKYCViewController : UIViewController <WKNavigationDelegate>
+@property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified webView;
+@property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified loaderView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified loaderContainerView;
+@property (nonatomic, weak) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified labelLoading;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class RectangularDashedView;
 @class UICollectionView;
 @class ShuftiExtendedUIStackView;
