@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		q4jRxw5fSjMVMObrKpya9WeUznE=
+		TTGUvYFBzOkrwBkJ6uFIKKS7q1g=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -154,11 +154,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9C9SV9zAnuV9WYhPqRkNYWp/d14=
+		E8xZ3WgQAbLqq5lHQ1hzntNSf3U=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EP7TKmL+f/hzSei+y/kRMv8WCws=
+		VXCbPyBLNW4/KBt+iLeeOXLb4Ws=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -166,11 +166,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EP7TKmL+f/hzSei+y/kRMv8WCws=
+		VXCbPyBLNW4/KBt+iLeeOXLb4Ws=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xcp0cV+Hg5tPygwwg8AXIfETJjk=
+		JV82nRSF3rBaZqrq7D6iL9chroc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -747,7 +747,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o1JdQWhNYo7ldWal1kEFmUm0wnqJGcP/XmyVHZqpfqY=
+			DMTGMDLOJsiOC8UrLKs4+FQiBj4kWOIpnQwIRnZvYh0=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -803,14 +803,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHrBNBK0eLKGNlWFzl3M+r4evCoIv/vvU5DpofsxnBk=
+			MkeChNknR8jaWLOsOi1U3JZIWPQQIK6fzigy+89tBEk=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBds++Q9CLqGv+xCRWgXULDg16qrpBppM+h1mHtDjs8=
+			+wzhXNj0+CSw4h/iyM/0Pjj52IhGkuSonN6J5Kgnl4A=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -824,14 +824,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBds++Q9CLqGv+xCRWgXULDg16qrpBppM+h1mHtDjs8=
+			+wzhXNj0+CSw4h/iyM/0Pjj52IhGkuSonN6J5Kgnl4A=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrLlvbveLRmjVqTfSlZ2X9beH1hTy51D9V0G5YXG954=
+			fnE3+/kH5hUD3Bjz8NdFAXMQDuloSGgxSdgvEdSqqL8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

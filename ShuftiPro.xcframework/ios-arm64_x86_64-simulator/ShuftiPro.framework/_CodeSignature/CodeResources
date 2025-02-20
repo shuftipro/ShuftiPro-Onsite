@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		+W/3nQO4eETn7ayNi/ZomFt2bms=
+		thTo/zpnYwS0yv57qrR3TPk2KBU=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -154,11 +154,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/YL74CXkVMwmlJN/WdQnfgdXR9c=
+		duBCp+Y2avPdJhUPj7dTx0SEcSw=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vnr1+04zdxtKGVBoMZU5s1oBVT4=
+		uKQXOhwiqPA0ubaIR9cH6BsKGQU=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -166,19 +166,19 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vnr1+04zdxtKGVBoMZU5s1oBVT4=
+		uKQXOhwiqPA0ubaIR9cH6BsKGQU=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		c7ugvPjQhTNDQBRtxmD/npmPMVs=
+		ffgdlxjnhKDNW48q2oXozgxpW1Y=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/YL74CXkVMwmlJN/WdQnfgdXR9c=
+		duBCp+Y2avPdJhUPj7dTx0SEcSw=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Dg/+KqrPMfJiK0r+T4i/yACS5pE=
+		Eo+kbgNMjcA84cuTopWEdtEOMnU=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -186,11 +186,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Dg/+KqrPMfJiK0r+T4i/yACS5pE=
+		Eo+kbgNMjcA84cuTopWEdtEOMnU=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VzBG283pQO9iWJfep6fxBs6RFmA=
+		Jk1rFvff/Z8TUT4i0xqMgctSoWs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -767,7 +767,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bl2CTqQ0SqdVIFZVebqUSjD+ZbemmK21PsrAdXYTp6Y=
+			5UTMdilEnhsEpuSmxekweFCcjRdeJO62jo7t4U9BkTg=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -823,14 +823,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HGPbpqvKphb4vhuMiqjygZIuCe6QpxaoyDe+enUVm4=
+			UZ+f94kHQPN78dMjLTjbrteShmU+Fd/eLBTxmC0ZZFw=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhPgI7e2anTFVnhuLmXIEFsoK8eg5U88QN828D44rGE=
+			cTvO9PDbpVSf1/UOeqOG80djoHiOmdrBfgDMVD6LYWc=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -844,28 +844,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhPgI7e2anTFVnhuLmXIEFsoK8eg5U88QN828D44rGE=
+			cTvO9PDbpVSf1/UOeqOG80djoHiOmdrBfgDMVD6LYWc=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xBfHwQ8uzb72A81rF7WIk/svAdwWOrGXrWKgU54n3Rc=
+			W6GB+DGj2ojLRyzoU4sTy9BKJV1a5Rr2Pncdu8IDueQ=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HGPbpqvKphb4vhuMiqjygZIuCe6QpxaoyDe+enUVm4=
+			UZ+f94kHQPN78dMjLTjbrteShmU+Fd/eLBTxmC0ZZFw=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CL/Y0rtOx7yQGPPA1urcqKKkxnh9FTFhj0AuWgqUv10=
+			QJLNMdxVmorUyHMxI68c5S7DOMH0ja/mIc+56u8rXSg=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -879,14 +879,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CL/Y0rtOx7yQGPPA1urcqKKkxnh9FTFhj0AuWgqUv10=
+			QJLNMdxVmorUyHMxI68c5S7DOMH0ja/mIc+56u8rXSg=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnhFtZaZg4O+4ZT+FXwPv628wQqijp4l4MxoiV4wqRs=
+			84h4QHB9BRXEvsbzn7B0ZE0IWcSbdbB1kyexBGuLEqE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
