@@ -36977,7 +36977,7 @@
       "kind": "StringLiteral",
       "offset": 678,
       "length": 7,
-      "value": "\"1.3.7\""
+      "value": "\"1.3.8\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -40433,28 +40433,28 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34720,
+      "offset": 34786,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34843,
+      "offset": 34909,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "Array",
-      "offset": 34665,
+      "offset": 34731,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34911,
+      "offset": 34977,
       "length": 3,
       "value": "0.0"
     },
@@ -40566,14 +40566,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/QuitionAirTableViewCell\/QuestionAirTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 20080,
+      "offset": 20140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/QuitionAirTableViewCell\/QuestionAirTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 21135,
+      "offset": 21195,
       "length": 5,
       "value": "false"
     },
@@ -40636,21 +40636,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/MultiSelectionTableViewCell\/MultiSelectionTableViewCell.swift",
       "kind": "Array",
-      "offset": 1268,
+      "offset": 1320,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/MultiSelectionTableViewCell\/MultiSelectionTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1339,
+      "offset": 1391,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/MultiSelectionTableViewCell\/MultiSelectionTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1367,
+      "offset": 1419,
       "length": 1,
       "value": "0"
     },
@@ -41601,15 +41601,22 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/RadioButtonTableViewCell\/RadioButtonsTableViewCell.swift",
+      "kind": "Array",
+      "offset": 2752,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/RadioButtonTableViewCell\/RadioButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2802,
+      "offset": 2833,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/RadioButtonTableViewCell\/RadioButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2748,
+      "offset": 2779,
       "length": 2,
       "value": "-1"
     },

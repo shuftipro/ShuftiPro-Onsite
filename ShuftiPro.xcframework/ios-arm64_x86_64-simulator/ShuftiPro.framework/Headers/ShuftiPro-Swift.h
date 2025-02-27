@@ -870,6 +870,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27MultiSelectionTableViewCell")
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified textViewDescription;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified textViewHeightConstraint;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified descriptinBelowView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified selectOptionsLabel;
 - (void)awakeFromNib;
 - (void)handleTableViewTap:(UITapGestureRecognizer * _Nonnull)sender;
 - (IBAction)multiselectionClicked:(id _Nonnull)sender;
@@ -3263,6 +3264,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27MultiSelectionTableViewCell")
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified textViewDescription;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified textViewHeightConstraint;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified descriptinBelowView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified selectOptionsLabel;
 - (void)awakeFromNib;
 - (void)handleTableViewTap:(UITapGestureRecognizer * _Nonnull)sender;
 - (IBAction)multiselectionClicked:(id _Nonnull)sender;
