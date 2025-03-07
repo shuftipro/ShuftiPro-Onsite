@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		EkVfwZ5dWS9lm49ZS28wVM4gU5Y=
+		9R/+Y8UV0UGoVWp9yzK5d28wlH8=
 		</data>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B30GG9fBdhOhUwqZbBCZjbxNOxo=
+		xz4FoIpYe4rFSfPpEf3MBvAjdb4=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -154,23 +154,23 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YoDiYMPkRWQdgq+0zFSxztHCwnE=
+		DuSHAcKze7jiNBFWAvSXqJ0mwnM=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		VXCbPyBLNW4/KBt+iLeeOXLb4Ws=
+		zZlDzH881wuICAy03JgDTI+Dqlk=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		n6UdesmYt6v5ZXTKoMjwxsTVfqs=
+		IcUyT9pdID+DmgyiqnBWGSRXZqc=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VXCbPyBLNW4/KBt+iLeeOXLb4Ws=
+		zZlDzH881wuICAy03JgDTI+Dqlk=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lckrpA+OkFZm63vJ1nic9zDeWDw=
+		4u6hW/aaqTZ0Dy19LE2jzrMAzcg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>PhoneEmailInput.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		JU+eDkxdf7acktKP0nyTG6DwKYk=
+		NExTOpSieWagcA5j0pq/xXJnu8Y=
 		</data>
 		<key>PickedFilesCollectionViewCell.nib</key>
 		<data>
@@ -466,7 +466,7 @@
 		</data>
 		<key>UserConsentTaking.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		IFoB61vStVuzg8DrheWmyfYhTww=
+		RlOI5fRG9BNwx1xNPY2rlX7XoWo=
 		</data>
 		<key>UserFeedBack.storyboardc/Info.plist</key>
 		<data>
@@ -478,7 +478,7 @@
 		</data>
 		<key>UserFeedBack.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		k/8APVymXs5CJSaJxWfAesygA44=
+		MJ8ZizGFmfa4NGtE9mRTqVeGTHA=
 		</data>
 		<key>VerificationRequirements.storyboardc/Info.plist</key>
 		<data>
@@ -510,7 +510,7 @@
 		</data>
 		<key>VerifyCode.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		uSOos4LwWaycwOp5KB1HTpSJnYw=
+		5F5aBfOn07Nh9IJY7pAV2xywgao=
 		</data>
 		<key>alRajhiBank.gif</key>
 		<data>
@@ -551,7 +551,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnA9+oWtP/PYLOeMy08M38ZsOXJYWH8he7LaYN55TLg=
+			fOEZ9omEYp0jn4XVgfKlJZPj/MrJzcJB8UJ7DJshoC8=
 			</data>
 		</dict>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
@@ -803,35 +803,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZQt1nbuaCfgDFeS0hRYmu33aguUSoWwjU251vxfy2s=
+			jePqTfcCmD2/5Za/4Oj2yB2WrZeaFu13Mc8SvYLO/Zs=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wzhXNj0+CSw4h/iyM/0Pjj52IhGkuSonN6J5Kgnl4A=
+			RBbU+4QUrEh+zNIjaaEm82Qd6p8e86NdRlvGfn+pqxA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wTkFEYNy3oevg4w1ghnIG3MInlTzMALmOht7LObu4A=
+			/Cd7bTa0TVt12wPlNY6MwO3m0BifKVosCStNGsL959Y=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wzhXNj0+CSw4h/iyM/0Pjj52IhGkuSonN6J5Kgnl4A=
+			RBbU+4QUrEh+zNIjaaEm82Qd6p8e86NdRlvGfn+pqxA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuSYFc/6pJvSEXO67JH0GoverVp6vYZ1QTHC5QDlaJw=
+			iZ+s5qHM/4xRqF0xMBCVngFoR6ZaoK3+R6/5wS/aLxg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -992,7 +992,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ri1o4MsgbAelidO4kleX/iTmFjQrsamh2W0jZ5pk84=
+			oAOHKUtZSZvnuQC7LsVzV6X7nPBvUYXa72puyo3eM5U=
 			</data>
 		</dict>
 		<key>PickedFilesCollectionViewCell.nib</key>
@@ -1349,7 +1349,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4K3B+ku5bD40UKZJlGGAlVzwpXoI4GU0NVii6vTUl0=
+			tcHazimd9ZU8JCASurFiQpKnFl+kGOokCvHCETnNKkA=
 			</data>
 		</dict>
 		<key>UserFeedBack.storyboardc/Info.plist</key>
@@ -1370,7 +1370,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9YGFqzHz72fn2VUdZIdOPCHoCKmcgWKxQGuv35LqWaQ=
+			xRU9aQ45VMW2Xr3dVCjXFJR5dZ/9HhN/8qJwRBSjpZM=
 			</data>
 		</dict>
 		<key>VerificationRequirements.storyboardc/Info.plist</key>
@@ -1426,7 +1426,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HCJi8NZg7/0SR0rFkLjdBPxMCq2XGzsu+K1SYIB/Fjw=
+			IpBfBXxSDfSKyH+Iro4wzwVxx6+qUvFW3V1xI/h4Cn0=
 			</data>
 		</dict>
 		<key>alRajhiBank.gif</key>
