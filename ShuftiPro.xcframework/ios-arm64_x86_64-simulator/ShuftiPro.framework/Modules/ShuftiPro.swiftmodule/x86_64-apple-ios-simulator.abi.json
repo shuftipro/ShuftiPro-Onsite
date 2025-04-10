@@ -37818,21 +37818,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39220,
+      "offset": 39686,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40017,
+      "offset": 40483,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 41946,
+      "offset": 42412,
       "length": 2,
       "value": "\"\""
     },
@@ -38205,7 +38205,7 @@
       "kind": "StringLiteral",
       "offset": 678,
       "length": 8,
-      "value": "\"1.3.10\""
+      "value": "\"1.3.11\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
