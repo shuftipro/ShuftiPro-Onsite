@@ -74,7 +74,7 @@
 		</data>
 		<key>EDDService.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		M5tPHwm5DDbd+nYOznOB9hw2rPs=
+		zQ8kgl8/Vr9WEviwnRmom97Fbcs=
 		</data>
 		<key>EKYC.storyboardc/EKYCViewController.nib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		Q/l7+h8u4/Sc6JxpMdXE0ephmmg=
+		duDxM1DLPJ+8Am1YKqpqVE2ptRw=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3bzB+kExqAW+4lA+P5HSlQ8nB3E=
+		z15ju3846mSTP2+LmJkhItfS2OQ=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -194,11 +194,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L0YXyoEHLIHPyInAzrnzZ4POj/o=
+		Uqh1DHzV1bJj/IHElppxYNxYD5g=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3bzB+kExqAW+4lA+P5HSlQ8nB3E=
+		z15ju3846mSTP2+LmJkhItfS2OQ=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DtlE6Jr20r8qK6LZyMN6o8rf8JI=
+		dbCau6CVErGYnRi5JIm40iVaeMg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -278,7 +278,7 @@
 		</data>
 		<key>OCRDataInput.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		xsxS9W5Af9aV/8w0Cuy8uv6cKag=
+		cvp1h/w529xvdCwVTcia0be906E=
 		</data>
 		<key>PersistenPofileHeaderTableViewCell.nib</key>
 		<data>
@@ -702,7 +702,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ukApnAQBqsSW3nnbsgpI41pmsf6zVg6X6AV4i6GDSmo=
+			XLCry55o5NxRuPQ4TQGtR043ARFR1S8T4q0oDqHmgvs=
 			</data>
 		</dict>
 		<key>EKYC.storyboardc/EKYCViewController.nib</key>
@@ -779,7 +779,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R84gm7ecH0eWpjrloziVWWT15JGa53IriqhbxWkf6IA=
+			nB3Vh5lIPx5q5I057qrusumCyWmplwy1jKG2ouM3XZI=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -877,7 +877,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeqTRpHTXYarmywVzNwrAq8qu5ZXvk0e9xV0ewboBGM=
+			EBuPc7ctRCDoab514k4wjlsDeiNDwuVRogb0Gt4bNSg=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -905,14 +905,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VrlyR1RAP/bHckRDl91zSRnYzJSyeaqSzIOJA5GXnt8=
+			SoP66+O1Y89cRWXU291NzJQ2lhggtmkZt3y+h/ChKIA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeqTRpHTXYarmywVzNwrAq8qu5ZXvk0e9xV0ewboBGM=
+			EBuPc7ctRCDoab514k4wjlsDeiNDwuVRogb0Gt4bNSg=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -940,7 +940,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X/0GeyQc4Vtba/x58i7XYhgewCd+JsvKzuGLxEWLFe8=
+			4MdhvKZrjNGfLBUrveaZdW0XsZurywy+lvTvRQbSvXU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1052,7 +1052,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ukqtvusJMn8jV/pnLNMsMPzKkJgMjZA5+Qren7+lPrk=
+			jEO6W2O9zKOi9dE39VW6PySqs+Gm3qIIBa9MgwekjU0=
 			</data>
 		</dict>
 		<key>PersistenPofileHeaderTableViewCell.nib</key>
