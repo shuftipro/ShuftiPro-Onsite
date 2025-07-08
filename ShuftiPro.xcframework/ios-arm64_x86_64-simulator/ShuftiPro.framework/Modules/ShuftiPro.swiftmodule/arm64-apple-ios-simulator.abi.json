@@ -37198,34 +37198,48 @@
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
       "offset": 1950,
-      "length": 12,
-      "value": "\"User-Agent\""
+      "length": 21,
+      "value": "\"CF-Access-Client-Id\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
-      "length": 127,
-      "value": "\"Mozilla\/5.0 (compatible; Cloudflare-HealthCheck\/1.0; +https:\/\/www.cloudflare.com\/healthcheck; ScannerID: hch-12345678abcde90)\""
+      "offset": 1973,
+      "length": 41,
+      "value": "\"da5b7bebb02aa8d2be8d8f93f78402cc.access\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2032,
+      "length": 25,
+      "value": "\"CF-Access-Client-Secret\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2059,
+      "length": 66,
+      "value": "\"fc6bb8b771f50d4160d608f140f817c67fd258e23e58ad0afad5a1dde23905b7\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34629,
+      "offset": 34662,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35419,
+      "offset": 35452,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36722,
+      "offset": 36755,
       "length": 2,
       "value": "\"\""
     },
@@ -37295,21 +37309,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 651,
+      "offset": 646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 4194,
+      "offset": 4176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 23846,
+      "offset": 23792,
       "length": 12,
       "value": "\"ocr_inputs\""
     },
@@ -37654,7 +37668,7 @@
       "kind": "StringLiteral",
       "offset": 703,
       "length": 8,
-      "value": "\"1.3.16\""
+      "value": "\"1.3.17\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -37834,21 +37848,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/NSServerSocket\/NSServerSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 372,
+      "offset": 459,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/NSServerSocket\/NSServerSocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 402,
+      "offset": 489,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/NSServerSocket\/NSServerSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 485,
+      "offset": 572,
       "length": 5,
       "value": "false"
     },
@@ -38359,140 +38373,154 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2774,
+      "offset": 2698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2813,
+      "offset": 2737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2854,
+      "offset": 2778,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2894,
+      "offset": 2818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2932,
+      "offset": 2856,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2968,
+      "offset": 2892,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3004,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 2932,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3077,
+      "offset": 2966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3122,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3161,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3347,
+      "offset": 3001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3387,
+      "offset": 3044,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3424,
+      "offset": 3085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3465,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3507,
+      "offset": 3125,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3536,
+      "offset": 3162,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3202,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3322,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3351,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "Array",
-      "offset": 3614,
+      "offset": 3398,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3649,
+      "offset": 3438,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 43405,
+      "offset": 42861,
       "length": 3,
       "value": "0.0"
     },
@@ -38771,22 +38799,15 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 956,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 994,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1033,
       "length": 2,
       "value": "\"\""
     },
@@ -39129,7 +39150,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 28475,
+      "offset": 28557,
       "length": 2,
       "value": "10"
     },
@@ -39479,119 +39500,119 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14523,
+      "offset": 14847,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14546,
+      "offset": 14870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14573,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14615,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 17969,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 17992,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 18019,
+      "offset": 14897,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 18063,
+      "offset": 14939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 20984,
+      "offset": 18380,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 21007,
+      "offset": 18403,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 21034,
+      "offset": 18430,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 21076,
+      "offset": 18474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25654,
+      "offset": 21482,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25677,
+      "offset": 21505,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25704,
+      "offset": 21532,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 25746,
+      "offset": 21574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 30092,
+      "offset": 26239,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26262,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26289,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26331,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 30764,
       "length": 5,
       "value": "\"GET\""
     },
@@ -39696,7 +39717,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Extensions\/UIViewController+Extention .swift",
       "kind": "IntegerLiteral",
-      "offset": 6979,
+      "offset": 6859,
       "length": 2,
       "value": "55"
     },
@@ -40102,28 +40123,28 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 17900,
+      "offset": 17937,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 20640,
+      "offset": 20677,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 20679,
+      "offset": 20716,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 24496,
+      "offset": 24533,
       "length": 5,
       "value": "false"
     },
@@ -40523,8 +40544,8 @@
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ImageDataFetch\/ImageDataFetch.swift",
       "kind": "Dictionary",
       "offset": 267,
-      "length": 143,
-      "value": "[(\"User-Agent\", \"Mozilla\/5.0 (compatible; Cloudflare-HealthCheck\/1.0; +https:\/\/www.cloudflare.com\/healthcheck; ScannerID: hch-12345678abcde90)\")]"
+      "length": 161,
+      "value": "[(\"CF-Access-Client-Id\", \"da5b7bebb02aa8d2be8d8f93f78402cc.access\"), (\"CF-Access-Client-Secret\", \"fc6bb8b771f50d4160d608f140f817c67fd258e23e58ad0afad5a1dde23905b7\")]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Extensions\/UIStackView + Extension.swift",
@@ -40564,91 +40585,77 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3331,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3407,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3441,
+      "offset": 3316,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3576,
+      "offset": 3451,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3616,
+      "offset": 3491,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "Array",
-      "offset": 3678,
+      "offset": 3553,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3725,
+      "offset": 3600,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3774,
+      "offset": 3649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3820,
+      "offset": 3695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3865,
+      "offset": 3740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3914,
+      "offset": 3789,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3958,
+      "offset": 3833,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 36945,
+      "offset": 35627,
       "length": 3,
       "value": "0.3"
     },
@@ -41342,6 +41349,13 @@
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
       "offset": 2600,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2644,
       "length": 4,
       "value": "true"
     },

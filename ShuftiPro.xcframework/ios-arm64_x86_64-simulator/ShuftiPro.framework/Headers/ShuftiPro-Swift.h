@@ -1537,7 +1537,6 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 - (void)autofocusContineusly;
 - (void)timerChangeAutoCapture;
 - (void)internetConnectedAgain;
-- (void)timerChangeautoCountdown;
 - (void)timerChangeVideo;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetConnect;
@@ -4179,7 +4178,6 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 - (void)autofocusContineusly;
 - (void)timerChangeAutoCapture;
 - (void)internetConnectedAgain;
-- (void)timerChangeautoCountdown;
 - (void)timerChangeVideo;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetConnect;
