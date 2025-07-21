@@ -30,7 +30,7 @@
 		</data>
 		<key>CameraInstruction.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		DpyG73g4qQuy+x4/MO/F39GPEKg=
+		NeYBdpUF8O2jSu2hXqgzyYr2YzE=
 		</data>
 		<key>CustomSwitch.nib</key>
 		<data>
@@ -154,11 +154,11 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		sR0Sq+dq2Fbs2Z3oSIWjiOJpU5w=
+		jvbGuSHSvCpBCKuW/FPfm92ymi8=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
-		f/pbISUG5HXkkNDRPf8gpDTjKSk=
+		uVDLecCcRmtSNqSLJcfxjc8OEv8=
 		</data>
 		<key>HeadingTableViewCell.nib</key>
 		<data>
@@ -214,11 +214,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fAjz19pALq9keQlEyVubOsCzUkY=
+		VcGabBjIElnQnDoAuNQ0xImRPHM=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dXPUjlNWNp9iXb8DrsjZ6Ea159g=
+		G0YqvbniKfnq44hnaHJJlsAvJcs=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -226,19 +226,19 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dXPUjlNWNp9iXb8DrsjZ6Ea159g=
+		G0YqvbniKfnq44hnaHJJlsAvJcs=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N9IfAoafoOS9OAEUOLWszzh0frQ=
+		1iX44c4UZdwXfFIJI3wJLa7TKuo=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fAjz19pALq9keQlEyVubOsCzUkY=
+		VcGabBjIElnQnDoAuNQ0xImRPHM=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x8js3hIzh4FYrqiOG3pSi/rUn+E=
+		5T+L8+B/mZu7OWjzSY7XlEk/6ZQ=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -246,11 +246,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x8js3hIzh4FYrqiOG3pSi/rUn+E=
+		5T+L8+B/mZu7OWjzSY7XlEk/6ZQ=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xWPW2nuj7We6nY3KgH+yNnhWFbA=
+		v5WjQmiG8bdqPoyxe3Ycm5YJVVE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -330,7 +330,7 @@
 		</data>
 		<key>PersistentProfiles.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		RCiKpdiVOFMRTpuru5JcdVsFK+k=
+		NdcJ4ZejHwkKdIAL+ovQM/o9gz4=
 		</data>
 		<key>PhoneEmailInput.storyboardc/Info.plist</key>
 		<data>
@@ -354,7 +354,7 @@
 		</data>
 		<key>ProfileDetailTableViewCell.nib</key>
 		<data>
-		XBmpN8yYJjwQeWGfUwzw2miozOc=
+		0Z7HN12cT6k6qaJwd86A7t7RutU=
 		</data>
 		<key>ProofCapturing.storyboardc/Info.plist</key>
 		<data>
@@ -669,7 +669,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHPLjrVb2dbLTWyHF/OBtxqprryzCWMdkiY3tIzZFBM=
+			Q/7CYlaSnM4EpT8UVjotcTt3F0VBHQdjmlih38bTHhw=
 			</data>
 		</dict>
 		<key>CustomSwitch.nib</key>
@@ -886,14 +886,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			INIqnWlJ8JX9x+wBZcR7q74pu6zDYB0m/FHVRSX4n7E=
+			2FWO2plPBRJ3azO5gnIa4L9OVjjP5fkkAqrTofx7E6U=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XXgAuYl4a4voij1VtMk1DET9TRcsuIk+4nsVtSe3zVs=
+			OANHA4NXlWR6Fi0Ijqduh5tdzWOP2cLp3v0PeeF/OEE=
 			</data>
 		</dict>
 		<key>HeadingTableViewCell.nib</key>
@@ -984,14 +984,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rLPr+3SxBMhUA4WdbrZ8rlv4HIqh4djNVruvbQxzthg=
+			+CioviiZZhlwGpcD7FsRIJJ18mCfwwRl15oqzQGiWwU=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w/cYfEXRLzs2bsEIWu+pIWHA3T8aPn+EI8TsjIbdXWg=
+			CM+M2KsubKTavGgTUw6mO+eM11AggOTWlP1OWb2rcnc=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1005,28 +1005,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w/cYfEXRLzs2bsEIWu+pIWHA3T8aPn+EI8TsjIbdXWg=
+			CM+M2KsubKTavGgTUw6mO+eM11AggOTWlP1OWb2rcnc=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BgSLrvyBEM6f9HWiYEMNT9iwVJysNsTkL6dXG4uCygw=
+			Jx1C8VxtLtKwhbfjrHvYresSF+1SgL/3mGE1NMNI5xQ=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rLPr+3SxBMhUA4WdbrZ8rlv4HIqh4djNVruvbQxzthg=
+			+CioviiZZhlwGpcD7FsRIJJ18mCfwwRl15oqzQGiWwU=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7NS/nTjI3ryP444WwBSSGOV2d9II2zZvX3z2H3DqHk=
+			UhIHA2dtysnwomht8zaax9vXvuC8AFVjBIN4BNj/oQ0=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1040,14 +1040,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7NS/nTjI3ryP444WwBSSGOV2d9II2zZvX3z2H3DqHk=
+			UhIHA2dtysnwomht8zaax9vXvuC8AFVjBIN4BNj/oQ0=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlP0jJC4/lwUWm4sVBbf+v3VfSRo5mHqzX+S3zuzJ4I=
+			2mbAwbLYP5ig15BU6nCi8aXlbfyTLdNDqI5CLPQUdX0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1187,7 +1187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eEUHc8yhsFn8F9750k755E0nwKvlNlRjsBnfWrtOs78=
+			5lWL1RXMMDCij3ZXM8XlRkRE6yqW2nBaQiudmZ6XcOE=
 			</data>
 		</dict>
 		<key>PhoneEmailInput.storyboardc/Info.plist</key>
@@ -1229,7 +1229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			omM/vmC2f1GCPT3uBL7cSgnFN+MxOQttc2XY4zYJ5Wc=
+			jywKWsMuwu4yfISFyXJvf/UqV3H1lFLR43eJE6YMn58=
 			</data>
 		</dict>
 		<key>ProofCapturing.storyboardc/Info.plist</key>

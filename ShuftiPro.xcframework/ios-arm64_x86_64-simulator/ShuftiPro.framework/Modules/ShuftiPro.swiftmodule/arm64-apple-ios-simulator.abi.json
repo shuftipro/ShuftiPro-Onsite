@@ -162,6 +162,42 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:heightForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ShuftiPro@objc(cs)PersistentProfilesViewController(im)tableView:heightForRowAtIndexPath:",
+            "mangledName": "$s9ShuftiPro32PersistentProfilesViewControllerC05tableE0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableE0C_10Foundation9IndexPathVtF",
+            "moduleName": "ShuftiPro",
+            "objc_name": "tableView:heightForRowAtIndexPath:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
@@ -256,6 +292,56 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "textView",
+            "printedName": "textView(_:shouldInteractWith:in:interaction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextView",
+                "printedName": "UIKit.UITextView",
+                "usr": "c:objc(cs)UITextView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextItemInteraction",
+                "printedName": "UIKit.UITextItemInteraction",
+                "usr": "c:@E@UITextItemInteraction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShuftiPro@objc(cs)PersistentProfilesViewController(im)textView:shouldInteractWithURL:inRange:interaction:",
+            "mangledName": "$s9ShuftiPro32PersistentProfilesViewControllerC04textE0_18shouldInteractWith2in11interactionSbSo06UITextE0C_10Foundation3URLVSo8_NSRangeVSo0M15ItemInteractionVtF",
+            "moduleName": "ShuftiPro",
+            "objc_name": "textView:shouldInteractWithURL:inRange:interaction:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2744,7 +2830,8 @@
             "moduleName": "ShuftiPro",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -37322,8 +37409,22 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18899,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 23792,
+      "offset": 26220,
       "length": 12,
       "value": "\"ocr_inputs\""
     },
@@ -37668,7 +37769,7 @@
       "kind": "StringLiteral",
       "offset": 703,
       "length": 8,
-      "value": "\"1.3.17\""
+      "value": "\"1.3.18\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -38520,7 +38621,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 42861,
+      "offset": 43102,
       "length": 3,
       "value": "0.0"
     },
@@ -39010,7 +39111,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25213,
+      "offset": 27322,
       "length": 22,
       "value": "\"ShuftiPro.CustomVisualEffectView\""
     },
@@ -40123,28 +40224,28 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 17937,
+      "offset": 18305,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 20677,
+      "offset": 21045,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 20716,
+      "offset": 21084,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 24533,
+      "offset": 24901,
       "length": 5,
       "value": "false"
     },
@@ -40655,7 +40756,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35627,
+      "offset": 37135,
       "length": 3,
       "value": "0.3"
     },

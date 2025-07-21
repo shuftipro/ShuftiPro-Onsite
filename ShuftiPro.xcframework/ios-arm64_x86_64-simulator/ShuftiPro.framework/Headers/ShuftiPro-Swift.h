@@ -472,6 +472,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIPanGestureRecognizer;
 
 @interface CameraInstructionViewController (SWIFT_EXTENSION(ShuftiPro))
@@ -1366,6 +1367,8 @@ SWIFT_CLASS("_TtC9ShuftiPro34PersistenPofileHeaderTableViewCell")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewHeight;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified tableViewTopView;
 - (void)awakeFromNib;
+- (void)layoutSubviews;
+- (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize withHorizontalFittingPriority:(UILayoutPriority)horizontalFittingPriority verticalFittingPriority:(UILayoutPriority)verticalFittingPriority SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1384,20 +1387,27 @@ SWIFT_CLASS("_TtC9ShuftiPro32PersistentProfilesViewController")
 @interface PersistentProfilesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified headingLabel;
-@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified subHeadingLabel;
+@property (nonatomic, strong) IBOutlet UITextView * _Null_unspecified subHeadingtext;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified arrowIcon;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified skipStandardFlow;
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView * _Null_unspecified activityView;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified skipFlowView;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified loaderTopView;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified backButton;
+@property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)backAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface PersistentProfilesViewController (SWIFT_EXTENSION(ShuftiPro)) <UITextViewDelegate>
+- (BOOL)textView:(UITextView * _Nonnull)_ shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)_ interaction:(UITextItemInteraction)_ SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -3113,6 +3123,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIPanGestureRecognizer;
 
 @interface CameraInstructionViewController (SWIFT_EXTENSION(ShuftiPro))
@@ -4007,6 +4018,8 @@ SWIFT_CLASS("_TtC9ShuftiPro34PersistenPofileHeaderTableViewCell")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewHeight;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified tableViewTopView;
 - (void)awakeFromNib;
+- (void)layoutSubviews;
+- (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize withHorizontalFittingPriority:(UILayoutPriority)horizontalFittingPriority verticalFittingPriority:(UILayoutPriority)verticalFittingPriority SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -4025,20 +4038,27 @@ SWIFT_CLASS("_TtC9ShuftiPro32PersistentProfilesViewController")
 @interface PersistentProfilesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified headingLabel;
-@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified subHeadingLabel;
+@property (nonatomic, strong) IBOutlet UITextView * _Null_unspecified subHeadingtext;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified arrowIcon;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified skipStandardFlow;
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView * _Null_unspecified activityView;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified skipFlowView;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified loaderTopView;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified backButton;
+@property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)backAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface PersistentProfilesViewController (SWIFT_EXTENSION(ShuftiPro)) <UITextViewDelegate>
+- (BOOL)textView:(UITextView * _Nonnull)_ shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)_ interaction:(UITextItemInteraction)_ SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
