@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ShuftiPro
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 import CoreImage.CIFilterBuiltins
@@ -8,6 +9,7 @@ import CommonCrypto
 import CoreGraphics
 import CoreImage
 import CoreLocation
+import CoreNFC
 import CoreVideo
 import CryptoKit
 import DeveloperToolsSupport
@@ -30,35 +32,35 @@ import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PersistentProfilesViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PersistentProfilesViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension ShuftiPro.PersistentProfilesViewController : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textView(_: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in _: Foundation.NSRange, interaction _: UIKit.UITextItemInteraction) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textView(_: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in _: Foundation.NSRange, interaction _: UIKit.UITextItemInteraction) -> Swift.Bool
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ResultViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ResultViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.ResultViewController : Foundation.URLSessionTaskDelegate, Foundation.URLSessionDownloadDelegate, Foundation.URLSessionDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_: Foundation.URLSession, task _: Foundation.URLSessionTask, didSendBodyData _: Swift.Int64, totalBytesSent: Swift.Int64, totalBytesExpectedToSend: Swift.Int64)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSessionDidFinishEvents(forBackgroundURLSession _: Foundation.URLSession)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_: Foundation.URLSession, task _: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_: Foundation.URLSession, task _: Foundation.URLSessionTask, didSendBodyData _: Swift.Int64, totalBytesSent: Swift.Int64, totalBytesExpectedToSend: Swift.Int64)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSessionDidFinishEvents(forBackgroundURLSession _: Foundation.URLSession)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_: Foundation.URLSession, task _: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
 }
 extension ShuftiPro.ResultViewController : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textView(_: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in _: Foundation.NSRange, interaction _: UIKit.UITextItemInteraction) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textView(_: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in _: Foundation.NSRange, interaction _: UIKit.UITextItemInteraction) -> Swift.Bool
 }
 public enum SecurityErrorCode : Swift.UInt16 {
   case acceptFailed
@@ -79,23 +81,23 @@ public protocol CertificatePinning : AnyObject {
 public protocol HeaderValidator : AnyObject {
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DropDownCell : UIKit.UITableViewCell {
-  @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var optionLabel: UIKit.UILabel!
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class DropDownCell : UIKit.UITableViewCell {
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency open var optionLabel: UIKit.UILabel!
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHighlighted: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public class func setupDefaultAppearance()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public class func setupDefaultAppearance()
   @available(iOS 3.0, *)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class Shufti : ObjectiveC.NSObject {
@@ -111,13 +113,13 @@ public protocol HeaderValidator : AnyObject {
   public func testingCheck() -> Swift.Bool
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class GPSAddressViewController : UIKit.UIViewController, UIKit.UINavigationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class GPSAddressViewController : UIKit.UIViewController, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public protocol FrameCollectorDelegate : AnyObject {
   func didForm(event: ShuftiPro.FrameCollector.Event)
@@ -135,15 +137,15 @@ public protocol FrameCollectorDelegate : AnyObject {
   public func add(frame: ShuftiPro.Frame)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DeclineResultViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc public func textView(_: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in _: Foundation.NSRange, interaction _: UIKit.UITextItemInteraction) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DeclineResultViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc public func textView(_: UIKit.UITextView, shouldInteractWith URL: Foundation.URL, in _: Foundation.NSRange, interaction _: UIKit.UITextItemInteraction) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public class FoundationHTTPHandler : ShuftiPro.HTTPHandler {
@@ -153,30 +155,30 @@ public class FoundationHTTPHandler : ShuftiPro.HTTPHandler {
   public func register(delegate: any ShuftiPro.HTTPHandlerDelegate)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SelectCountryViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SelectCountryViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MultipleSelectionViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MultipleSelectionViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public protocol CompressionHandler {
   func load(headers: [Swift.String : Swift.String])
@@ -194,36 +196,36 @@ public protocol Engine {
   func write(data: Foundation.Data, opcode: ShuftiPro.FrameOpCode, completion: (() -> ())?)
   func write(string: Swift.String, completion: (() -> ())?)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SelectLanguageScreenViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SelectLanguageScreenViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SelectCountryWithCodeViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SelectCountryWithCodeViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ImageZoomViewController : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc public func viewForZooming(in _: UIKit.UIScrollView) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ImageZoomViewController : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func viewForZooming(in _: UIKit.UIScrollView) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @available(macOS 10.14, iOS 12.0, watchOS 5.0, tvOS 12.0, *)
@@ -247,53 +249,53 @@ public class ServerConnection : ShuftiPro.Connection, ShuftiPro.HTTPServerDelega
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SupportedDocumentsListViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SupportedDocumentsListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.SupportedDocumentsListViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class OCRDataInputViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class OCRDataInputViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.OCRDataInputViewController : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldEndEditing(_: UIKit.UITextField) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField, reason _: UIKit.UITextField.DidEndEditingReason)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidChangeSelection(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldEndEditing(_: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField, reason _: UIKit.UITextField.DidEndEditingReason)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidChangeSelection(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 extension ShuftiPro.OCRDataInputViewController : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidEndEditing(_ textView: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidEndEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
 extension ShuftiPro.OCRDataInputViewController : UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfComponents(in _: UIKit.UIPickerView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow _: Swift.Int, inComponent _: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfComponents(in _: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow _: Swift.Int, inComponent _: Swift.Int)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ProofPreviewViewController : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ProofPreviewViewController : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public enum ConnectionState {
   case connected
@@ -315,23 +317,23 @@ public protocol Transport : AnyObject {
   func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
   var usingTLS: Swift.Bool { get }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DataLoadingScreenViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DataLoadingScreenViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UserConsentTakingViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate, UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class UserConsentTakingViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate, UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func gestureRecognizer(_: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith _: UIKit.UIGestureRecognizer) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func textViewDidChangeSelection(_ textView: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func gestureRecognizer(_: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith _: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func textViewDidChangeSelection(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public typealias Index = Swift.Int
 public typealias Closure = () -> Swift.Void
@@ -343,16 +345,16 @@ public typealias CellConfigurationClosure = (ShuftiPro.Index, Swift.String, Shuf
   @objc var plainView: UIKit.UIView { get }
 }
 extension UIKit.UIView : ShuftiPro.AnchorView {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public var plainView: UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public var plainView: UIKit.UIView {
     @objc get
   }
 }
 extension UIKit.UIBarButtonItem : ShuftiPro.AnchorView {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public var plainView: UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public var plainView: UIKit.UIView {
     @objc get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class DropDown : ShuftiPro.ShuftiExtendedUIView, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class DropDown : ShuftiPro.ShuftiExtendedUIView, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
   public enum DismissMode {
     case onTap
     case automatic
@@ -373,170 +375,170 @@ extension UIKit.UIBarButtonItem : ShuftiPro.AnchorView {
       get
     }
   }
-  @_Concurrency.MainActor(unsafe) weak public static var VisibleDropDown: ShuftiPro.DropDown?
-  @_Concurrency.MainActor(unsafe) weak final public var anchorView: (any ShuftiPro.AnchorView)? {
+  @_Concurrency.MainActor @preconcurrency weak public static var VisibleDropDown: ShuftiPro.DropDown?
+  @_Concurrency.MainActor @preconcurrency weak final public var anchorView: (any ShuftiPro.AnchorView)? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var direction: ShuftiPro.DropDown.Direction
-  @_Concurrency.MainActor(unsafe) final public var topOffset: CoreFoundation.CGPoint {
+  @_Concurrency.MainActor @preconcurrency final public var direction: ShuftiPro.DropDown.Direction
+  @_Concurrency.MainActor @preconcurrency final public var topOffset: CoreFoundation.CGPoint {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var bottomOffset: CoreFoundation.CGPoint {
+  @_Concurrency.MainActor @preconcurrency final public var bottomOffset: CoreFoundation.CGPoint {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var offsetFromWindowBottom: CoreFoundation.CGFloat {
+  @_Concurrency.MainActor @preconcurrency final public var offsetFromWindowBottom: CoreFoundation.CGFloat {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var width: CoreFoundation.CGFloat? {
+  @_Concurrency.MainActor @preconcurrency final public var width: CoreFoundation.CGFloat? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var arrowIndicationX: CoreFoundation.CGFloat? {
+  @_Concurrency.MainActor @preconcurrency final public var arrowIndicationX: CoreFoundation.CGFloat? {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var cellHeight: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var cellHeight: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override final public var backgroundColor: UIKit.UIColor? {
+  @_Concurrency.MainActor @preconcurrency @objc override final public var backgroundColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) final public var dimmedBackgroundColor: UIKit.UIColor {
+  @_Concurrency.MainActor @preconcurrency final public var dimmedBackgroundColor: UIKit.UIColor {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var selectionBackgroundColor: UIKit.UIColor
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var separatorColor: UIKit.UIColor {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var selectionBackgroundColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var separatorColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var cornerRadius: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public func setupCornerRadius(_ radius: CoreFoundation.CGFloat)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public func setupCornerRadius(_ radius: CoreFoundation.CGFloat)
   @available(iOS 11.0, *)
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public func setupMaskedCorners(_ cornerMask: QuartzCore.CACornerMask)
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowColor: UIKit.UIColor {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public func setupMaskedCorners(_ cornerMask: QuartzCore.CACornerMask)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var shadowColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowOffset: CoreFoundation.CGSize {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var shadowOffset: CoreFoundation.CGSize {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowOpacity: Swift.Float {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var shadowOpacity: Swift.Float {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowRadius: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var shadowRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var animationduration: Swift.Double
-  @_Concurrency.MainActor(unsafe) public static var animationEntranceOptions: UIKit.UIView.AnimationOptions
-  @_Concurrency.MainActor(unsafe) public static var animationExitOptions: UIKit.UIView.AnimationOptions
-  @_Concurrency.MainActor(unsafe) final public var animationEntranceOptions: UIKit.UIView.AnimationOptions
-  @_Concurrency.MainActor(unsafe) final public var animationExitOptions: UIKit.UIView.AnimationOptions
-  @_Concurrency.MainActor(unsafe) final public var downScaleTransform: CoreFoundation.CGAffineTransform {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var animationduration: Swift.Double
+  @_Concurrency.MainActor @preconcurrency public static var animationEntranceOptions: UIKit.UIView.AnimationOptions
+  @_Concurrency.MainActor @preconcurrency public static var animationExitOptions: UIKit.UIView.AnimationOptions
+  @_Concurrency.MainActor @preconcurrency final public var animationEntranceOptions: UIKit.UIView.AnimationOptions
+  @_Concurrency.MainActor @preconcurrency final public var animationExitOptions: UIKit.UIView.AnimationOptions
+  @_Concurrency.MainActor @preconcurrency final public var downScaleTransform: CoreFoundation.CGAffineTransform {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var textColor: UIKit.UIColor {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var textColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var selectedTextColor: UIKit.UIColor {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var selectedTextColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var textFont: UIKit.UIFont {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic final public var textFont: UIKit.UIFont {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) final public var cellNib: UIKit.UINib {
+  @_Concurrency.MainActor @preconcurrency final public var cellNib: UIKit.UINib {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var dataSource: [Swift.String] {
+  @_Concurrency.MainActor @preconcurrency final public var dataSource: [Swift.String] {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var localizationKeysDataSource: [Swift.String] {
+  @_Concurrency.MainActor @preconcurrency final public var localizationKeysDataSource: [Swift.String] {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var cellConfiguration: ShuftiPro.ConfigurationClosure? {
+  @_Concurrency.MainActor @preconcurrency final public var cellConfiguration: ShuftiPro.ConfigurationClosure? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var customCellConfiguration: ShuftiPro.CellConfigurationClosure? {
+  @_Concurrency.MainActor @preconcurrency final public var customCellConfiguration: ShuftiPro.CellConfigurationClosure? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var selectionAction: ShuftiPro.SelectionClosure?
-  @_Concurrency.MainActor(unsafe) final public var multiSelectionAction: ShuftiPro.MultiSelectionClosure?
-  @_Concurrency.MainActor(unsafe) final public var willShowAction: ShuftiPro.Closure?
-  @_Concurrency.MainActor(unsafe) final public var cancelAction: ShuftiPro.Closure?
-  @_Concurrency.MainActor(unsafe) final public var dismissMode: ShuftiPro.DropDown.DismissMode {
+  @_Concurrency.MainActor @preconcurrency final public var selectionAction: ShuftiPro.SelectionClosure?
+  @_Concurrency.MainActor @preconcurrency final public var multiSelectionAction: ShuftiPro.MultiSelectionClosure?
+  @_Concurrency.MainActor @preconcurrency final public var willShowAction: ShuftiPro.Closure?
+  @_Concurrency.MainActor @preconcurrency final public var cancelAction: ShuftiPro.Closure?
+  @_Concurrency.MainActor @preconcurrency final public var dismissMode: ShuftiPro.DropDown.DismissMode {
     get
     set
   }
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
-  @_Concurrency.MainActor(unsafe) convenience public init(anchorView: any ShuftiPro.AnchorView, selectionAction: ShuftiPro.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreFoundation.CGPoint? = nil, bottomOffset: CoreFoundation.CGPoint? = nil, cellConfiguration: ShuftiPro.ConfigurationClosure? = nil, cancelAction: ShuftiPro.Closure? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override final public func updateConstraints()
-  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
-  @objc(show) @_Concurrency.MainActor(unsafe) final public func objc_show() -> Foundation.NSDictionary
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @_Concurrency.MainActor @preconcurrency convenience public init(anchorView: any ShuftiPro.AnchorView, selectionAction: ShuftiPro.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreFoundation.CGPoint? = nil, bottomOffset: CoreFoundation.CGPoint? = nil, cellConfiguration: ShuftiPro.ConfigurationClosure? = nil, cancelAction: ShuftiPro.Closure? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func updateConstraints()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @objc(show) @_Concurrency.MainActor @preconcurrency final public func objc_show() -> Foundation.NSDictionary
   @discardableResult
-  @_Concurrency.MainActor(unsafe) final public func show(onTopOf window: UIKit.UIWindow? = nil, beforeTransform transform: CoreFoundation.CGAffineTransform? = nil, anchorPoint: CoreFoundation.CGPoint? = nil) -> (canBeDisplayed: Swift.Bool, offscreenHeight: CoreFoundation.CGFloat?)
-  @_Concurrency.MainActor(unsafe) @objc override final public func accessibilityPerformEscape() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) final public func hide()
-  @_Concurrency.MainActor(unsafe) final public func reloadAllComponents()
-  @_Concurrency.MainActor(unsafe) final public func selectRow(at index: ShuftiPro.Index?, scrollPosition: UIKit.UITableView.ScrollPosition = .none)
-  @_Concurrency.MainActor(unsafe) final public func selectRows(at indices: Swift.Set<ShuftiPro.Index>?)
-  @_Concurrency.MainActor(unsafe) final public func deselectRow(at index: ShuftiPro.Index?)
-  @_Concurrency.MainActor(unsafe) final public func deselectRows(at indices: Swift.Set<ShuftiPro.Index>?)
-  @_Concurrency.MainActor(unsafe) final public var indexForSelectedRow: ShuftiPro.Index? {
+  @_Concurrency.MainActor @preconcurrency final public func show(onTopOf window: UIKit.UIWindow? = nil, beforeTransform transform: CoreFoundation.CGAffineTransform? = nil, anchorPoint: CoreFoundation.CGPoint? = nil) -> (canBeDisplayed: Swift.Bool, offscreenHeight: CoreFoundation.CGFloat?)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func accessibilityPerformEscape() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public func hide()
+  @_Concurrency.MainActor @preconcurrency final public func reloadAllComponents()
+  @_Concurrency.MainActor @preconcurrency final public func selectRow(at index: ShuftiPro.Index?, scrollPosition: UIKit.UITableView.ScrollPosition = .none)
+  @_Concurrency.MainActor @preconcurrency final public func selectRows(at indices: Swift.Set<ShuftiPro.Index>?)
+  @_Concurrency.MainActor @preconcurrency final public func deselectRow(at index: ShuftiPro.Index?)
+  @_Concurrency.MainActor @preconcurrency final public func deselectRows(at indices: Swift.Set<ShuftiPro.Index>?)
+  @_Concurrency.MainActor @preconcurrency final public var indexForSelectedRow: ShuftiPro.Index? {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var selectedItem: Swift.String? {
+  @_Concurrency.MainActor @preconcurrency final public var selectedItem: Swift.String? {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public func selectRow(_ index: Swift.Int, scrollPosition: UIKit.UITableView.ScrollPosition = .none)
-  @objc @_Concurrency.MainActor(unsafe) final public func clearSelection()
-  @objc @_Concurrency.MainActor(unsafe) final public func deselectRow(_ index: Swift.Int)
-  @objc @_Concurrency.MainActor(unsafe) final public var indexPathForSelectedRow: Foundation.NSIndexPath? {
+  @objc @_Concurrency.MainActor @preconcurrency final public func selectRow(_ index: Swift.Int, scrollPosition: UIKit.UITableView.ScrollPosition = .none)
+  @objc @_Concurrency.MainActor @preconcurrency final public func clearSelection()
+  @objc @_Concurrency.MainActor @preconcurrency final public func deselectRow(_ index: Swift.Int)
+  @objc @_Concurrency.MainActor @preconcurrency final public var indexPathForSelectedRow: Foundation.NSIndexPath? {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc override final public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
-  @objc @_Concurrency.MainActor(unsafe) public static func startListeningToKeyboard()
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc @_Concurrency.MainActor @preconcurrency public static func startListeningToKeyboard()
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class KYBCountryViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class KYBCountryViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public enum FoundationTransportError : Swift.Error {
   case invalidRequest
@@ -560,11 +562,11 @@ public enum FoundationTransportError : Swift.Error {
   public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MFAHelpViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MFAHelpViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public enum FoundationSecurityError : Swift.Error {
@@ -589,9 +591,9 @@ extension UIKit.UIImage {
   public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
   public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ShuftiExtendedUIView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ShuftiExtendedUIView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public class WSCompression : ShuftiPro.CompressionHandler {
@@ -601,25 +603,25 @@ public class WSCompression : ShuftiPro.CompressionHandler {
   public func compress(data: Foundation.Data) -> Foundation.Data?
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UserFeedBackViewController : UIKit.UIViewController, UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class UserFeedBackViewController : UIKit.UIViewController, UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func textViewDidBeginEditing(_: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc public func textViewDidEndEditing(_: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc public func textViewDidChange(_: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc public func textView(_: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func textViewDidBeginEditing(_: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc public func textViewDidEndEditing(_: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc public func textViewDidChange(_: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc public func textView(_: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ProofSubmitOptionsViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ProofSubmitOptionsViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension Foundation.Data {
   public func sha256() -> Swift.String
@@ -630,37 +632,37 @@ extension Foundation.Data {
   public func parse(data: Foundation.Data)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PhoneEmailInputViewController : UIKit.UIViewController, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PhoneEmailInputViewController : UIKit.UIViewController, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.PhoneEmailInputViewController {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 extension ShuftiPro.ProofCapturingViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCaptureFileOutputRecordingDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from _: AVFoundation.AVCaptureConnection)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didStartRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection])
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection], error _: (any Swift.Error)?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from _: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didStartRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection], error _: (any Swift.Error)?)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class EDDServiceViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UIImagePickerControllerDelegate & UIKit.UINavigationControllerDelegate, UIKit.UIDocumentPickerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class EDDServiceViewController : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate, UIKit.UIImagePickerControllerDelegate & UIKit.UINavigationControllerDelegate, UIKit.UIDocumentPickerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.EDDServiceViewController {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, didSelectRowAt _: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func documentPicker(_: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func documentPickerWasCancelled(_: UIKit.UIDocumentPickerViewController)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, didSelectRowAt _: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func documentPicker(_: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func documentPickerWasCancelled(_: UIKit.UIDocumentPickerViewController)
 }
 public class StringHTTPHandler : ShuftiPro.HTTPHandler {
   public init()
@@ -674,19 +676,19 @@ public class StringHTTPHandler : ShuftiPro.HTTPHandler {
   public func shuftiProVerificationnData(clientID: Swift.String, customerID: Swift.String, configs: [Swift.String : Any]?, completion: @escaping (_ result: Any) -> Swift.Void)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AddressHelpViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AddressHelpViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.AddressHelpViewController : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidBeginEditing(_: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidEndEditing(_: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textView(_: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidBeginEditing(_: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidEndEditing(_: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidChange(_: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textView(_: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
 }
 public enum HTTPUpgradeError : Swift.Error {
   case notAnUpgrade(Swift.Int, [Swift.String : Swift.String])
@@ -724,32 +726,32 @@ extension Foundation.URL {
   }
   public func getParts() -> ShuftiPro.URLParts?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ProofCapturingViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ProofCapturingViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with _: UIKit.UIEvent?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with _: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class VerifyCodeViewController : UIKit.UIViewController, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class VerifyCodeViewController : UIKit.UIViewController, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn _: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn _: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SpoofGPSViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SpoofGPSViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public enum CloseCode : Swift.UInt16 {
@@ -859,13 +861,13 @@ public enum ServerEvent {
 public protocol Server {
   func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraInstructionViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CameraInstructionViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public class WSEngine : ShuftiPro.Engine, ShuftiPro.TransportEventClient, ShuftiPro.FramerEventClient, ShuftiPro.FrameCollectorDelegate, ShuftiPro.HTTPHandlerDelegate {
   public var respondToPingWithPong: Swift.Bool
@@ -883,17 +885,17 @@ public class WSEngine : ShuftiPro.Engine, ShuftiPro.TransportEventClient, Shufti
   public func didForm(event: ShuftiPro.FrameCollector.Event)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class VerificationRequirementsViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class VerificationRequirementsViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func numberOfSections(in _: UIKit.UITableView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func numberOfSections(in _: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 @objc public enum SocketEnginePacketType : Swift.Int {
   case open
@@ -980,61 +982,61 @@ open class WebSocket : ShuftiPro.WebSocketClient, ShuftiPro.EngineDelegate {
   public func didReceive(event: ShuftiPro.WebSocketEvent)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ExtractedAddressViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ExtractedAddressViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.ExtractedAddressViewController : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidEndEditing(_ textView: UIKit.UITextView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidEndEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SelectCountryQuestionViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SelectCountryQuestionViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.SelectCountryQuestionViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, heightForRowAt _: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 extension ShuftiPro.SelectCountryQuestionViewController : UIKit.UISearchBarDelegate, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class EKYCViewController : UIKit.UIViewController, WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) @objc public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) @objc public func webView(_: WebKit.WKWebView, didFail _: WebKit.WKNavigation!, withError _: any Swift.Error)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class EKYCViewController : UIKit.UIViewController, WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_: WebKit.WKWebView, didFail _: WebKit.WKNavigation!, withError _: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UploadProofViewController : UIKit.UIViewController, UIKit.UINavigationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class UploadProofViewController : UIKit.UIViewController, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.UploadProofViewController : UIKit.UIDocumentPickerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func documentPicker(_: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func documentPickerWasCancelled(_: UIKit.UIDocumentPickerViewController)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func documentPicker(_: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func documentPickerWasCancelled(_: UIKit.UIDocumentPickerViewController)
 }
 extension ShuftiPro.UploadProofViewController : UIKit.UIImagePickerControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
 }
 public enum TCPTransportError : Swift.Error {
   case invalidRequest
@@ -1057,15 +1059,15 @@ public class TCPTransport : ShuftiPro.Transport {
   public func register(delegate: any ShuftiPro.TransportEventClient)
   public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class RetryServiceViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class RetryServiceViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension ShuftiPro.SecurityErrorCode : Swift.Equatable {}
 extension ShuftiPro.SecurityErrorCode : Swift.Hashable {}
