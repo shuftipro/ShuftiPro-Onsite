@@ -111,6 +111,9 @@ public protocol HeaderValidator : AnyObject {
   @objc public func getUniqueReference() -> Swift.String
   public func stagingCheck() -> Swift.Bool
   public func testingCheck() -> Swift.Bool
+  public func devCheck() -> Swift.Bool
+  public func sqa3Check() -> Swift.Bool
+  public func ft2Check() -> Swift.Bool
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class GPSAddressViewController : UIKit.UIViewController, UIKit.UINavigationControllerDelegate {
@@ -159,6 +162,7 @@ public class FoundationHTTPHandler : ShuftiPro.HTTPHandler {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc public func tableView(_: UIKit.UITableView, numberOfRowsInSection _: Swift.Int) -> Swift.Int
@@ -251,8 +255,8 @@ public class ServerConnection : ShuftiPro.Connection, ShuftiPro.HTTPServerDelega
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SupportedDocumentsListViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -644,7 +648,7 @@ extension ShuftiPro.PhoneEmailInputViewController {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 extension ShuftiPro.ProofCapturingViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCaptureFileOutputRecordingDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from _: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didStartRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection])
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection], error _: (any Swift.Error)?)
 }

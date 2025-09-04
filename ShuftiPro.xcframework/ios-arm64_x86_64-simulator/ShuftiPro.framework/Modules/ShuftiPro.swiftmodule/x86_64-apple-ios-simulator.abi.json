@@ -1188,6 +1188,27 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "ShuftiPro",
         "declAttributes": [
           "RawDocComment"
@@ -3010,6 +3031,69 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devCheck",
+            "printedName": "devCheck()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ShuftiPro0A0C8devCheckSbyF",
+            "mangledName": "$s9ShuftiPro0A0C8devCheckSbyF",
+            "moduleName": "ShuftiPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sqa3Check",
+            "printedName": "sqa3Check()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ShuftiPro0A0C9sqa3CheckSbyF",
+            "mangledName": "$s9ShuftiPro0A0C9sqa3CheckSbyF",
+            "moduleName": "ShuftiPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ft2Check",
+            "printedName": "ft2Check()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ShuftiPro0A0C8ft2CheckSbyF",
+            "mangledName": "$s9ShuftiPro0A0C8ft2CheckSbyF",
+            "moduleName": "ShuftiPro",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4749,6 +4833,39 @@
               "Custom",
               "AccessControl",
               "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ShuftiPro@objc(cs)SelectCountryViewController(im)viewDidDisappear:",
+            "mangledName": "$s9ShuftiPro27SelectCountryViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "ShuftiPro",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -8655,33 +8772,6 @@
           },
           {
             "kind": "Function",
-            "name": "viewDidLayoutSubviews",
-            "printedName": "viewDidLayoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShuftiPro@objc(cs)SupportedDocumentsListViewController(im)viewDidLayoutSubviews",
-            "mangledName": "$s9ShuftiPro36SupportedDocumentsListViewControllerC21viewDidLayoutSubviewsyyF",
-            "moduleName": "ShuftiPro",
-            "overriding": true,
-            "objc_name": "viewDidLayoutSubviews",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "viewWillAppear",
             "printedName": "viewWillAppear(_:)",
             "children": [
@@ -8710,6 +8800,39 @@
               "Custom",
               "AccessControl",
               "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ShuftiPro@objc(cs)SupportedDocumentsListViewController(im)viewDidDisappear:",
+            "mangledName": "$s9ShuftiPro36SupportedDocumentsListViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "ShuftiPro",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -10844,6 +10967,20 @@
             "mangledName": "$ss8CopyableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
       },
       {
         "kind": "Import",
@@ -20460,6 +20597,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
         "name": "PDFKit",
         "printedName": "PDFKit",
         "declKind": "Import",
@@ -24251,6 +24395,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ShuftiPro"
       },
@@ -35523,6 +35681,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -36166,6 +36331,27 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ShuftiPro"
       },
@@ -39166,21 +39352,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34662,
+      "offset": 35051,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35452,
+      "offset": 35841,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36755,
+      "offset": 37144,
       "length": 2,
       "value": "\"\""
     },
@@ -39188,6 +39374,97 @@
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManagerCustomerCreation\/SocketManagerCustomerCreation.swift",
       "kind": "BooleanLiteral",
       "offset": 483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/TestingIDScreen\/ViewModel\/TestingIDViewModel.swift",
+      "kind": "Array",
+      "offset": 1156,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/TestingIDScreen\/ViewModel\/TestingIDViewModel.swift",
+      "kind": "Array",
+      "offset": 1207,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 330,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1187,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2041,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2370,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3055,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/HalfSizePresentationColor\/HalfSizePresentationColor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11409,
       "length": 5,
       "value": "false"
     },
@@ -39236,42 +39513,63 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 18318,
+      "offset": 18947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 18899,
+      "offset": 19528,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 26220,
+      "offset": 23398,
+      "length": 9,
+      "value": "\"id_card\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 28549,
       "length": 12,
       "value": "\"ocr_inputs\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/Router\/VerifyCodeRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/Router\/VerifyCodeRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/Router\/VerifyCodeRouter.swift",
       "kind": "Array",
-      "offset": 2370,
+      "offset": 1933,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/Router\/VerifyCodeRouter.swift",
       "kind": "Array",
-      "offset": 4090,
+      "offset": 3653,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/Router\/VerifyCodeRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4169,
+      "offset": 3732,
       "length": 5,
       "value": "false"
     },
@@ -39292,35 +39590,35 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 34012,
+      "offset": 34170,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 34026,
+      "offset": 34184,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 34074,
+      "offset": 34232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 35417,
+      "offset": 35575,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 35431,
+      "offset": 35589,
       "length": 4,
       "value": "1000"
     },
@@ -39347,8 +39645,15 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EKYCScreen\/Router\/EKYCRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EKYCScreen\/Router\/EKYCRouter.swift",
       "kind": "Array",
-      "offset": 1442,
+      "offset": 1515,
       "length": 2,
       "value": "[]"
     },
@@ -39550,8 +39855,15 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/GPSAddressScreen\/Router\/GPSAddressRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/GPSAddressScreen\/Router\/GPSAddressRouter.swift",
       "kind": "Array",
-      "offset": 1689,
+      "offset": 1763,
       "length": 2,
       "value": "[]"
     },
@@ -39574,7 +39886,7 @@
       "kind": "StringLiteral",
       "offset": 703,
       "length": 8,
-      "value": "\"1.3.21\""
+      "value": "\"1.3.22\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -39586,7 +39898,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/GPSAddressScreen\/View\/GPSAddressViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 2988,
       "length": 51,
       "value": "\"Please wait while your address is being verified.\""
     },
@@ -39614,140 +39926,147 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 272,
+      "offset": 312,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 317,
+      "offset": 357,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 399,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 402,
+      "offset": 442,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 534,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 633,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 679,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 693,
+      "offset": 733,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 778,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 783,
+      "offset": 823,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 822,
+      "offset": 862,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 864,
+      "offset": 904,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 963,
+      "offset": 1003,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1055,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1052,
+      "offset": 1092,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1141,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/URLConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
       "length": 2,
       "value": "\"\""
     },
@@ -39831,7 +40150,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SelectCountryScreen\/View\/SelectCountryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 774,
+      "offset": 635,
       "length": 5,
       "value": "false"
     },
@@ -39929,14 +40248,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofSubmitOptions\/Router\/ProofSubmitOptionsRouter.swift",
       "kind": "Array",
-      "offset": 2234,
+      "offset": 2174,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofSubmitOptions\/Router\/ProofSubmitOptionsRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2313,
+      "offset": 2253,
       "length": 5,
       "value": "false"
     },
@@ -40083,9 +40402,23 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerificationRequirementsView\/Router\/VerificationRequirementsRouter.swift",
       "kind": "Array",
-      "offset": 1643,
+      "offset": 1184,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerificationRequirementsView\/Router\/VerificationRequirementsRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerificationRequirementsView\/Router\/VerificationRequirementsRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2937,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ComonViews\/DropDown\/Helpers\/DPDUIView+Extension.swift",
@@ -40104,14 +40437,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/KYBCountryScreen\/Router\/KYBCountryRouter.swift",
       "kind": "Array",
-      "offset": 1158,
+      "offset": 1098,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/KYBCountryScreen\/Router\/KYBCountryRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1187,
+      "offset": 1127,
       "length": 5,
       "value": "false"
     },
@@ -40237,154 +40570,168 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2698,
+      "offset": 3017,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2737,
+      "offset": 3056,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2778,
+      "offset": 3097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2818,
+      "offset": 3137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2856,
+      "offset": 3175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2892,
+      "offset": 3211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2932,
+      "offset": 3251,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2966,
+      "offset": 3285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3001,
+      "offset": 3320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3044,
+      "offset": 3407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3085,
+      "offset": 3448,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3125,
+      "offset": 3488,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3162,
+      "offset": 3525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3202,
+      "offset": 3565,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3239,
+      "offset": 3602,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3280,
+      "offset": 3643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3322,
+      "offset": 3685,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3722,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3351,
+      "offset": 3751,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "Array",
-      "offset": 3398,
+      "offset": 3798,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3438,
+      "offset": 3838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3476,
+      "offset": 3876,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 43102,
+      "offset": 44640,
       "length": 3,
       "value": "0.0"
     },
@@ -40445,51 +40792,65 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsBackSideManager.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
       "kind": "Array",
       "offset": 249,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsBackSideManager.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 335,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsBackSideManager.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsBackSideManager.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 407,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsBackSideManager.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsBackSideManager.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 4959,
       "length": 35,
       "value": "\"backsideProofsProcessingCompleted\""
     },
     {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ProofTypeManager\/ProofsTypeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5066,
+      "length": 36,
+      "value": "\"addressPresenceProcessingCompleted\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/RetryService\/Router\/RetryServiceRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2181,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/RetryService\/Router\/RetryServiceRouter.swift",
       "kind": "Array",
-      "offset": 3517,
+      "offset": 3078,
       "length": 2,
       "value": "[]"
     },
@@ -40524,9 +40885,30 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/Builder\/ProofPreviewBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 453,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SupportedDocumentsListView\/View\/SupportedDocumentsListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SupportedDocumentsListView\/View\/SupportedDocumentsListViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1038,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SupportedDocumentsListView\/View\/SupportedDocumentsListViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1243,
+      "length": 3,
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
@@ -40559,70 +40941,70 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 334,
+      "offset": 324,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 369,
+      "offset": 365,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 404,
+      "offset": 435,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 475,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 479,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
-      "kind": "StringLiteral",
       "offset": 510,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 569,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 568,
+      "offset": 599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 601,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 632,
       "length": 2,
       "value": "\"\""
     },
@@ -40635,169 +41017,190 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 697,
+      "offset": 728,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 737,
+      "offset": 768,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 879,
+      "offset": 910,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 914,
+      "offset": 945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1025,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1064,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 4901,
+      "offset": 1203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1252,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4941,
+      "offset": 5040,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5090,
+      "offset": 5229,
       "length": 5,
       "value": "\"644\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5118,
+      "offset": 5257,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "Array",
-      "offset": 5141,
+      "offset": 5280,
       "length": 122,
       "value": "[\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "Array",
-      "offset": 5284,
+      "offset": 5423,
       "length": 72,
       "value": "[\"01\", \"02\", \"03\", \"04\", \"05\", \"06\", \"07\", \"08\", \"09\", \"10\", \"11\", \"12\"]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5384,
+      "offset": 5523,
       "length": 4,
       "value": "2000"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5393,
+      "offset": 5532,
       "length": 4,
       "value": "2050"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40675,
+      "offset": 41373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40693,
+      "offset": 41391,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 46718,
+      "offset": 47416,
       "length": 3,
       "value": "9.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2229,
+      "offset": 2364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "Array",
-      "offset": 2271,
+      "offset": 2406,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "Array",
-      "offset": 2313,
+      "offset": 2448,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2345,
+      "offset": 2480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2374,
+      "offset": 2509,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2410,
+      "offset": 2545,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2587,
       "length": 2,
       "value": "\"\""
     },
@@ -40809,9 +41212,30 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/TestingIDScreen\/Router\/TestingIDRouter.swift",
+      "kind": "Array",
+      "offset": 418,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/TestingIDScreen\/Router\/TestingIDRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/LoadingDataScreen\/View\/DataLoadingScreenViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 460,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/LoadingDataScreen\/Router\/DataLoadingScreenRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2095,
       "length": 5,
       "value": "false"
     },
@@ -40832,42 +41256,35 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1686,
+      "offset": 1177,
       "length": 49,
       "value": "\"secret key is:\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1222,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1225,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1854,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2150,
+      "offset": 1677,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserConsentTakingView\/View\/UserConsentTakingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2355,
+      "offset": 1882,
       "length": 3,
       "value": "0.3"
     },
@@ -40978,92 +41395,99 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2765,
+      "offset": 2805,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2845,
+      "offset": 2885,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12221,
+      "offset": 2919,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19562,
+      "offset": 20372,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 28745,
+      "offset": 29747,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
-      "kind": "BooleanLiteral",
-      "offset": 100,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 117,
+      "offset": 87,
       "length": 18,
       "value": "\"SPMOB12345678910\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 327,
+      "offset": 296,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 420,
       "length": 23,
       "value": "\"InternetCheckingPopUp\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 217,
+      "offset": 186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 573,
+      "offset": 542,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 608,
+      "offset": 577,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1073,
+      "offset": 1042,
       "length": 3,
       "value": "0.0"
     },
@@ -41364,119 +41788,119 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14847,
+      "offset": 15276,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14870,
+      "offset": 15299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14897,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14939,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 18380,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 18403,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 18430,
+      "offset": 15326,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 18474,
+      "offset": 15368,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 21482,
+      "offset": 18809,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 21505,
+      "offset": 18832,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 21532,
+      "offset": 18859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 21574,
+      "offset": 18903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26239,
+      "offset": 21911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26262,
+      "offset": 21934,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26289,
+      "offset": 21961,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 26331,
+      "offset": 22003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 30764,
+      "offset": 26668,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26691,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26718,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 31193,
       "length": 5,
       "value": "\"GET\""
     },
@@ -41531,43 +41955,50 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
+      "kind": "Array",
+      "offset": 636,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
+      "kind": "Array",
+      "offset": 676,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 508,
+      "offset": 705,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
-      "kind": "Array",
-      "offset": 643,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
-      "kind": "Array",
-      "offset": 683,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 712,
+      "offset": 835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 867,
+      "offset": 908,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 900,
+      "offset": 941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/Models\/ServiceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 978,
       "length": 4,
       "value": "true"
     },
@@ -41798,28 +42229,28 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/Router\/ResultRouter.swift",
       "kind": "Array",
-      "offset": 1659,
+      "offset": 1199,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/Router\/ResultRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1738,
+      "offset": 1278,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/Router\/ResultRouter.swift",
       "kind": "Array",
-      "offset": 2088,
+      "offset": 1628,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/Router\/ResultRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2117,
+      "offset": 1657,
       "length": 5,
       "value": "false"
     },
@@ -41895,8 +42326,15 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/PersistenProfilesView\/Router\/PersistentProfilesRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/PersistenProfilesView\/Router\/PersistentProfilesRouter.swift",
       "kind": "Array",
-      "offset": 1659,
+      "offset": 1528,
       "length": 2,
       "value": "[]"
     },
@@ -41922,9 +42360,23 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserFeedBackView\/View\/UserFeedBackViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2142,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UserFeedBackView\/View\/UserFeedBackViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2347,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofSubmitOptions\/View\/ProofSubmitOptionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1126,
+      "offset": 1183,
       "length": 5,
       "value": "false"
     },
@@ -41980,28 +42432,28 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 18305,
+      "offset": 22336,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 21045,
+      "offset": 25076,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 21084,
+      "offset": 25115,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 24901,
+      "offset": 28938,
       "length": 5,
       "value": "false"
     },
@@ -42015,28 +42467,42 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/Router\/EDDServiceRouter.swift",
       "kind": "Array",
-      "offset": 2484,
+      "offset": 1964,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/Router\/EDDServiceRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2513,
+      "offset": 1993,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/Router\/EDDServiceRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2837,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/Router\/EDDServiceRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2871,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/Router\/EDDServiceRouter.swift",
       "kind": "Array",
-      "offset": 4953,
+      "offset": 4547,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/Router\/EDDServiceRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5032,
+      "offset": 4626,
       "length": 5,
       "value": "false"
     },
@@ -42050,42 +42516,42 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1211,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1184,
+      "offset": 1247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 33470,
+      "offset": 33927,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33593,
+      "offset": 34050,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "Array",
-      "offset": 33415,
+      "offset": 33872,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 33662,
+      "offset": 34119,
       "length": 3,
       "value": "0.0"
     },
@@ -42169,14 +42635,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/QuitionAirTableViewCell\/QuestionAirTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 17724,
+      "offset": 18058,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/QuitionAirTableViewCell\/QuestionAirTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 18720,
+      "offset": 19054,
       "length": 5,
       "value": "false"
     },
@@ -42239,14 +42705,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/MultiSelectionTableViewCell\/MultiSelectionTableViewCell.swift",
       "kind": "Array",
-      "offset": 1303,
+      "offset": 1336,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/MultiSelectionTableViewCell\/MultiSelectionTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1372,
+      "offset": 1405,
       "length": 1,
       "value": "0"
     },
@@ -42414,154 +42880,126 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2935,
+      "offset": 3572,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3001,
+      "offset": 3638,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3041,
+      "offset": 3678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3220,
+      "offset": 3857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3316,
+      "offset": 3953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3451,
+      "offset": 4088,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3491,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "Array",
-      "offset": 3553,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3600,
+      "offset": 4170,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3649,
+      "offset": 4220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3695,
-      "length": 1,
-      "value": "0"
+      "kind": "BooleanLiteral",
+      "offset": 4269,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3740,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3789,
-      "length": 1,
-      "value": "0"
+      "kind": "BooleanLiteral",
+      "offset": 11214,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3833,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 37135,
+      "offset": 42354,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37292,
+      "offset": 42511,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37479,
+      "offset": 42714,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37489,
+      "offset": 42724,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37560,
+      "offset": 42795,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37644,
+      "offset": 42879,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37654,
+      "offset": 42889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 37728,
+      "offset": 42963,
       "length": 1,
       "value": "0"
     },
@@ -42610,14 +43048,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/Router\/UploadProofRouter.swift",
       "kind": "Array",
-      "offset": 1727,
+      "offset": 2224,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/Router\/UploadProofRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1806,
+      "offset": 2303,
       "length": 5,
       "value": "false"
     },
@@ -42631,21 +43069,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/View\/VerifyCodeViewController.swift",
       "kind": "Array",
-      "offset": 1901,
+      "offset": 2036,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/View\/VerifyCodeViewController.swift",
       "kind": "Array",
-      "offset": 1940,
+      "offset": 2075,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/VerifyCodeView\/View\/VerifyCodeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1998,
+      "offset": 2133,
       "length": 2,
       "value": "60"
     },
@@ -42666,14 +43104,14 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SupportedDocumentsListView\/Router\/SupportedDocumentsListRouter.swift",
       "kind": "Array",
-      "offset": 2611,
+      "offset": 957,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SupportedDocumentsListView\/Router\/SupportedDocumentsListRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2690,
+      "offset": 1036,
       "length": 5,
       "value": "false"
     },
@@ -42911,49 +43349,35 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 713,
+      "offset": 691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 750,
+      "offset": 780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 785,
+      "offset": 884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 833,
+      "offset": 987,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "StringLiteral",
-      "offset": 875,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "Array",
-      "offset": 975,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1016,
+      "offset": 1024,
       "length": 5,
       "value": "false"
     },
@@ -42966,99 +43390,141 @@
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "FloatLiteral",
-      "offset": 1841,
-      "length": 4,
-      "value": "50.0"
-    },
-    {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1890,
+      "offset": 1107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 1933,
+      "offset": 1149,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "Array",
+      "offset": 1249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1290,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1333,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "FloatLiteral",
+      "offset": 2115,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2164,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 2207,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1971,
+      "offset": 2245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2019,
+      "offset": 2293,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2056,
+      "offset": 2330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2095,
+      "offset": 2369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2184,
+      "offset": 2458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2233,
+      "offset": 2507,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2498,
+      "offset": 2772,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2550,
+      "offset": 2824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2603,
+      "offset": 2877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2647,
+      "offset": 2921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2691,
+      "offset": 2959,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3051,
       "length": 4,
       "value": "true"
     },
@@ -43098,11 +43564,18 @@
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/BacksideConfig.swift",
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/SupportedTypeConfig.swift",
       "kind": "Dictionary",
-      "offset": 182,
+      "offset": 189,
       "length": 6661,
       "value": "[(\"uz\", []), (\"sl\", [\"id_card\", \"other\"]), (\"sk\", [\"id_card\", \"other\"]), (\"iq\", [\"id_card\", \"other\"]), (\"sm\", [\"id_card\", \"other\"]), (\"cg\", [\"id_card\", \"other\"]), (\"ph\", [\"id_card\", \"other\"]), (\"np\", [\"id_card\", \"other\"]), (\"ni\", [\"id_card\", \"other\"]), (\"in\", [\"id_card\", \"other\"]), (\"eg\", [\"id_card\", \"other\"]), (\"ax\", [\"id_card\", \"other\"]), (\"gw\", [\"id_card\", \"other\"]), (\"af\", [\"driving_license\", \"id_card\", \"other\"]), (\"gn\", [\"driving_license\"]), (\"nz\", [\"driving_license\"]), (\"as\", []), (\"aw\", [\"driving_license\"]), (\"dk\", [\"residence_permit\", \"driving_license\"]), (\"pt\", [\"residence_permit\", \"id_card\", \"other\"]), (\"us\", [\"residence_permit\", \"municipality_identity_card\", \"work_permit\", \"service_id_card\"]), (\"ro\", [\"id_card\"]), (\"lt\", [\"residence_permit\", \"id_card\", \"other\", \"driving_license\"]), (\"fr\", [\"residence_permit\", \"id_card\", \"other\", \"private_operators_card\"]), (\"at\", [\"residence_permit\", \"id_card\", \"other\"]), (\"se\", [\"residence_permit\", \"id_card\", \"other\"]), (\"ua\", [\"id_card\", \"other\", \"driving_license\"]), (\"sa\", [\"id_card\", \"other\"]), (\"ge\", [\"residence_permit\", \"id_card\", \"other\"]), (\"ba\", [\"id_card\", \"other\", \"driving_license\"]), (\"al\", [\"residence_permit\", \"id_card\", \"other\", \"driving_license\"]), (\"br\", [\"residence_permit\", \"id_card\", \"other\"]), (\"ee\", [\"residence_permit\", \"id_card\", \"other\"]), (\"gr\", [\"residence_permit\", \"id_card\", \"other\"]), (\"gt\", [\"id_card\", \"other\", \"driving_license\"]), (\"ie\", [\"residence_permit\"]), (\"mw\", [\"id_card\", \"other\"]), (\"my\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"ca\", [\"id_card\", \"other\", \"service_id_card\", \"driving_license\", \"indigenous_card\", \"national_health_insurance_card\", \"residence_permit\"]), (\"ru\", [\"other\", \"driving_license\"]), (\"bd\", [\"id_card\", \"other\", \"driving_license\"]), (\"cz\", [\"residence_permit\", \"id_card\", \"other\", \"driving_license\"]), (\"uy\", [\"driving_license\", \"id_card\", \"other\"]), (\"hk\", [\"id_card\", \"other\"]), (\"jm\", [\"driving_license\"]), (\"kw\", [\"driving_license\", \"id_card\", \"other\"]), (\"it\", [\"residence_permit\", \"id_card\", \"other\", \"national_health_insurance_card\"]), (\"mx\", [\"work_permit\", \"driving_license\", \"voter_id\"]), (\"ma\", [\"driving_license\", \"id_card\", \"other\"]), (\"hu\", [\"driving_license\", \"id_card\", \"other\", \"residence_permit\"]), (\"hr\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"is\", [\"residence_permit\"]), (\"mt\", [\"residence_permit\", \"id_card\", \"other\"]), (\"mk\", [\"residence_permit\", \"id_card\", \"other\"]), (\"nl\", [\"residence_permit\", \"id_card\", \"other\", \"driving_license\"]), (\"de\", [\"residence_permit\", \"id_card\", \"other\"]), (\"gh\", [\"id_card\", \"other\", \"driving_license\"]), (\"es\", [\"id_card\", \"other\", \"residence_permit\"]), (\"be\", [\"id_card\", \"other\", \"residence_permit\"]), (\"py\", [\"id_card\", \"other\"]), (\"gi\", [\"id_card\", \"other\"]), (\"ao\", [\"id_card\", \"other\", \"driving_license\"]), (\"ar\", [\"id_card\", \"other\"]), (\"am\", [\"id_card\", \"other\", \"driving_license\"]), (\"bh\", [\"id_card\", \"other\"]), (\"au\", [\"id_card\", \"other\", \"driving_license\"]), (\"az\", [\"id_card\", \"other\", \"driving_license\"]), (\"bj\", [\"driving_license\"]), (\"bo\", [\"id_card\", \"other\", \"driving_license\"]), (\"sv\", [\"id_card\", \"other\", \"driving_license\"]), (\"bn\", [\"id_card\", \"other\"]), (\"bg\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"cl\", [\"id_card\", \"other\", \"residence_permit\"]), (\"fi\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"cn\", [\"id_card\", \"other\", \"driving_license\"]), (\"ec\", [\"id_card\", \"other\"]), (\"jp\", [\"id_card\", \"other\"]), (\"kz\", [\"id_card\", \"other\"]), (\"kg\", [\"id_card\", \"other\"]), (\"tw\", [\"residence_permit\"]), (\"co\", [\"residence_permit\", \"id_card\", \"other\"]), (\"ci\", [\"driving_license\"]), (\"il\", [\"driving_license\", \"id_card\", \"other\"]), (\"cy\", [\"id_card\", \"other\", \"residence_permit\"]), (\"ke\", [\"id_card\", \"other\", \"driving_license\"]), (\"lv\", [\"id_card\", \"other\", \"residence_permit\"]), (\"lb\", [\"residence_permit\"]), (\"ls\", [\"id_card\", \"other\"]), (\"li\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"lu\", [\"id_card\", \"other\", \"residence_permit\"]), (\"mo\", [\"residence_permit\", \"id_card\", \"other\"]), (\"mv\", []), (\"mu\", [\"id_card\", \"other\"]), (\"md\", [\"id_card\", \"other\", \"residence_permit\"]), (\"mc\", [\"id_card\", \"other\", \"residence_permit\"]), (\"mn\", [\"driving_license\", \"id_card\", \"other\"]), (\"me\", [\"id_card\", \"other\"]), (\"mz\", [\"id_card\", \"other\", \"residence_permit\"]), (\"ng\", [\"id_card\", \"other\"]), (\"no\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"om\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"pe\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"pl\", [\"id_card\", \"other\", \"residence_permit\"]), (\"sn\", [\"id_card\", \"other\", \"driving_license\"]), (\"rs\", [\"id_card\", \"other\"]), (\"sg\", [\"id_card\", \"other\", \"work_permit\"]), (\"si\", [\"id_card\", \"other\", \"residence_permit\"]), (\"za\", [\"id_card\", \"other\", \"smart_id_card\"]), (\"tg\", [\"id_card\", \"other\"]), (\"tt\", [\"id_card\", \"other\"]), (\"tn\", [\"driving_license\"]), (\"ch\", [\"id_card\", \"other\", \"residence_permit\", \"driving_license\"]), (\"tr\", [\"residence_permit\", \"driving_license\", \"id_card\", \"other\", \"Blue_work_certificate\", \"Red_residence_permit\"]), (\"ae\", [\"id_card\", \"other\", \"residence_permit\"]), (\"zw\", [\"id_card\", \"other\"]), (\"pk\", [\"id_card\", \"other\"]), (\"sz\", [\"id_card\", \"other\"]), (\"ug\", [\"id_card\", \"other\"]), (\"lk\", [\"id_card\", \"other\"]), (\"pr\", [\"id_card\", \"other\"]), (\"do\", [\"id_card\", \"other\"]), (\"jo\", [\"id_card\", \"other\", \"driving_license\"]), (\"gu\", [\"id_card\", \"other\", \"driving_license\"]), (\"cm\", [\"id_card\", \"other\", \"driving_license\"]), (\"na\", [\"id_card\", \"other\", \"residence_permit\"]), (\"cr\", [\"id_card\", \"other\", \"residence_permit\"]), (\"qa\", [\"driving_license\", \"residence_permit\"]), (\"gb\", [\"residence_permit\"]), (\"dz\", [\"id_card\", \"other\", \"driving_license\"]), (\"bw\", [\"id_card\"]), (\"tl\", [\"residence_permit\"]), (\"sy\", [\"passport\"])]"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Constants\/SupportedTypeConfig.swift",
+      "kind": "Dictionary",
+      "offset": 7096,
+      "length": 11759,
+      "value": "[(\"af\", [\"id_card\", \"passport\", \"driving_license\"]), (\"al\", [\"id_card\", \"passport\", \"driving_license\"]), (\"dz\", [\"id_card\", \"passport\", \"driving_license\"]), (\"as\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ad\", [\"id_card\", \"passport\"]), (\"ao\", [\"passport\", \"driving_license\"]), (\"ai\", [\"id_card\", \"passport\", \"driving_license\"]), (\"aq\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ag\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ar\", [\"passport\"]), (\"am\", [\"id_card\"]), (\"aw\", [\"id_card\", \"driving_license\", \"passport\"]), (\"au\", [\"passport\"]), (\"at\", [\"id_card\", \"driving_license\", \"passport\"]), (\"az\", [\"id_card\", \"passport\"]), (\"bs\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bh\", [\"passport\"]), (\"bd\", [\"passport\"]), (\"bb\", [\"id_card\", \"passport\"]), (\"by\", [\"id_card\", \"driving_license\", \"passport\"]), (\"be\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bz\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bj\", [\"passport\", \"driving_license\"]), (\"bm\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bt\", [\"id_card\", \"passport\"]), (\"bo\", [\"passport\", \"driving_license\"]), (\"ba\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bw\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bv\", [\"id_card\", \"driving_license\", \"passport\"]), (\"br\", [\"driving_license\", \"passport\"]), (\"io\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bn\", [\"id_card\", \"passport\"]), (\"bg\", [\"passport\"]), (\"bf\", [\"id_card\", \"driving_license\", \"passport\"]), (\"bi\", [\"id_card\", \"driving_license\", \"passport\"]), (\"kh\", [\"passport\", \"driving_license\"]), (\"cm\", [\"passport\", \"driving_license\"]), (\"ca\", [\"passport\"]), (\"cv\", [\"id_card\", \"driving_license\", \"passport\"]), (\"ky\", [\"id_card\", \"passport\"]), (\"cf\", [\"id_card\", \"driving_license\", \"passport\"]), (\"td\", [\"id_card\", \"driving_license\", \"passport\"]), (\"cl\", [\"id_card\", \"passport\"]), (\"cn\", [\"passport\"]), (\"cx\", [\"id_card\", \"passport\", \"driving_license\"]), (\"cc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"co\", [\"id_card\", \"passport\", \"driving_license\"]), (\"km\", [\"id_card\", \"passport\", \"driving_license\"]), (\"cg\", [\"passport\", \"driving_license\"]), (\"cd\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ck\", [\"id_card\", \"passport\", \"driving_license\"]), (\"cr\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ci\", [\"id_card\", \"passport\", \"driving_license\"]), (\"hr\", [\"passport\", \"driving_license\"]), (\"cu\", [\"id_card\", \"passport\", \"driving_license\"]), (\"cy\", [\"id_card\", \"passport\", \"driving_license\"]), (\"cw\", [\"id_card\", \"passport\"]), (\"cz\", [\"passport\"]), (\"dk\", [\"passport\", \"driving_license\"]), (\"dj\", [\"id_card\", \"passport\", \"driving_license\"]), (\"dm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"do\", [\"passport\"]), (\"ec\", [\"id_card\", \"passport\"]), (\"eg\", []), (\"sv\", [\"passport\"]), (\"gq\", [\"id_card\", \"passport\", \"driving_license\"]), (\"er\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ee\", [\"passport\", \"driving_license\"]), (\"et\", [\"id_card\", \"passport\", \"driving_license\"]), (\"fk\", [\"id_card\", \"passport\", \"driving_license\"]), (\"fo\", [\"id_card\", \"passport\", \"driving_license\"]), (\"fj\", [\"passport\", \"driving_license\"]), (\"fi\", [\"id_card\", \"passport\", \"driving_license\"]), (\"fr\", [\"passport\"]), (\"gf\", [\"id_card\", \"passport\", \"driving_license\"]), (\"pf\", [\"id_card\", \"passport\", \"driving_license\"]), (\"tf\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ga\", [\"driving_license\"]), (\"gm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ge\", [\"id_card\", \"passport\", \"driving_license\"]), (\"de\", [\"passport\", \"driving_license\"]), (\"gh\", [\"id_card\", \"driving_license\"]), (\"gi\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gr\", [\"passport\", \"driving_license\"]), (\"gl\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gd\", [\"id_card\", \"passport\"]), (\"gp\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gu\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gt\", [\"passport\", \"driving_license\"]), (\"gn\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gw\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gg\", [\"id_card\", \"passport\"]), (\"gy\", [\"id_card\", \"passport\"]), (\"ht\", [\"passport\"]), (\"hm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"va\", [\"id_card\", \"passport\", \"driving_license\"]), (\"hn\", [\"passport\", \"driving_license\"]), (\"hk\", [\"id_card\", \"passport\", \"driving_license\"]), (\"hu\", [\"passport\", \"driving_license\"]), (\"is\", [\"id_card\", \"passport\", \"driving_license\"]), (\"in\", []), (\"id\", [\"passport\"]), (\"ir\", [\"id_card\", \"passport\", \"driving_license\"]), (\"iq\", [\"passport\"]), (\"ie\", [\"id_card\", \"passport\"]), (\"il\", [\"id_card\", \"passport\"]), (\"it\", [\"passport\", \"driving_license\"]), (\"jm\", [\"passport\"]), (\"jp\", [\"passport\"]), (\"je\", [\"id_card\", \"passport\"]), (\"jo\", [\"id_card\", \"passport\"]), (\"kz\", [\"passport\", \"driving_license\"]), (\"ke\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ki\", [\"id_card\", \"passport\", \"driving_license\"]), (\"kp\", [\"id_card\", \"passport\", \"driving_license\"]), (\"kr\", [\"passport\"]), (\"kw\", [\"passport\", \"driving_license\"]), (\"kg\", [\"id_card\", \"passport\", \"driving_license\"]), (\"la\", [\"passport\"]), (\"lv\", [\"id_card\", \"passport\", \"driving_license\"]), (\"lb\", [\"passport\", \"driving_license\"]), (\"ls\", [\"id_card\", \"passport\", \"driving_license\"]), (\"lr\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ly\", [\"passport\", \"driving_license\"]), (\"li\", [\"id_card\", \"passport\", \"driving_license\"]), (\"lt\", [\"id_card\", \"passport\", \"driving_license\"]), (\"lu\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mo\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mk\", [\"passport\", \"driving_license\"]), (\"mg\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mw\", [\"id_card\", \"passport\", \"driving_license\"]), (\"my\", [\"passport\"]), (\"mv\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ml\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mt\", [\"passport\"]), (\"mh\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mq\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mr\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mu\", [\"id_card\", \"passport\", \"driving_license\"]), (\"yt\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mx\", [\"passport\"]), (\"fm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"md\", [\"passport\", \"driving_license\"]), (\"mc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mn\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ms\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ma\", [\"passport\", \"driving_license\"]), (\"me\", [\"id_card\", \"passport\"]), (\"mz\", [\"passport\", \"driving_license\"]), (\"mm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"na\", [\"id_card\", \"passport\", \"driving_license\"]), (\"nr\", [\"id_card\", \"passport\", \"driving_license\"]), (\"np\", [\"id_card\", \"passport\"]), (\"nl\", [\"id_card\", \"passport\", \"driving_license\"]), (\"an\", [\"id_card\", \"passport\", \"driving_license\"]), (\"nc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"nz\", [\"id_card\", \"passport\"]), (\"ni\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ne\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ng\", []), (\"nu\", [\"id_card\", \"passport\", \"driving_license\"]), (\"nf\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mp\", [\"id_card\", \"passport\", \"driving_license\"]), (\"no\", [\"id_card\", \"passport\", \"driving_license\"]), (\"om\", [\"id_card\", \"passport\"]), (\"pk\", [\"passport\"]), (\"pw\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ps\", [\"id_card\", \"passport\", \"driving_license\"]), (\"pa\", [\"passport\", \"driving_license\"]), (\"pg\", [\"id_card\", \"passport\", \"driving_license\"]), (\"py\", [\"id_card\", \"passport\"]), (\"pe\", [\"passport\"]), (\"ph\", [\"passport\"]), (\"pn\", [\"id_card\", \"passport\", \"driving_license\"]), (\"pl\", [\"passport\"]), (\"pt\", [\"id_card\", \"passport\"]), (\"pr\", [\"passport\"]), (\"qa\", [\"id_card\", \"passport\", \"driving_license\"]), (\"re\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ro\", [\"passport\", \"driving_license\"]), (\"ru\", [\"id_card\"]), (\"rw\", [\"id_card\", \"passport\", \"driving_license\"]), (\"kn\", [\"id_card\", \"passport\", \"driving_license\"]), (\"lc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"pm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"vc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ws\", [\"id_card\", \"passport\", \"driving_license\"]), (\"sm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"st\", [\"id_card\", \"passport\", \"driving_license\"]), (\"sa\", [\"id_card\", \"passport\", \"driving_license\"]), (\"sn\", [\"id_card\", \"passport\", \"driving_license\"]), (\"rs\", []), (\"sc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"sl\", [\"passport\"]), (\"sg\", [\"passport\", \"driving_license\"]), (\"sk\", [\"passport\", \"driving_license\"]), (\"si\", [\"passport\"]), (\"sb\", [\"id_card\", \"passport\", \"driving_license\"]), (\"so\", [\"id_card\", \"passport\", \"driving_license\"]), (\"za\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gs\", [\"id_card\", \"passport\", \"driving_license\"]), (\"es\", [\"passport\", \"driving_license\"]), (\"lk\", [\"passport\"]), (\"sd\", [\"passport\"]), (\"sr\", [\"id_card\", \"passport\"]), (\"sj\", [\"id_card\", \"passport\", \"driving_license\"]), (\"sz\", [\"id_card\", \"passport\", \"driving_license\"]), (\"se\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ch\", [\"id_card\", \"passport\", \"driving_license\"]), (\"sy\", [\"passport\"]), (\"tw\", [\"passport\"]), (\"tj\", [\"passport\", \"driving_license\"]), (\"tz\", [\"passport\", \"driving_license\"]), (\"th\", [\"passport\"]), (\"tl\", [\"id_card\", \"passport\", \"driving_license\"]), (\"tg\", [\"passport\", \"driving_license\"]), (\"tk\", [\"id_card\", \"passport\", \"driving_license\"]), (\"to\", [\"id_card\", \"passport\", \"driving_license\"]), (\"tt\", [\"id_card\", \"passport\"]), (\"tn\", [\"passport\", \"driving_license\"]), (\"tr\", [\"id_card\", \"passport\", \"driving_license\"]), (\"tm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"tc\", [\"id_card\", \"passport\", \"driving_license\"]), (\"tv\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ug\", [\"passport\", \"driving_license\"]), (\"ua\", [\"id_card\", \"passport\"]), (\"ae\", [\"id_card\", \"passport\", \"driving_license\"]), (\"gb\", [\"passport\"]), (\"uy\", [\"id_card\", \"passport\", \"driving_license\"]), (\"uz\", [\"id_card\", \"passport\", \"driving_license\"]), (\"vu\", [\"id_card\", \"passport\"]), (\"ve\", [\"id_card\", \"passport\", \"driving_license\"]), (\"vn\", [\"id_card\", \"passport\"]), (\"vg\", [\"id_card\", \"passport\", \"driving_license\"]), (\"vi\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ax\", [\"id_card\", \"passport\", \"driving_license\"]), (\"im\", [\"id_card\", \"passport\", \"driving_license\"]), (\"bl\", [\"id_card\", \"passport\", \"driving_license\"]), (\"mf\", [\"id_card\", \"passport\", \"driving_license\"]), (\"eh\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ye\", [\"id_card\", \"passport\", \"driving_license\"]), (\"zm\", [\"id_card\", \"passport\", \"driving_license\"]), (\"zw\", [\"driving_license\"]), (\"xk\", [\"id_card\", \"passport\", \"driving_license\"]), (\"ss\", [\"id_card\", \"passport\", \"driving_license\"]), (\"um\", [\"id_card\", \"passport\", \"driving_license\"]), (\"us\", [\"passport\"])]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/RadioButtonTableViewCell\/RadioButtonsTableViewCell.swift",
@@ -43177,42 +43650,42 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManager\/SocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6254,
+      "offset": 6266,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManager\/SocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6292,
+      "offset": 6304,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManager\/SocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6329,
+      "offset": 6341,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManager\/SocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6369,
+      "offset": 6381,
       "length": 7,
       "value": "4"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManager\/SocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6412,
+      "offset": 6424,
       "length": 7,
       "value": "5"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/SocketManager\/SocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6444,
+      "offset": 6456,
       "length": 4,
       "value": "6"
     },
@@ -43259,39 +43732,60 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/Builder\/ResultBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 1080,
       "length": 5,
       "value": "\"644\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9943,
+      "offset": 10491,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9963,
+      "offset": 10511,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11740,
+      "offset": 12288,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11754,
+      "offset": 12302,
       "length": 4,
       "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/Router\/OCRDataInputRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/Router\/OCRDataInputRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 421,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SelectCountryScreen\/ViewModel\/SelectCountryViewModel.swift",
@@ -43301,23 +43795,30 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/View\/UploadProofViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8225,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/Router\/ProofCapturingRouter.swift",
       "kind": "StringLiteral",
-      "offset": 577,
+      "offset": 1135,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/Router\/ProofCapturingRouter.swift",
       "kind": "Array",
-      "offset": 2727,
+      "offset": 3221,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/Router\/ProofCapturingRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2806,
+      "offset": 3300,
       "length": 5,
       "value": "false"
     },
@@ -43345,77 +43846,77 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2068,
+      "offset": 2109,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2109,
+      "offset": 2150,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2493,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2484,
+      "offset": 2525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2509,
+      "offset": 2550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2589,
       "length": 26,
       "value": "\"CR1886793195121622904168\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2748,
+      "offset": 2789,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2777,
+      "offset": 2818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2808,
+      "offset": 2849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3078,
+      "offset": 3126,
       "length": 2,
       "value": "\"\""
     },
@@ -43961,35 +44462,35 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/Router\/ProofPreviewRouter.swift",
       "kind": "Array",
-      "offset": 2140,
+      "offset": 2080,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/Router\/ProofPreviewRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2219,
+      "offset": 2159,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/ViewModel\/UploadProofViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2123,
+      "offset": 2278,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/ViewModel\/UploadProofViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2163,
+      "offset": 2318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/ViewModel\/UploadProofViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2198,
+      "offset": 2353,
       "length": 5,
       "value": "false"
     },
@@ -45184,6 +45685,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ComonViews\/TestIDFloatButton\/TestIDFloatButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 426,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SelectLanguageScreen\/ViewModel\/SelectLanguageScreenViewModel.swift",
       "kind": "Array",
       "offset": 1149,
@@ -45368,903 +45876,973 @@
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4316,
+      "offset": 4300,
+      "length": 12,
+      "value": "\"bahrainID1\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4442,
+      "length": 12,
+      "value": "\"bahrainID2\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4584,
+      "length": 12,
+      "value": "\"bahrainID3\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4726,
+      "length": 12,
+      "value": "\"bahrainID4\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4868,
+      "length": 12,
+      "value": "\"bahrainID5\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5026,
       "length": 21,
       "value": "\"bank_letter_receipt\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4474,
+      "offset": 5184,
       "length": 16,
       "value": "\"bank_statement\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4633,
+      "offset": 5343,
       "length": 19,
       "value": "\"birth_certificate\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4778,
+      "offset": 5488,
       "length": 10,
       "value": "\"blueTick\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4914,
+      "offset": 5624,
       "length": 10,
       "value": "\"calender\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5054,
+      "offset": 5764,
       "length": 12,
       "value": "\"cameraIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5198,
+      "offset": 5908,
       "length": 13,
       "value": "\"captureIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5342,
+      "offset": 6052,
       "length": 15,
       "value": "\"checkBoxImage\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5485,
+      "offset": 6195,
       "length": 11,
       "value": "\"checkDark\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5628,
+      "offset": 6338,
       "length": 13,
       "value": "\"cloudUpload\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5765,
+      "offset": 6475,
       "length": 9,
       "value": "\"consent\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5900,
+      "offset": 6610,
       "length": 10,
       "value": "\"consent1\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6036,
+      "offset": 6746,
       "length": 10,
       "value": "\"consent2\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6172,
+      "offset": 6882,
       "length": 10,
       "value": "\"consent3\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6318,
+      "offset": 7028,
       "length": 16,
       "value": "\"cpr_smart_card\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6492,
+      "offset": 7202,
       "length": 28,
       "value": "\"cpr_smart_card_reader_copy\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6670,
+      "offset": 7380,
       "length": 23,
       "value": "\"credit_card_statement\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 7550,
       "length": 22,
       "value": "\"credit_or_debit_card\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6994,
+      "offset": 7704,
       "length": 13,
       "value": "\"creditcard1\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7139,
+      "offset": 7849,
       "length": 13,
       "value": "\"creditcard2\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7284,
+      "offset": 7994,
       "length": 13,
       "value": "\"creditcard3\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7429,
+      "offset": 8139,
       "length": 13,
       "value": "\"creditcard4\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7574,
+      "offset": 8284,
       "length": 13,
       "value": "\"creditcard5\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7713,
+      "offset": 8425,
+      "length": 11,
+      "value": "\"crossGray\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8562,
       "length": 10,
       "value": "\"crossImg\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7847,
+      "offset": 8696,
       "length": 9,
       "value": "\"dobIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7982,
+      "offset": 8831,
       "length": 10,
       "value": "\"docInst1\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8118,
+      "offset": 8967,
       "length": 10,
       "value": "\"docInst2\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8254,
+      "offset": 9103,
       "length": 10,
       "value": "\"docInst3\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8390,
+      "offset": 9239,
       "length": 10,
       "value": "\"docInst4\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8526,
+      "offset": 9375,
       "length": 10,
       "value": "\"docInst5\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8664,
+      "offset": 9513,
       "length": 11,
       "value": "\"docNumber\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8801,
+      "offset": 9650,
       "length": 10,
       "value": "\"document\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8945,
+      "offset": 9794,
       "length": 14,
       "value": "\"documentIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9092,
+      "offset": 9941,
       "length": 14,
       "value": "\"document_two\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9234,
+      "offset": 10083,
       "length": 11,
       "value": "\"downArrow\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9384,
+      "offset": 10233,
       "length": 17,
       "value": "\"driving_license\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9541,
+      "offset": 10390,
       "length": 17,
       "value": "\"drivinglicense1\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9698,
+      "offset": 10547,
       "length": 17,
       "value": "\"drivinglicense2\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9855,
+      "offset": 10704,
       "length": 17,
       "value": "\"drivinglicense3\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10012,
+      "offset": 10861,
       "length": 17,
       "value": "\"drivinglicense4\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10169,
+      "offset": 11018,
       "length": 17,
       "value": "\"drivinglicense5\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10328,
+      "offset": 11177,
       "length": 18,
       "value": "\"dropDownLanguage\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10490,
+      "offset": 11339,
       "length": 20,
       "value": "\"e_commerce_receipt\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10628,
+      "offset": 11477,
       "length": 6,
       "value": "\"ekyc\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10776,
+      "offset": 11625,
       "length": 18,
       "value": "\"emailServiceIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10927,
+      "offset": 11776,
       "length": 14,
       "value": "\"email_verify\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11080,
+      "offset": 11929,
       "length": 17,
       "value": "\"employer_letter\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11223,
+      "offset": 12072,
       "length": 10,
       "value": "\"envelope\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11351,
+      "offset": 12206,
+      "length": 9,
+      "value": "\"explore\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12333,
       "length": 6,
       "value": "\"face\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11485,
+      "offset": 12467,
       "length": 11,
       "value": "\"faceInst1\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11624,
+      "offset": 12606,
       "length": 11,
       "value": "\"faceInst2\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11763,
+      "offset": 12745,
       "length": 11,
       "value": "\"faceInst3\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11922,
+      "offset": 12904,
       "length": 22,
       "value": "\"face_instruction_one\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12096,
+      "offset": 13078,
       "length": 24,
       "value": "\"face_instruction_three\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12268,
+      "offset": 13250,
       "length": 22,
       "value": "\"face_instruction_two\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12424,
+      "offset": 13406,
       "length": 14,
       "value": "\"flashDisable\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12570,
+      "offset": 13552,
       "length": 13,
       "value": "\"flashEnbale\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12713,
+      "offset": 13695,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12857,
+      "offset": 13847,
+      "length": 17,
+      "value": "\"glowingRedCross\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14004,
+      "length": 17,
+      "value": "\"glowingTickIcon\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14153,
       "length": 13,
       "value": "\"handwritten\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12988,
+      "offset": 14284,
       "length": 6,
       "value": "\"hint\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13117,
+      "offset": 14413,
       "length": 9,
       "value": "\"id_card\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13252,
+      "offset": 14548,
       "length": 10,
       "value": "\"infoIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13396,
+      "offset": 14692,
       "length": 14,
       "value": "\"infoIconGrey\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13542,
+      "offset": 14838,
       "length": 13,
       "value": "\"infoWarning\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13702,
+      "offset": 14998,
       "length": 21,
       "value": "\"insurance_agreement\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13860,
+      "offset": 15156,
       "length": 16,
       "value": "\"insurance_card\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14017,
+      "offset": 15313,
       "length": 18,
       "value": "\"insurance_policy\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14179,
+      "offset": 15475,
       "length": 19,
       "value": "\"languageWorldIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14337,
+      "offset": 15633,
       "length": 17,
       "value": "\"lease_agreement\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14482,
+      "offset": 15778,
       "length": 11,
       "value": "\"lightbulb\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14619,
+      "offset": 15915,
       "length": 10,
       "value": "\"livehelp\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14761,
+      "offset": 16057,
       "length": 13,
       "value": "\"loaderSVGBG\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14892,
+      "offset": 16188,
       "length": 6,
       "value": "\"lock\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15024,
+      "offset": 16320,
       "length": 10,
       "value": "\"mailIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15191,
+      "offset": 16487,
       "length": 27,
       "value": "\"national_proof_of_address\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15354,
+      "offset": 16650,
       "length": 15,
       "value": "\"nophotography\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15495,
+      "offset": 16791,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15633,
+      "offset": 16929,
       "length": 11,
       "value": "\"passport1\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15772,
+      "offset": 17068,
       "length": 11,
       "value": "\"passport2\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15911,
+      "offset": 17207,
       "length": 11,
       "value": "\"passport3\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16050,
+      "offset": 17346,
       "length": 11,
       "value": "\"passport4\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16189,
+      "offset": 17485,
       "length": 11,
       "value": "\"passport5\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16328,
+      "offset": 17624,
       "length": 11,
       "value": "\"pauseIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16463,
+      "offset": 17759,
       "length": 9,
       "value": "\"pdfIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16594,
+      "offset": 17890,
       "length": 8,
       "value": "\"pencil\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16739,
+      "offset": 18035,
       "length": 16,
       "value": "\"pending_result\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16915,
+      "offset": 18211,
       "length": 28,
       "value": "\"permanent_residence_permit\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17063,
+      "offset": 18359,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17214,
+      "offset": 18510,
       "length": 19,
       "value": "\"phoneSeriviceIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17361,
+      "offset": 18657,
       "length": 11,
       "value": "\"photoIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17498,
+      "offset": 18794,
       "length": 10,
       "value": "\"playIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17632,
+      "offset": 18928,
       "length": 9,
       "value": "\"printed\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17781,
+      "offset": 19077,
       "length": 18,
       "value": "\"proof_of_address\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17932,
+      "offset": 19228,
       "length": 14,
       "value": "\"property_tax\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18082,
+      "offset": 19368,
+      "length": 10,
+      "value": "\"question\""
+    },
+    {
+      "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19514,
       "length": 15,
       "value": "\"questionnaire\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18223,
+      "offset": 19655,
       "length": 10,
       "value": "\"radioOff\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18357,
+      "offset": 19789,
       "length": 9,
       "value": "\"radioOn\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18496,
+      "offset": 19928,
       "length": 12,
       "value": "\"reasonicon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18648,
+      "offset": 20080,
       "length": 17,
       "value": "\"recordVideoICon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18802,
+      "offset": 20234,
       "length": 16,
       "value": "\"rent_agreement\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18956,
+      "offset": 20388,
       "length": 17,
       "value": "\"result_alert_bg\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19117,
+      "offset": 20549,
       "length": 20,
       "value": "\"retry_reason_arrow\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19268,
+      "offset": 20700,
       "length": 13,
       "value": "\"salary_slip\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19411,
+      "offset": 20843,
       "length": 12,
       "value": "\"scandelete\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19563,
+      "offset": 20995,
       "length": 17,
       "value": "\"shuftiLogoBlack\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19720,
+      "offset": 21152,
       "length": 17,
       "value": "\"shuftiLogoWhite\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19870,
+      "offset": 21302,
       "length": 14,
       "value": "\"study_permit\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20032,
+      "offset": 21464,
       "length": 21,
       "value": "\"supportedTypesArrow\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20178,
+      "offset": 21610,
       "length": 10,
       "value": "\"tax_bill\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20314,
+      "offset": 21746,
       "length": 10,
       "value": "\"tickIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20468,
+      "offset": 21900,
       "length": 19,
       "value": "\"uploadBackAddress\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20625,
+      "offset": 22057,
       "length": 16,
       "value": "\"uploadBackCard\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20785,
+      "offset": 22217,
       "length": 19,
       "value": "\"uploadBackDrvrLic\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20938,
+      "offset": 22370,
       "length": 14,
       "value": "\"uploadBackID\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21082,
+      "offset": 22514,
       "length": 12,
       "value": "\"uploadFace\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21240,
+      "offset": 22672,
       "length": 20,
       "value": "\"uploadFrontAddress\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21400,
+      "offset": 22832,
       "length": 17,
       "value": "\"uploadFrontCard\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21563,
+      "offset": 22995,
       "length": 20,
       "value": "\"uploadFrontDrvrLic\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21719,
+      "offset": 23151,
       "length": 15,
       "value": "\"uploadFrontID\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21872,
+      "offset": 23304,
       "length": 16,
       "value": "\"uploadPassport\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22038,
+      "offset": 23470,
       "length": 22,
       "value": "\"uploadPrintedConsent\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22210,
+      "offset": 23642,
       "length": 22,
       "value": "\"uploadWrittenConsent\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22358,
+      "offset": 23790,
       "length": 10,
       "value": "\"userIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22501,
+      "offset": 23933,
       "length": 14,
       "value": "\"utility_bill\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22643,
+      "offset": 24075,
       "length": 11,
       "value": "\"videoIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22787,
+      "offset": 24219,
       "length": 14,
       "value": "\"warning_icon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22937,
+      "offset": 24369,
       "length": 15,
       "value": "\"whileHelpIcon\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23090,
+      "offset": 24522,
       "length": 16,
       "value": "\"whiteBackArrow\""
     },
     {
       "filePath": "\/Users\/emantahir\/Library\/Developer\/Xcode\/DerivedData\/ShuftiPro-fdlwoxiafsodiigbapcvfmtrogkx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShuftiPro\/IntermediateBuildFilesPath\/ShuftiPro.build\/Release-iphonesimulator\/ShuftiPro.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23237,
+      "offset": 24669,
       "length": 13,
       "value": "\"work_permit\""
     }
