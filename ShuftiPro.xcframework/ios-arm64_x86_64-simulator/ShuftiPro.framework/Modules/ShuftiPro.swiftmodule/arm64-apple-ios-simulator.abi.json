@@ -39886,7 +39886,7 @@
       "kind": "StringLiteral",
       "offset": 703,
       "length": 8,
-      "value": "\"1.3.23\""
+      "value": "\"1.3.24\""
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -43797,7 +43797,7 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/View\/UploadProofViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8225,
+      "offset": 8378,
       "length": 4,
       "value": "true"
     },
@@ -44476,21 +44476,21 @@
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/ViewModel\/UploadProofViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2278,
+      "offset": 2313,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/ViewModel\/UploadProofViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2318,
+      "offset": 2353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/ViewModel\/UploadProofViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2353,
+      "offset": 2388,
       "length": 5,
       "value": "false"
     },
