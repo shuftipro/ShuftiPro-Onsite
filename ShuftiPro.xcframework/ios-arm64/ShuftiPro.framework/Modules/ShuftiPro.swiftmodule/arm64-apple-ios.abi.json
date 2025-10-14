@@ -9859,6 +9859,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -39576,35 +39583,35 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 34308,
+      "offset": 34451,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 34322,
+      "offset": 34465,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 34370,
+      "offset": 34513,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 35713,
+      "offset": 35856,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController + Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 35727,
+      "offset": 35870,
       "length": 4,
       "value": "1000"
     },
@@ -39879,7 +39886,7 @@
       "kind": "StringLiteral",
       "offset": 703,
       "length": 8,
-      "value": "\"1.3.28\""
+      "value": "\"1.3.29\""
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -40983,23 +40990,37 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41373,
+      "offset": 41379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 41391,
+      "offset": 41397,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 47416,
+      "offset": 47422,
       "length": 3,
       "value": "9.0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/PortraitNavigationController\/PortraitNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 251,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/PortraitNavigationController\/PortraitNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 492,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/View\/ProofPreviewViewController.swift",
@@ -41291,7 +41312,7 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 29747,
+      "offset": 29874,
       "length": 2,
       "value": "10"
     },
@@ -41872,7 +41893,7 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Extensions\/UIViewController+Extention .swift",
       "kind": "IntegerLiteral",
-      "offset": 6859,
+      "offset": 6877,
       "length": 2,
       "value": "55"
     },
@@ -42411,28 +42432,28 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 33815,
+      "offset": 34248,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33938,
+      "offset": 34371,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "Array",
-      "offset": 33760,
+      "offset": 34193,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34007,
+      "offset": 34440,
       "length": 3,
       "value": "0.0"
     },
