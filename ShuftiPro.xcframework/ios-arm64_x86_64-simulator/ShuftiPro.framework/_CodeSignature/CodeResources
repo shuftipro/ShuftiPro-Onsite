@@ -154,7 +154,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		2sluf/ILASge3DyCKlIvw3iF+jA=
+		PuC2FUfi5nihen1rwJQoMNs36tA=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -214,11 +214,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9bp4bx8r4A1K7E+Xirf1H2dZrsk=
+		pwJG7gMDaqS8SoucV5mwgnpwGRk=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GKQgsw591kkrmNbBRx8jyOpOm5I=
+		N3vbQ3mfutS+PMIF/eWiRpWeOQA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -226,19 +226,19 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GKQgsw591kkrmNbBRx8jyOpOm5I=
+		N3vbQ3mfutS+PMIF/eWiRpWeOQA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t8alK+LD5yZkxbWfQeUvw6EXI48=
+		LZav2BxNzCjI07OE4kMLHba0Nig=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9bp4bx8r4A1K7E+Xirf1H2dZrsk=
+		pwJG7gMDaqS8SoucV5mwgnpwGRk=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nGe8rGgtP6oprf5isNtY/VbJxCU=
+		qtuKFltf+VlVxH+neT3bkW+T0gw=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -246,11 +246,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nGe8rGgtP6oprf5isNtY/VbJxCU=
+		qtuKFltf+VlVxH+neT3bkW+T0gw=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xhoetPAmBkJ/Q0fo5lX/Qarh5zQ=
+		EibAQJ+VRiEW0E2VG711loWoSc8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -398,7 +398,7 @@
 		</data>
 		<key>RadioButtonsTableViewCell.nib</key>
 		<data>
-		LW4LrjiKKuBPC6q9fCdoEWnHXvg=
+		vsEjgdNRoDInjLZq14srzfwV2xs=
 		</data>
 		<key>RangeSelectTableViewCell.nib</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>SelectMultipleOptionTableViewCell.nib</key>
 		<data>
-		k/PeuzWvFAYnA/IBqYW06uuFrSo=
+		jH5wk56JO57N4IR2bbo8Kx/pLAY=
 		</data>
 		<key>ServiceDeclineReasonCell.nib</key>
 		<data>
@@ -526,7 +526,7 @@
 		</data>
 		<key>TagCollectionViewCell.nib</key>
 		<data>
-		eKVSb+Ybkvs1hUu37zAowlSP5nE=
+		wSnDYdpzbELBI0dOD+q0hOQwBMQ=
 		</data>
 		<key>TestID.storyboardc/Info.plist</key>
 		<data>
@@ -974,7 +974,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BpVb/UksdmNpY6kAPvg6utqHRlbvEPaDE+fOqtRFt9A=
+			+pDuutr2RNtAAf7ryIm0u1TJ10iOfz7uY7LNQwdufiA=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1072,14 +1072,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IBkpUoHMARfG5LFKrc36GjbqCXQsXUl+YfxEhCA6aLU=
+			+7jWR1sF+HN32Asj7EZrylA79Fatuo2KkESCG7af7FM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVH8zpV8vpgXM4vWvruleym/rzpN/VkStI9qkTGx/Ug=
+			uSTT/Ib90FnNkblDWWTPzdgYxQygzdbzzo3XRWKVBG0=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1093,28 +1093,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVH8zpV8vpgXM4vWvruleym/rzpN/VkStI9qkTGx/Ug=
+			uSTT/Ib90FnNkblDWWTPzdgYxQygzdbzzo3XRWKVBG0=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHlfF2ydslbd47PpFPIdNv91DcpTtb2Fn8sxFi4z0aQ=
+			my+9MbF43NC1k6/M8sHkynC7gsKebrwFyugUWExIVek=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IBkpUoHMARfG5LFKrc36GjbqCXQsXUl+YfxEhCA6aLU=
+			+7jWR1sF+HN32Asj7EZrylA79Fatuo2KkESCG7af7FM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mnJwodNkk8VccA6MmdhquDwTHWaUTZQ3Mn3U2djEgW0=
+			DqDklOh3urlzmGg3VqE13jzJ1HPaeRuf3RMpIRQ4Dzw=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1128,14 +1128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mnJwodNkk8VccA6MmdhquDwTHWaUTZQ3Mn3U2djEgW0=
+			DqDklOh3urlzmGg3VqE13jzJ1HPaeRuf3RMpIRQ4Dzw=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQUIpsmD8oKwo+g4od3e32BLmyvxB4jVnLzVU5SRPLs=
+			984dIcTC8N4y27Wqmb1UByGCY5U2pd7v/pL8aGo/Duc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1394,7 +1394,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Og1ICx3cEi4Ar2AH6A68kfN/1RqSJUU1i3tJazswuo=
+			Ol/8VkDsf5JTojF5hcy2/mceOTGy4YfRL8OXrN3FdKo=
 			</data>
 		</dict>
 		<key>RangeSelectTableViewCell.nib</key>
@@ -1541,7 +1541,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UNMOR8mO/97vUaYur0lhXp9WK3TVMFh93mP8mCkPfJA=
+			Vr+928Lc8/VK3SOYpck+xB3VUcq5vUF52XbYILu7uKw=
 			</data>
 		</dict>
 		<key>ServiceDeclineReasonCell.nib</key>
@@ -1618,7 +1618,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FXVJRIN6lMz1HZWrFOrKeXdKdoiYFqSqEBy6Ik46PnU=
+			sUvcJvmyB/O7Co6MS20mop2BjibDaAqQDgemiA+qNBY=
 			</data>
 		</dict>
 		<key>TestID.storyboardc/Info.plist</key>

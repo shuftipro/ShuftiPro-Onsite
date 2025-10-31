@@ -2198,7 +2198,6 @@ SWIFT_CLASS("_TtC9ShuftiPro21TagCollectionViewCell")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified titleLabel;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backView;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified crossButton;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)awakeFromNib;
 - (IBAction)crossButtonClickaction:(id _Nonnull)_;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -4844,7 +4843,6 @@ SWIFT_CLASS("_TtC9ShuftiPro21TagCollectionViewCell")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified titleLabel;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backView;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified crossButton;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)awakeFromNib;
 - (IBAction)crossButtonClickaction:(id _Nonnull)_;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
