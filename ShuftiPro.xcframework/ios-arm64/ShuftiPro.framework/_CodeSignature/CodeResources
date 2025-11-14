@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ptTbyVXmwFU61M8qbhA7aTh0l/Y=
+		XsGY+uHoGYmmfDNBf8+apR6tB1Q=
 		</data>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
 		<data>
@@ -63,14 +63,6 @@
 		<key>DeclineResult.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
 		C0/KkLjT6ig6Ba6AoIJr/tJvITU=
-		</data>
-		<key>DropDownCell.nib</key>
-		<data>
-		ZCX9FCu81I2MaJHSqy52mYMIQFE=
-		</data>
-		<key>DropDownInfo.plist</key>
-		<data>
-		g2r0aOFx1Q/kSGdrVVSHl5X6QIU=
 		</data>
 		<key>DropDownSelectTableViewCell.nib</key>
 		<data>
@@ -134,7 +126,7 @@
 		</data>
 		<key>FailureVerified.svg</key>
 		<data>
-		D11TJL7879kqz6/3CZ6ivoCFZeg=
+		B1jylOPBTrX3CTcWlEqHDGvoz2M=
 		</data>
 		<key>FileUploadTableViewCell.nib</key>
 		<data>
@@ -154,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		OIwtFIX6IjRj8Z5FL9mOYr0Ix6s=
+		aXvWgnmxsXrC1l0cVMaabSC/keo=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -212,25 +204,37 @@
 		<data>
 		KO7AOSZwUIrErj273sfIr9BgtAE=
 		</data>
+		<key>MFASupportedChannel.storyboardc/9n5-bj-SkD-view-pvn-7e-3UD.nib</key>
+		<data>
+		U2WUV2wp/9JEOXz/iYQJ2fubvbo=
+		</data>
+		<key>MFASupportedChannel.storyboardc/Info.plist</key>
+		<data>
+		zYE56y9Br+rFigY8Rh8w0tbQJaY=
+		</data>
+		<key>MFASupportedChannel.storyboardc/MFASupportedChannelViewController.nib</key>
+		<data>
+		0Wr0FFVkqhoI2GSehivl8X/vO6M=
+		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OjF1E21Uhcld1HZ8MLvo4vEZ5zQ=
+		dBVjWEsCGxCJ1xXGhWZFFkGrtEY=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZTU9Q3gnBPUqzRMQuDw75zmOmr8=
+		g6s0gilN4L9HsqMNwDhGXVa03y8=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		iLPzCclZP5iwcJak0QHvVb9RuDo=
+		1d/y/WsWF/H8nwwRswIG58Od5rg=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZTU9Q3gnBPUqzRMQuDw75zmOmr8=
+		g6s0gilN4L9HsqMNwDhGXVa03y8=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bNmXL4lbPObpnPZhpJ9SrYV0lRU=
+		289zt4RK2V+5yluRVvzcupOCYik=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -384,6 +388,10 @@
 		<data>
 		wRaFzesh+tHjX5Wdvvl4mAiuqfU=
 		</data>
+		<key>ResponseObject.json</key>
+		<data>
+		u3tPYqgTda5IDNclIQiwgYlGKBc=
+		</data>
 		<key>Result.storyboardc/Info.plist</key>
 		<data>
 		jOh0U2Z5jGf5LEHflNRmSuFLO2E=
@@ -394,7 +402,7 @@
 		</data>
 		<key>Result.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		N1EjfQlAqOIJ9hpWth9kmouz1Ac=
+		w1XAT2XyOWhPHr1koAdKb6YGT8w=
 		</data>
 		<key>RetryService.storyboardc/Info.plist</key>
 		<data>
@@ -418,7 +426,7 @@
 		</data>
 		<key>SelectCountry.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		BXVOGLM8ghpq94rMuXlpgTouIsQ=
+		Y9dg9HdLkIHMnE6qB6AqO47DcTw=
 		</data>
 		<key>SelectCountryQPickedFilesTableViewCell.nib</key>
 		<data>
@@ -467,6 +475,10 @@
 		<key>ServiceDeclineReasonCell.nib</key>
 		<data>
 		2mF5mGXefSYrERL4JZrKzUiJND0=
+		</data>
+		<key>ShuftiDropDownCell.nib</key>
+		<data>
+		TzKIMzXf8j/OdFDZbN2JRNr5Mxw=
 		</data>
 		<key>SpoofGPS.storyboardc/Info.plist</key>
 		<data>
@@ -716,7 +728,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vtOS6m6/uAoOfRUAP3Z9fAeegiayyaIfwp7wCYDiTI4=
+			eqiLyNZ+lrV6isRyW/2kBCgZRzpQB+Osl8OTJ6C/5m0=
 			</data>
 		</dict>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
@@ -794,20 +806,6 @@
 			<key>hash2</key>
 			<data>
 			IT55yxTsch0ldcrTZ3InU+DUMkUv3FRF7KupM81cz8o=
-			</data>
-		</dict>
-		<key>DropDownCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4IukZQ6ciEAZNQSgGahKnHH1G1UEYbi88cRiTrWHxpU=
-			</data>
-		</dict>
-		<key>DropDownInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eYz+TTL48LOvcOy04svDFBPvxqnMQ3yVHjwX+ZQyKy8=
 			</data>
 		</dict>
 		<key>DropDownSelectTableViewCell.nib</key>
@@ -919,7 +917,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AmWuquvJZzTElPtuYtOX+DNqJTBNA1FDZeTHb/O1We8=
+			D/uRl70zyfsMzsn18zV1NNUrCitkWc2rN2msPqewpIw=
 			</data>
 		</dict>
 		<key>FileUploadTableViewCell.nib</key>
@@ -954,7 +952,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zt22jyVVZWL4HpUE0ocexG2OWSZWGAis6b0HUqjSaAk=
+			PGV39KoS55AWqu5875SQXRh8dNdQ0vbQGzmvCHFwycA=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1048,39 +1046,60 @@
 			SqoUW4IlLmmSOFeizE6QY88pvMZoLjRQossRsyWh9uM=
 			</data>
 		</dict>
+		<key>MFASupportedChannel.storyboardc/9n5-bj-SkD-view-pvn-7e-3UD.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tLd2dWzmt/WCtXOnuNIqChs+Tb+MggCnSLfP9qwnNHI=
+			</data>
+		</dict>
+		<key>MFASupportedChannel.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o1ZpT2mTchyeeT6GacRKpz1xTQmV72YCUh73EEbsjLc=
+			</data>
+		</dict>
+		<key>MFASupportedChannel.storyboardc/MFASupportedChannelViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7zjFDhoAOwWc+ZoLBxdxbmotNsqrIO1GW+tnn+X0lCE=
+			</data>
+		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ab1LLlBZpegcan5ETCULqSW+EvA83tfs3lqd9ljdq0s=
+			l8oPqNWOsntYZZRDlXMG9KmlQWTFltHLz14Lr+XX9VU=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HjLioH1WqDhxzERBqft8ulj+iGCEcCp0gHt4z60ZHSA=
+			lqUXSjAcbCX+9xdrMnXWtlN/faFjQ6zDP0NmZhtiQvM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n75Ik94t+PIJZN4KVWuIuLMcvBdRr3M/0kX7n+l3s5U=
+			UPu6/0kkpHFJtSeRDXDu6FKFLafOdn+mFkhwIPQ9TeE=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HjLioH1WqDhxzERBqft8ulj+iGCEcCp0gHt4z60ZHSA=
+			lqUXSjAcbCX+9xdrMnXWtlN/faFjQ6zDP0NmZhtiQvM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tNKyGP1wsJNfAAkBlXNh8p2s6TtnUhfJYFA7NLDE6c4=
+			j4+S0RlQETdVrG6w0vYimeJz/RUx9tmxxrFW9M2+OJ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1349,6 +1368,13 @@
 			FGjOQ5LtUZPatbOis0zgEteu3TDUtlafcXyc6mEY5tY=
 			</data>
 		</dict>
+		<key>ResponseObject.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9Loaj+u1W8QbbhVVwXM6CQdJebFE8PxPOkQzMidnfzs=
+			</data>
+		</dict>
 		<key>Result.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1367,7 +1393,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2P6ejn6veDOaDhELppMEGJ4h1Nkp7ArOyahqmpIBYpQ=
+			UBHzZ+rcjxF/PryH9wjZ6I4S9c8yFSBgK65rDfS8F54=
 			</data>
 		</dict>
 		<key>RetryService.storyboardc/Info.plist</key>
@@ -1409,7 +1435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			su8W1VvZrfTdsi8lr1cwdG6iQ9Xpsztesscr3x054Ck=
+			LO9VZvT8mSdfT+sg93bo9UxbEaYkmnlBFqtG6BIWqmo=
 			</data>
 		</dict>
 		<key>SelectCountryQPickedFilesTableViewCell.nib</key>
@@ -1494,6 +1520,13 @@
 			<key>hash2</key>
 			<data>
 			jehzdJ0zT8Mc4Pm5y0e7DuJmq2HIYgK1t45CMXbJUDM=
+			</data>
+		</dict>
+		<key>ShuftiDropDownCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X4Pyk6O5K6XoaVvf/kjQOs3Z5w1jD/sCZXVT1gZ2gT4=
 			</data>
 		</dict>
 		<key>SpoofGPS.storyboardc/Info.plist</key>

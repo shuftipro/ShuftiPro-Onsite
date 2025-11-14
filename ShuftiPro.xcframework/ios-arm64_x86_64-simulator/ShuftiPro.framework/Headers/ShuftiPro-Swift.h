@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
+@import AVKit;
 @import CoreFoundation;
 @import CoreLocation;
 @import CoreMedia;
@@ -376,12 +377,6 @@ SWIFT_CLASS("_TtC9ShuftiPro23AlertLabelManualCapture")
 @interface AlertLabelManualCapture : InsetsLabel
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9ShuftiPro10AnchorView_")
-@protocol AnchorView
-@property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
 
 
@@ -597,102 +592,6 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
-SWIFT_CLASS("_TtC9ShuftiPro20ShuftiExtendedUIView")
-@interface ShuftiExtendedUIView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIColor;
-@class UIFont;
-@class NSDictionary;
-@class UIEvent;
-
-SWIFT_CLASS("_TtC9ShuftiPro8DropDown")
-@interface DropDown : ShuftiExtendedUIView <UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic) CGFloat cellHeight;
-@property (nonatomic, strong) UIColor * _Nullable backgroundColor;
-/// The background color of the selected cell in the drop down.
-/// Changing the background color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull selectionBackgroundColor;
-/// The separator color between cells.
-/// Changing the separator color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull separatorColor;
-/// The corner radius of DropDown.
-/// Changing the corner radius automatically reloads the drop down.
-@property (nonatomic) CGFloat cornerRadius;
-/// Alias method for <code>cornerRadius</code> variable to avoid ambiguity.
-- (void)setupCornerRadius:(CGFloat)radius;
-/// The masked corners of DropDown.
-/// Changing the masked corners automatically reloads the drop down.
-- (void)setupMaskedCorners:(CACornerMask)cornerMask SWIFT_AVAILABILITY(ios,introduced=11.0);
-/// The color of the shadow.
-/// Changing the shadow color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull shadowColor;
-/// The offset of the shadow.
-/// Changing the shadow color automatically reloads the drop down.
-@property (nonatomic) CGSize shadowOffset;
-/// The opacity of the shadow.
-/// Changing the shadow opacity automatically reloads the drop down.
-@property (nonatomic) float shadowOpacity;
-/// The radius of the shadow.
-/// Changing the shadow radius automatically reloads the drop down.
-@property (nonatomic) CGFloat shadowRadius;
-/// The duration of the show/hide animation.
-@property (nonatomic) double animationduration;
-/// The color of the text for each cells of the drop down.
-/// Changing the text color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull textColor;
-/// The color of the text for selected cells of the drop down.
-/// Changing the text color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull selectedTextColor;
-/// The font of the text for each cells of the drop down.
-/// Changing the text font automatically reloads the drop down.
-@property (nonatomic, strong) UIFont * _Nonnull textFont;
-/// Creates a new instance of a drop down.
-/// Don’t forget to setup the <code>dataSource</code>,
-/// the <code>anchorView</code> and the <code>selectionAction</code>
-/// at least before calling <code>show()</code>.
-- (nonnull instancetype)init;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)updateConstraints;
-- (void)layoutSubviews;
-/// An Objective-C alias for the show() method which converts the returned tuple into an NSDictionary.
-///
-/// returns:
-/// An NSDictionary with a value for the “canBeDisplayed” Bool, and possibly for the “offScreenHeight” Optional(CGFloat).
-- (NSDictionary * _Nonnull)show SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)accessibilityPerformEscape SWIFT_WARN_UNUSED_RESULT;
-- (void)selectRow:(NSInteger)index scrollPosition:(enum UITableViewScrollPosition)scrollPosition;
-- (void)clearSelection;
-- (void)deselectRow:(NSInteger)index;
-@property (nonatomic, readonly, strong) NSIndexPath * _Nullable indexPathForSelectedRow;
-- (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)_ willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
-/// Starts listening to keyboard events.
-/// Allows the drop down to display correctly when keyboard is showed.
-+ (void)startListeningToKeyboard;
-@end
-
-
-
-SWIFT_CLASS("_TtC9ShuftiPro12DropDownCell")
-@interface DropDownCell : UITableViewCell
-@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel;
-- (void)awakeFromNib;
-@property (nonatomic, getter=isSelected) BOOL selected;
-@property (nonatomic, getter=isHighlighted) BOOL highlighted;
-- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC9ShuftiPro27DropDownSelectTableViewCell")
@@ -1102,6 +1001,38 @@ SWIFT_CLASS("_TtC9ShuftiPro21MFAHelpViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC9ShuftiPro33MFASupportedChannelViewController")
+@interface MFASupportedChannelViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified whatsappView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified smsView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified whatsappProceedView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified smsProceedView;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified whatsappLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified smsLabel;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified whatsappImg;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified smsImg;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified lblTitle;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified lblPhone;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified whatsappArrowImg;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified smsArrowImg;
+@property (nonatomic, copy) IBOutletCollection(UIView) NSArray<UIView *> * _Null_unspecified innerViews;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topConstraint;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified topStack;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)presentGeneralAlertInternetIssue;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
+- (void)internetConnectedAgain;
+- (IBAction)whatsappBtnPressed:(id _Nonnull)_;
+- (IBAction)smsBtnPressed:(id _Nonnull)_;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC9ShuftiPro37MultiSelectedFilterCollectionViewCell")
@@ -1530,6 +1461,15 @@ SWIFT_CLASS("_TtC9ShuftiPro29PickedFilesCollectionViewCell")
 @end
 
 
+SWIFT_CLASS("_TtC9ShuftiPro30PortraitAVPlayerViewController")
+@interface PortraitAVPlayerViewController : AVPlayerViewController
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro23PortraitAlertController")
 @interface PortraitAlertController : UIAlertController
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
@@ -1586,6 +1526,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26ProfileDetailTableViewCell")
 @end
 
 @class UITouch;
+@class UIEvent;
 
 SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 @interface ProofCapturingViewController : UIViewController
@@ -1878,6 +1819,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24RangeSelectTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIColor;
 
 SWIFT_CLASS("_TtC9ShuftiPro21RectangularDashedView")
 @interface RectangularDashedView : UIView
@@ -2041,6 +1983,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26SelectCountryTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class ShuftiExtendedUIView;
 
 SWIFT_CLASS("_TtC9ShuftiPro27SelectCountryViewController")
 @interface SelectCountryViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
@@ -2050,13 +1993,14 @@ SWIFT_CLASS("_TtC9ShuftiPro27SelectCountryViewController")
 @property (nonatomic, strong) IBOutlet UIStackView * _Null_unspecified topStack;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified headingTopSpace;
+@property (nonatomic, weak) IBOutlet ShuftiExtendedUIView * _Null_unspecified swipeDownView;
+@property (nonatomic, weak) IBOutlet ShuftiExtendedUIView * _Null_unspecified gestureLineView;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)viewDidAppear:(BOOL)_;
-- (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)_;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
@@ -2199,6 +2143,105 @@ SWIFT_CLASS("_TtC9ShuftiPro6Shufti")
 @end
 
 
+SWIFT_PROTOCOL("_TtP9ShuftiPro16ShuftiAnchorView_")
+@protocol ShuftiAnchorView
+@property (nonatomic, readonly, strong) UIView * _Nonnull shuftiPlainView;
+@end
+
+
+SWIFT_CLASS("_TtC9ShuftiPro20ShuftiExtendedUIView")
+@interface ShuftiExtendedUIView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIFont;
+
+SWIFT_CLASS("_TtC9ShuftiPro14ShuftiDropDown")
+@interface ShuftiDropDown : ShuftiExtendedUIView <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic) CGFloat cellHeight;
+@property (nonatomic, strong) UIColor * _Nullable backgroundColor;
+/// The background color of the selected cell in the drop down.
+/// Changing the background color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull selectionBackgroundColor;
+/// The separator color between cells.
+/// Changing the separator color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull separatorColor;
+/// The corner radius of DropDown.
+/// Changing the corner radius automatically reloads the drop down.
+@property (nonatomic) CGFloat cornerRadius;
+/// Alias method for <code>cornerRadius</code> variable to avoid ambiguity.
+- (void)setupCornerRadius:(CGFloat)radius;
+/// The masked corners of DropDown.
+/// Changing the masked corners automatically reloads the drop down.
+- (void)setupMaskedCorners:(CACornerMask)cornerMask SWIFT_AVAILABILITY(ios,introduced=11.0);
+/// The color of the shadow.
+/// Changing the shadow color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull shadowColor;
+/// The offset of the shadow.
+/// Changing the shadow color automatically reloads the drop down.
+@property (nonatomic) CGSize shadowOffset;
+/// The opacity of the shadow.
+/// Changing the shadow opacity automatically reloads the drop down.
+@property (nonatomic) float shadowOpacity;
+/// The radius of the shadow.
+/// Changing the shadow radius automatically reloads the drop down.
+@property (nonatomic) CGFloat shadowRadius;
+/// The duration of the show/hide animation.
+@property (nonatomic) double animationduration;
+/// The color of the text for each cells of the drop down.
+/// Changing the text color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull textColor;
+/// The color of the text for selected cells of the drop down.
+/// Changing the text color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull selectedTextColor;
+/// The font of the text for each cells of the drop down.
+/// Changing the text font automatically reloads the drop down.
+@property (nonatomic, strong) UIFont * _Nonnull textFont;
+/// Creates a new instance of a drop down.
+/// Don’t forget to setup the <code>dataSource</code>,
+/// the <code>anchorView</code> and the <code>selectionAction</code>
+/// at least before calling <code>show()</code>.
+- (nonnull instancetype)init;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)updateConstraints;
+- (void)layoutSubviews;
+/// An Objective-C alias for the show() method which converts the returned tuple into an NSDictionary.
+///
+/// returns:
+/// An NSDictionary with a value for the “canBeDisplayed” Bool, and possibly for the “offScreenHeight” Optional(CGFloat).
+- (NSDictionary * _Nonnull)show SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)accessibilityPerformEscape SWIFT_WARN_UNUSED_RESULT;
+- (void)selectRow:(NSInteger)index scrollPosition:(enum UITableViewScrollPosition)scrollPosition;
+- (void)clearSelection;
+- (void)deselectRow:(NSInteger)index;
+@property (nonatomic, readonly, strong) NSIndexPath * _Nullable indexPathForSelectedRow;
+- (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)_ willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+/// Starts listening to keyboard events.
+/// Allows the drop down to display correctly when keyboard is showed.
++ (void)startListeningToKeyboard;
+@end
+
+
+
+SWIFT_CLASS("_TtC9ShuftiPro18ShuftiDropDownCell")
+@interface ShuftiDropDownCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel;
+- (void)awakeFromNib;
+@property (nonatomic, getter=isSelected) BOOL selected;
+@property (nonatomic, getter=isHighlighted) BOOL highlighted;
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro22ShuftiExtendedUIButton")
 @interface ShuftiExtendedUIButton : UIButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -2237,7 +2280,7 @@ SWIFT_CLASS("_TtC9ShuftiPro15ShuftiProRouter")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, SocketEnginePacketType, open) {
+typedef SWIFT_ENUM(NSInteger, SocketEnginePacketType, closed) {
   SocketEnginePacketTypeOpen = 0,
   SocketEnginePacketTypeClose = 1,
   SocketEnginePacketTypePing = 2,
@@ -2452,8 +2495,8 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
-@interface UIBarButtonItem (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
-@property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
+@interface UIBarButtonItem (SWIFT_EXTENSION(ShuftiPro)) <ShuftiAnchorView>
+@property (nonatomic, readonly, strong) UIView * _Nonnull shuftiPlainView;
 @end
 
 
@@ -2476,11 +2519,15 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
-@interface UIView (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
-@property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
+@interface UIView (SWIFT_EXTENSION(ShuftiPro)) <ShuftiAnchorView>
+@property (nonatomic, readonly, strong) UIView * _Nonnull shuftiPlainView;
 @end
 
 
+
+@interface UIViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)dismissAlert:(UIButton * _Nonnull)sender;
+@end
 
 
 
@@ -2590,11 +2637,11 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @end
 
 
-
 @interface UploadProofViewController (SWIFT_EXTENSION(ShuftiPro)) <UIDocumentPickerDelegate>
 - (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)_ didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
 - (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)_;
 @end
+
 
 
 @interface UploadProofViewController (SWIFT_EXTENSION(ShuftiPro)) <UIImagePickerControllerDelegate>
@@ -3119,6 +3166,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
+@import AVKit;
 @import CoreFoundation;
 @import CoreLocation;
 @import CoreMedia;
@@ -3214,12 +3262,6 @@ SWIFT_CLASS("_TtC9ShuftiPro23AlertLabelManualCapture")
 @interface AlertLabelManualCapture : InsetsLabel
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9ShuftiPro10AnchorView_")
-@protocol AnchorView
-@property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
 
 
@@ -3435,102 +3477,6 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
-SWIFT_CLASS("_TtC9ShuftiPro20ShuftiExtendedUIView")
-@interface ShuftiExtendedUIView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIColor;
-@class UIFont;
-@class NSDictionary;
-@class UIEvent;
-
-SWIFT_CLASS("_TtC9ShuftiPro8DropDown")
-@interface DropDown : ShuftiExtendedUIView <UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic) CGFloat cellHeight;
-@property (nonatomic, strong) UIColor * _Nullable backgroundColor;
-/// The background color of the selected cell in the drop down.
-/// Changing the background color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull selectionBackgroundColor;
-/// The separator color between cells.
-/// Changing the separator color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull separatorColor;
-/// The corner radius of DropDown.
-/// Changing the corner radius automatically reloads the drop down.
-@property (nonatomic) CGFloat cornerRadius;
-/// Alias method for <code>cornerRadius</code> variable to avoid ambiguity.
-- (void)setupCornerRadius:(CGFloat)radius;
-/// The masked corners of DropDown.
-/// Changing the masked corners automatically reloads the drop down.
-- (void)setupMaskedCorners:(CACornerMask)cornerMask SWIFT_AVAILABILITY(ios,introduced=11.0);
-/// The color of the shadow.
-/// Changing the shadow color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull shadowColor;
-/// The offset of the shadow.
-/// Changing the shadow color automatically reloads the drop down.
-@property (nonatomic) CGSize shadowOffset;
-/// The opacity of the shadow.
-/// Changing the shadow opacity automatically reloads the drop down.
-@property (nonatomic) float shadowOpacity;
-/// The radius of the shadow.
-/// Changing the shadow radius automatically reloads the drop down.
-@property (nonatomic) CGFloat shadowRadius;
-/// The duration of the show/hide animation.
-@property (nonatomic) double animationduration;
-/// The color of the text for each cells of the drop down.
-/// Changing the text color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull textColor;
-/// The color of the text for selected cells of the drop down.
-/// Changing the text color automatically reloads the drop down.
-@property (nonatomic, strong) UIColor * _Nonnull selectedTextColor;
-/// The font of the text for each cells of the drop down.
-/// Changing the text font automatically reloads the drop down.
-@property (nonatomic, strong) UIFont * _Nonnull textFont;
-/// Creates a new instance of a drop down.
-/// Don’t forget to setup the <code>dataSource</code>,
-/// the <code>anchorView</code> and the <code>selectionAction</code>
-/// at least before calling <code>show()</code>.
-- (nonnull instancetype)init;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)updateConstraints;
-- (void)layoutSubviews;
-/// An Objective-C alias for the show() method which converts the returned tuple into an NSDictionary.
-///
-/// returns:
-/// An NSDictionary with a value for the “canBeDisplayed” Bool, and possibly for the “offScreenHeight” Optional(CGFloat).
-- (NSDictionary * _Nonnull)show SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)accessibilityPerformEscape SWIFT_WARN_UNUSED_RESULT;
-- (void)selectRow:(NSInteger)index scrollPosition:(enum UITableViewScrollPosition)scrollPosition;
-- (void)clearSelection;
-- (void)deselectRow:(NSInteger)index;
-@property (nonatomic, readonly, strong) NSIndexPath * _Nullable indexPathForSelectedRow;
-- (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)_ willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
-/// Starts listening to keyboard events.
-/// Allows the drop down to display correctly when keyboard is showed.
-+ (void)startListeningToKeyboard;
-@end
-
-
-
-SWIFT_CLASS("_TtC9ShuftiPro12DropDownCell")
-@interface DropDownCell : UITableViewCell
-@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel;
-- (void)awakeFromNib;
-@property (nonatomic, getter=isSelected) BOOL selected;
-@property (nonatomic, getter=isHighlighted) BOOL highlighted;
-- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC9ShuftiPro27DropDownSelectTableViewCell")
@@ -3940,6 +3886,38 @@ SWIFT_CLASS("_TtC9ShuftiPro21MFAHelpViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC9ShuftiPro33MFASupportedChannelViewController")
+@interface MFASupportedChannelViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified whatsappView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified smsView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified whatsappProceedView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified smsProceedView;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified whatsappLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified smsLabel;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified whatsappImg;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified smsImg;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified lblTitle;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified lblPhone;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified whatsappArrowImg;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified smsArrowImg;
+@property (nonatomic, copy) IBOutletCollection(UIView) NSArray<UIView *> * _Null_unspecified innerViews;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topConstraint;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified topStack;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)presentGeneralAlertInternetIssue;
+- (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
+- (void)internetConnectedAgain;
+- (IBAction)whatsappBtnPressed:(id _Nonnull)_;
+- (IBAction)smsBtnPressed:(id _Nonnull)_;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC9ShuftiPro37MultiSelectedFilterCollectionViewCell")
@@ -4368,6 +4346,15 @@ SWIFT_CLASS("_TtC9ShuftiPro29PickedFilesCollectionViewCell")
 @end
 
 
+SWIFT_CLASS("_TtC9ShuftiPro30PortraitAVPlayerViewController")
+@interface PortraitAVPlayerViewController : AVPlayerViewController
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro23PortraitAlertController")
 @interface PortraitAlertController : UIAlertController
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
@@ -4424,6 +4411,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26ProfileDetailTableViewCell")
 @end
 
 @class UITouch;
+@class UIEvent;
 
 SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 @interface ProofCapturingViewController : UIViewController
@@ -4716,6 +4704,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24RangeSelectTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIColor;
 
 SWIFT_CLASS("_TtC9ShuftiPro21RectangularDashedView")
 @interface RectangularDashedView : UIView
@@ -4879,6 +4868,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26SelectCountryTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class ShuftiExtendedUIView;
 
 SWIFT_CLASS("_TtC9ShuftiPro27SelectCountryViewController")
 @interface SelectCountryViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
@@ -4888,13 +4878,14 @@ SWIFT_CLASS("_TtC9ShuftiPro27SelectCountryViewController")
 @property (nonatomic, strong) IBOutlet UIStackView * _Null_unspecified topStack;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified headingTopSpace;
+@property (nonatomic, weak) IBOutlet ShuftiExtendedUIView * _Null_unspecified swipeDownView;
+@property (nonatomic, weak) IBOutlet ShuftiExtendedUIView * _Null_unspecified gestureLineView;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)viewDidAppear:(BOOL)_;
-- (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)_;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
@@ -5037,6 +5028,105 @@ SWIFT_CLASS("_TtC9ShuftiPro6Shufti")
 @end
 
 
+SWIFT_PROTOCOL("_TtP9ShuftiPro16ShuftiAnchorView_")
+@protocol ShuftiAnchorView
+@property (nonatomic, readonly, strong) UIView * _Nonnull shuftiPlainView;
+@end
+
+
+SWIFT_CLASS("_TtC9ShuftiPro20ShuftiExtendedUIView")
+@interface ShuftiExtendedUIView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIFont;
+
+SWIFT_CLASS("_TtC9ShuftiPro14ShuftiDropDown")
+@interface ShuftiDropDown : ShuftiExtendedUIView <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic) CGFloat cellHeight;
+@property (nonatomic, strong) UIColor * _Nullable backgroundColor;
+/// The background color of the selected cell in the drop down.
+/// Changing the background color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull selectionBackgroundColor;
+/// The separator color between cells.
+/// Changing the separator color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull separatorColor;
+/// The corner radius of DropDown.
+/// Changing the corner radius automatically reloads the drop down.
+@property (nonatomic) CGFloat cornerRadius;
+/// Alias method for <code>cornerRadius</code> variable to avoid ambiguity.
+- (void)setupCornerRadius:(CGFloat)radius;
+/// The masked corners of DropDown.
+/// Changing the masked corners automatically reloads the drop down.
+- (void)setupMaskedCorners:(CACornerMask)cornerMask SWIFT_AVAILABILITY(ios,introduced=11.0);
+/// The color of the shadow.
+/// Changing the shadow color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull shadowColor;
+/// The offset of the shadow.
+/// Changing the shadow color automatically reloads the drop down.
+@property (nonatomic) CGSize shadowOffset;
+/// The opacity of the shadow.
+/// Changing the shadow opacity automatically reloads the drop down.
+@property (nonatomic) float shadowOpacity;
+/// The radius of the shadow.
+/// Changing the shadow radius automatically reloads the drop down.
+@property (nonatomic) CGFloat shadowRadius;
+/// The duration of the show/hide animation.
+@property (nonatomic) double animationduration;
+/// The color of the text for each cells of the drop down.
+/// Changing the text color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull textColor;
+/// The color of the text for selected cells of the drop down.
+/// Changing the text color automatically reloads the drop down.
+@property (nonatomic, strong) UIColor * _Nonnull selectedTextColor;
+/// The font of the text for each cells of the drop down.
+/// Changing the text font automatically reloads the drop down.
+@property (nonatomic, strong) UIFont * _Nonnull textFont;
+/// Creates a new instance of a drop down.
+/// Don’t forget to setup the <code>dataSource</code>,
+/// the <code>anchorView</code> and the <code>selectionAction</code>
+/// at least before calling <code>show()</code>.
+- (nonnull instancetype)init;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)updateConstraints;
+- (void)layoutSubviews;
+/// An Objective-C alias for the show() method which converts the returned tuple into an NSDictionary.
+///
+/// returns:
+/// An NSDictionary with a value for the “canBeDisplayed” Bool, and possibly for the “offScreenHeight” Optional(CGFloat).
+- (NSDictionary * _Nonnull)show SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)accessibilityPerformEscape SWIFT_WARN_UNUSED_RESULT;
+- (void)selectRow:(NSInteger)index scrollPosition:(enum UITableViewScrollPosition)scrollPosition;
+- (void)clearSelection;
+- (void)deselectRow:(NSInteger)index;
+@property (nonatomic, readonly, strong) NSIndexPath * _Nullable indexPathForSelectedRow;
+- (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)_ willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+/// Starts listening to keyboard events.
+/// Allows the drop down to display correctly when keyboard is showed.
++ (void)startListeningToKeyboard;
+@end
+
+
+
+SWIFT_CLASS("_TtC9ShuftiPro18ShuftiDropDownCell")
+@interface ShuftiDropDownCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel;
+- (void)awakeFromNib;
+@property (nonatomic, getter=isSelected) BOOL selected;
+@property (nonatomic, getter=isHighlighted) BOOL highlighted;
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9ShuftiPro22ShuftiExtendedUIButton")
 @interface ShuftiExtendedUIButton : UIButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -5075,7 +5165,7 @@ SWIFT_CLASS("_TtC9ShuftiPro15ShuftiProRouter")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, SocketEnginePacketType, open) {
+typedef SWIFT_ENUM(NSInteger, SocketEnginePacketType, closed) {
   SocketEnginePacketTypeOpen = 0,
   SocketEnginePacketTypeClose = 1,
   SocketEnginePacketTypePing = 2,
@@ -5290,8 +5380,8 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
-@interface UIBarButtonItem (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
-@property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
+@interface UIBarButtonItem (SWIFT_EXTENSION(ShuftiPro)) <ShuftiAnchorView>
+@property (nonatomic, readonly, strong) UIView * _Nonnull shuftiPlainView;
 @end
 
 
@@ -5314,11 +5404,15 @@ SWIFT_CLASS("_TtC9ShuftiPro12TriangleView")
 
 
 
-@interface UIView (SWIFT_EXTENSION(ShuftiPro)) <AnchorView>
-@property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
+@interface UIView (SWIFT_EXTENSION(ShuftiPro)) <ShuftiAnchorView>
+@property (nonatomic, readonly, strong) UIView * _Nonnull shuftiPlainView;
 @end
 
 
+
+@interface UIViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)dismissAlert:(UIButton * _Nonnull)sender;
+@end
 
 
 
@@ -5428,11 +5522,11 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @end
 
 
-
 @interface UploadProofViewController (SWIFT_EXTENSION(ShuftiPro)) <UIDocumentPickerDelegate>
 - (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)_ didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
 - (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)_;
 @end
+
 
 
 @interface UploadProofViewController (SWIFT_EXTENSION(ShuftiPro)) <UIImagePickerControllerDelegate>
