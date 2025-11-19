@@ -5261,7 +5261,7 @@
       "kind": "StringLiteral",
       "offset": 703,
       "length": 8,
-      "value": "\"1.3.34\""
+      "value": "\"1.3.35\""
     },
     {
       "filePath": "\/Users\/emantahir\/Downloads\/ios-onsite-sdk-fcadea5240b6-Address_Verification_with_GPS\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -6232,7 +6232,7 @@
     {
       "filePath": "\/Users\/emantahir\/Downloads\/ios-onsite-sdk-fcadea5240b6-Address_Verification_with_GPS\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 45728,
+      "offset": 45678,
       "length": 3,
       "value": "0.0"
     },
@@ -6960,21 +6960,21 @@
     {
       "filePath": "\/Users\/emantahir\/Downloads\/ios-onsite-sdk-fcadea5240b6-Address_Verification_with_GPS\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14424,
+      "offset": 14738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emantahir\/Downloads\/ios-onsite-sdk-fcadea5240b6-Address_Verification_with_GPS\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 26687,
+      "offset": 27001,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emantahir\/Downloads\/ios-onsite-sdk-fcadea5240b6-Address_Verification_with_GPS\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 36662,
+      "offset": 36976,
       "length": 2,
       "value": "10"
     },
