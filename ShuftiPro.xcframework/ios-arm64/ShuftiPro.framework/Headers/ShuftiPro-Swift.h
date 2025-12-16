@@ -1478,11 +1478,14 @@ SWIFT_CLASS("_TtC9ShuftiPro23PortraitAlertController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIGestureRecognizer;
 
 SWIFT_CLASS("_TtC9ShuftiPro28PortraitNavigationController")
-@interface PortraitNavigationController : UINavigationController
+@interface PortraitNavigationController : UINavigationController <UIGestureRecognizerDelegate>
+- (void)viewDidLoad;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
 @property (nonatomic, readonly) BOOL shouldAutorotate;
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer * _Nonnull)gestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=5.0);
 - (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -2648,7 +2651,6 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
 
-@class UIGestureRecognizer;
 
 SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 @interface UserConsentTakingViewController : UIViewController <UIGestureRecognizerDelegate, UITextViewDelegate>
