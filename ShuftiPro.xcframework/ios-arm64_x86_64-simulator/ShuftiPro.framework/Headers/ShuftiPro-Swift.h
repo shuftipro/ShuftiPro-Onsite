@@ -588,6 +588,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)_ cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)_ heightForRowAtIndexPath:(NSIndexPath * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)textView:(UITextView * _Nonnull)_ shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)_ interaction:(UITextItemInteraction)_ SWIFT_WARN_UNUSED_RESULT;
+- (void)presentGeneralAlertInternetIssue;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1429,10 +1430,13 @@ SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified hintIcon;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topStackTopConstraint;
 @property (nonatomic, weak) IBOutlet ShuftiExtendedUIStackView * _Null_unspecified topStackView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified instWarnView;
+@property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified instWarnLabel;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
+- (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (IBAction)buttonHintAction:(id _Nonnull)_;
 - (IBAction)sendCode:(id _Nonnull)_;
@@ -1861,6 +1865,7 @@ SWIFT_CLASS("_TtC9ShuftiPro20ResultViewController")
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
+- (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)updateScreenOnInternetError;
 - (void)internetConnectedAgain;
@@ -2696,12 +2701,19 @@ SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG2;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG3;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG4;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG5;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified headerLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified subHeaderLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel1;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel2;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel3;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel4;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel5;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView1;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView2;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView3;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView4;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView5;
 @property (nonatomic, strong) IBOutlet LoadingButton * _Null_unspecified submitBtn;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified crossImage;
 @property (nonatomic, strong) IBOutlet UIScrollView * _Null_unspecified scrollview;
@@ -2733,6 +2745,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 - (IBAction)btn1Pressed:(id _Nonnull)_;
 - (IBAction)btn2Pressed:(id _Nonnull)_;
 - (IBAction)btn3Pressed:(id _Nonnull)_;
+- (IBAction)btn4Pressed:(id _Nonnull)_;
 - (IBAction)otherBtnPressed:(id _Nonnull)_;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (IBAction)submitBtnPressed:(id _Nonnull)_;
@@ -2859,6 +2872,8 @@ SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified helpLabel;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topStackTopConstraint;
 @property (nonatomic, weak) IBOutlet ShuftiExtendedUIStackView * _Null_unspecified topStackView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified instWarnView;
+@property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified instWarnLabel;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)timerChangeautoCountdown;
@@ -2869,6 +2884,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
+- (void)presentGeneralAlertInternetIssue;
 - (void)mainViewTap:(UITapGestureRecognizer * _Nullable)_;
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)_ replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
@@ -3475,6 +3491,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)_ cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)_ heightForRowAtIndexPath:(NSIndexPath * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)textView:(UITextView * _Nonnull)_ shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)_ interaction:(UITextItemInteraction)_ SWIFT_WARN_UNUSED_RESULT;
+- (void)presentGeneralAlertInternetIssue;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -4316,10 +4333,13 @@ SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified hintIcon;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topStackTopConstraint;
 @property (nonatomic, weak) IBOutlet ShuftiExtendedUIStackView * _Null_unspecified topStackView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified instWarnView;
+@property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified instWarnLabel;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
+- (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (IBAction)buttonHintAction:(id _Nonnull)_;
 - (IBAction)sendCode:(id _Nonnull)_;
@@ -4748,6 +4768,7 @@ SWIFT_CLASS("_TtC9ShuftiPro20ResultViewController")
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
+- (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)updateScreenOnInternetError;
 - (void)internetConnectedAgain;
@@ -5583,12 +5604,19 @@ SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG2;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG3;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG4;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified radioIMG5;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified headerLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified subHeaderLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel1;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel2;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel3;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel4;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified optionLabel5;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView1;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView2;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView3;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView4;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified optionView5;
 @property (nonatomic, strong) IBOutlet LoadingButton * _Null_unspecified submitBtn;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified crossImage;
 @property (nonatomic, strong) IBOutlet UIScrollView * _Null_unspecified scrollview;
@@ -5620,6 +5648,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 - (IBAction)btn1Pressed:(id _Nonnull)_;
 - (IBAction)btn2Pressed:(id _Nonnull)_;
 - (IBAction)btn3Pressed:(id _Nonnull)_;
+- (IBAction)btn4Pressed:(id _Nonnull)_;
 - (IBAction)otherBtnPressed:(id _Nonnull)_;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (IBAction)submitBtnPressed:(id _Nonnull)_;
@@ -5746,6 +5775,8 @@ SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified helpLabel;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topStackTopConstraint;
 @property (nonatomic, weak) IBOutlet ShuftiExtendedUIStackView * _Null_unspecified topStackView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified instWarnView;
+@property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified instWarnLabel;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)timerChangeautoCountdown;
@@ -5756,6 +5787,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
+- (void)presentGeneralAlertInternetIssue;
 - (void)mainViewTap:(UITapGestureRecognizer * _Nullable)_;
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)_ replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;

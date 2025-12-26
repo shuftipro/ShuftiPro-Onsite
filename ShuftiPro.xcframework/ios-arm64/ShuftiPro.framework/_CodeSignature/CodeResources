@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		psKD0YyW0CdUIKhy4jiJxWWtMuQ=
+		9O1u8mGbbv1zBHSI6EUoECWDnHc=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Vb+JmuMpMvS92ufgz7Do3ucwyrg=
+		9FoEariEcc377LV6LbZ2z18/hEs=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		88IppDL3OmnyC6iJFZq+CJ2mwS0=
+		MNBYzTTtZYnw2mQ5X766UtDfZFc=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pbObTlMpCAQ9lVYsKzq7Zj0bmi0=
+		f4qKMbFzh9NWMGe7IXODKGLrK1w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -326,7 +326,7 @@
 		</data>
 		<key>PhoneEmailInput.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		Fa8jHcerZ/iL3dgjoDjbf1YAadc=
+		fup1wKRd+RYKsNP0MAxdenuIUGU=
 		</data>
 		<key>PickedFilesCollectionViewCell.nib</key>
 		<data>
@@ -390,7 +390,7 @@
 		</data>
 		<key>ResponseObject.json</key>
 		<data>
-		u3tPYqgTda5IDNclIQiwgYlGKBc=
+		C+lP7dAHSxVX/5gphB52PtAlwq4=
 		</data>
 		<key>Result.storyboardc/Info.plist</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>UserFeedBack.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		Ee+nP1KatEJD3hymUL61NftQjjs=
+		hYRZa6dOlOdpeOyvZGr8WiwB7KU=
 		</data>
 		<key>VerificationRequirements.storyboardc/Info.plist</key>
 		<data>
@@ -610,7 +610,7 @@
 		</data>
 		<key>VerifyCode.storyboardc/yNj-G0-2LL-view-E8v-Hc-GEB.nib</key>
 		<data>
-		+2X78mtQxtVsVoa2m9tyjN5Ik7U=
+		oqyPJnvSCKdCjBRuJBnbk4WpoM4=
 		</data>
 		<key>backSideGif.gif</key>
 		<data>
@@ -952,7 +952,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pf8Oar7rHOVXsTSU3OCoyV9vfOiBlUw6DifhMp1bjlw=
+			eYrjOB80dpNq8Z6ZntEB6ynKY4TYOfLJLpy1h5QqmC4=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1071,7 +1071,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPKWpW9jpguo6MgNts0UBzaxklfyMqiy+6SpUpGdy2k=
+			XfMJE1UEu9JpvWVUUWrHIKhDrEm0l+b8sCJBPEgr6iQ=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1099,7 +1099,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0XVpE6+1sIWTsRz9cfEGObmGDPPazRsmm/HmRfdhJ8s=
+			gquPI8R50NPozbF3DjZtnMwqZwRS7Z+i5bLYhk7A6Wg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1260,7 +1260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ssHDFcdQFRR1LMjMWuyw+6444v5z8datsOiKP/CutRo=
+			+RgtT6XNWKEyEKoO/c2ELKvWseJji7ZBuD38+YHAQ7E=
 			</data>
 		</dict>
 		<key>PickedFilesCollectionViewCell.nib</key>
@@ -1372,7 +1372,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Loaj+u1W8QbbhVVwXM6CQdJebFE8PxPOkQzMidnfzs=
+			ePs3D7s/XjYbzaQs6SyCcaWlba/0rOdqc9BTsZCxdgI=
 			</data>
 		</dict>
 		<key>Result.storyboardc/Info.plist</key>
@@ -1701,7 +1701,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VlN4tALr2+aURzlGL6Trel6y0VOrMK+AeYbfLokGh90=
+			YZpZRU1X5scfEhKKthIqjmdhr/ouUYNXGeIDeobux9I=
 			</data>
 		</dict>
 		<key>VerificationRequirements.storyboardc/Info.plist</key>
@@ -1757,7 +1757,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BeG3qfntgAJxeD85+x6C6TF3N4zIC3p5jXBSqAEGHng=
+			h9SsUH4glnVGQYJjzEOiB3yFEXma2vnLrqFQckinbEU=
 			</data>
 		</dict>
 		<key>backSideGif.gif</key>

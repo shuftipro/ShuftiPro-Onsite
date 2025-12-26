@@ -166,13 +166,25 @@
                 "translation": "Face"
             },
             {
-                           "phrase_id": "7626",
-                           "translation": "Verification Declined"
-                       },
+                "phrase_id": "7626",
+                "translation": "Verification Declined"
+            },
             {
-                            "phrase_id": "3725",
-                            "translation": "Something went wrong"
-                        },
+                "phrase_id": "3725",
+                "translation": "Something went wrong"
+            },
+            {
+                "phrase_id": "7655",
+                "translation": "The verification process has been completed. Shufti Pro values your privacy and acknowledges your right to access, correct, or request deletion of your data at any time. You can review our"
+            },
+            {
+                "phrase_id": "7656",
+                "translation": "for assistance."
+            },
+            {
+                "phrase_id": "75",
+                "translation": "Verification Failed"
+            },
         ],
         "allowed_theme": {
             "primaryBtnStyles": {
