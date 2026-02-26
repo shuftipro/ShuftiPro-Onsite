@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		/dXBGPPoqCdMFKPi8NCNpXpmFcI=
+		hMZHlG9aybnvfzFd2DG8un97zbo=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/rF/JL3FUVw2L4iFekHdIGCVccQ=
+		z47wXWQGQaxrpow+Z728R0UPfsw=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2RedsKdZm15FFLgIJ8sew2lOMsQ=
+		iw2V4pMLRWeGMzNREQ8sLm6GzpA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xYiIIZWSF4JWVHBi/eudadYxodE=
+		Byr1dNXImD8Gzh9XRj6HilYomis=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -964,7 +964,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D8GEDdpANDs3ljV2XMWzLqT+c/4Jkv1RL53wl6Fxuxo=
+			ZwRNzoGHccuJ0WdRkFBBALK1Nkf87GKohUYC5Xd8qoE=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1083,7 +1083,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUkbBW3ikIc0qG0dz2PRhWnFLFydWibdPsVRjRlJll8=
+			1lS84a3SJwPHEkaiJahKHW1FUNn8yh3osrkAPmtMq1A=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1111,7 +1111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gDiPpaW009Wd0q4mVUvLFgb7i2BiCm2+bHKDO1YZdPE=
+			ocyQv0CMpVXzfiYj2WtVt1hkr77/juCDSvYa3mac+iE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
