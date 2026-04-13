@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wFkLhVa7KbVXCzqvvN4s9tO8yNQ=
+		rmV+BDG6t19tuZ764v6PNwUtBu4=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		VmJt2WkN2p2hHD7SiMOB9otJDPM=
+		gwdKGLwMd9oRbRk98H1DpOH0V2k=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PBbA3J1IZJbLYOEx67WT5oBJP2o=
+		SzIZkPXAn6amF8c21b6uS6fSIxc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1083,7 +1083,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xd7vlN4LeBSebffdJO+hFd/ooYrNOq9QmgYBvRFFz58=
+			Wng8AiZp0cuJjioU1EvqHOrbAW2bZEgoojmQeJXSYGs=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1111,7 +1111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8jW7JCun8xoCNo9iZ7UTIUwCUss9Y0bXWqpIIAnce8s=
+			MfD7KdPdiehr1qtC9z8CYM1GAUJk2HIRKVBgv7njC6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

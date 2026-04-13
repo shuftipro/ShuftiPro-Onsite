@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WGI3N6ZAYdGgnoKk93rlLgSHDOw=
+		pbBIF5sMXW8VpwZwrXR42H2wcWQ=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		F1bwE8R7M1W8Y9KEF0g3WwzlnwA=
+		M+do2nGCKwzww40b0ay1d7irYpA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -234,11 +234,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YgZM+fqK1auMRq9eRoJPjF3LljE=
+		cOC6oY6ARGCg67STJ5EXRGnQ0ZA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		F1bwE8R7M1W8Y9KEF0g3WwzlnwA=
+		M+do2nGCKwzww40b0ay1d7irYpA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AZtj09jSFieMlCWnRZ/S41/s7PI=
+		OB0+dIUDODXbOD/p/5ropCGuL3o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1103,7 +1103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVk7LiAvlrfDQ9U6tm+yENx+yhihc7fct2v6ZKlI7R4=
+			3DKA7e3Bs99Q6B8B9YshDF8FhFMMbeoy0zDLiXLIw0g=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1131,14 +1131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v7uoBumJYM0altyv+4Z3NrVbUnD/r3lCMCgrdTsntyE=
+			GOJh+twdEWDPwriyQ0M1ZZSFXNMmZFnSb5MEC8AhNKs=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVk7LiAvlrfDQ9U6tm+yENx+yhihc7fct2v6ZKlI7R4=
+			3DKA7e3Bs99Q6B8B9YshDF8FhFMMbeoy0zDLiXLIw0g=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1166,7 +1166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GwUzSsY1X0Ao/tp8Vvi36gtyQmRPQ5/P98Mf9jDql+o=
+			ADNAllmQEnwm8VKKZmjUro5M95e913dx8xoYzU/ZPQM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
