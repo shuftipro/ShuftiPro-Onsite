@@ -4884,21 +4884,21 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38007,
+      "offset": 38338,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38873,
+      "offset": 39372,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40246,
+      "offset": 41105,
       "length": 2,
       "value": "\"\""
     },
@@ -5418,7 +5418,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 8,
-      "value": "\"1.3.47\""
+      "value": "\"1.3.48\""
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -7341,21 +7341,21 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16125,
+      "offset": 16270,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 30424,
+      "offset": 30964,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 40577,
+      "offset": 41117,
       "length": 2,
       "value": "10"
     },
@@ -8608,14 +8608,28 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ServiceStausPoolingManager\/PoolingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 691,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ServiceStausPoolingManager\/PoolingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ServiceStausPoolingManager\/PoolingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/Utilities\/ServiceStausPoolingManager\/PoolingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2364,
+      "offset": 2498,
       "length": 2,
       "value": "10"
     },
@@ -8769,56 +8783,56 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 64733,
+      "offset": 65315,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 64890,
+      "offset": 65472,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 65093,
+      "offset": 65675,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 65103,
+      "offset": 65685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 65174,
+      "offset": 65756,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 65258,
+      "offset": 65840,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 65268,
+      "offset": 65850,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 65342,
+      "offset": 65924,
       "length": 1,
       "value": "0"
     },
@@ -9224,182 +9238,189 @@
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1330,
+      "offset": 1331,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1360,
+      "offset": 1466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1397,
+      "offset": 1503,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1445,
+      "offset": 1551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
+      "offset": 1593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "Array",
-      "offset": 1587,
+      "offset": 1693,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1628,
+      "offset": 1734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1671,
+      "offset": 1777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 2453,
+      "offset": 2559,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2502,
+      "offset": 2608,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 2545,
+      "offset": 2651,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2583,
+      "offset": 2689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2631,
+      "offset": 2737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2668,
+      "offset": 2774,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2707,
+      "offset": 2813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2796,
+      "offset": 2902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2845,
+      "offset": 2951,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3110,
+      "offset": 3216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3162,
+      "offset": 3268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3215,
+      "offset": 3321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3259,
+      "offset": 3365,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3320,
+      "offset": 3426,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3382,
+      "offset": 3488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3454,
+      "offset": 3560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3621,
+      "offset": 3727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3713,
+      "offset": 3819,
       "length": 4,
       "value": "true"
     },
