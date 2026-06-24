@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		6ecxB+wZ26SK/6UYpT3mW8AxpiQ=
+		ugACaUmU+SWRS0nqtPst3nutlAs=
 		</data>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		Uo5DWKE68zcanxyrugzrXNw9Ec8=
+		IGCH1zH3uajP9vakL0U431i8X9s=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		95H3etCeWw2rlSvnqYHVFCgWjk4=
+		SKmK4eCyAmq9lXo832PraBpGAzg=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,43 +218,43 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uwRUmgoO9SyDjoiacD4xVNJEr1Y=
+		KcV/axP6va0mgK7bRDk16IWamHE=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OYb1s/HHkZrtGhZkexaLrFYVY6o=
+		+GjedR+A8lb+Qi6lGIsvvIKAdyc=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NKYRooC2qJmdHSNhOZ70tNGnzhs=
+		o0MRv6yY1ipdJ2AEnDbi3tkCPZw=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OYb1s/HHkZrtGhZkexaLrFYVY6o=
+		+GjedR+A8lb+Qi6lGIsvvIKAdyc=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		stfWTt8GqgRDPbDxL5uSmeJ/WAw=
+		CN6JWhzztNH4dqSh4QcHScv7I5A=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uwRUmgoO9SyDjoiacD4xVNJEr1Y=
+		KcV/axP6va0mgK7bRDk16IWamHE=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		v7qDGH/sGpk3xKL4ahZrX+Mqsv0=
+		ORV7UBp6Th4VnLyNM4IvXrDVce4=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R6Ri1Qf0N7yvFefkB3TTOvP1woA=
+		HZIOmNQqlRGxTy+HnbWNgz4D890=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v7qDGH/sGpk3xKL4ahZrX+Mqsv0=
+		ORV7UBp6Th4VnLyNM4IvXrDVce4=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qCchiw1KwTxtoLe1Ufwnxo+8IUE=
+		hrVjUhXQKguPzpiFdZt0Pw/GMrQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -760,7 +760,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vo3TuSiq8njz2sn01cKmha9aRPECeGN6/YbDBx2eGwU=
+			73mp0Whi3eh3hVlgpxxqzZQn5YgvnaDQUBo3xJjQwio=
 			</data>
 		</dict>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
@@ -984,7 +984,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xl09Rt/Aib+4wpOCYnOzgQjUH0Hdzn0NJpCqZBw/Qo=
+			c0YsxgFSdfvuM5QJ7OK66A2T0GAEGJXxaNZlTwr01+M=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1103,70 +1103,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KVaKIFJpRza4Ly+PYjTgNxW4WWTE/91bPqwgTW5FqSE=
+			pw6JdnKEO9qMPQa+7yvIwbCWkwkptbeCb/5zZkNC/Vo=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFvVvtw4iHnxxJyL943u4ZZ/DwTBCWPKHNBTZ43oH2o=
+			XNXzX8klwsp9OHIVKZxbvz9JT4FG3bKdaC5zBlyqvqo=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			39R4hkD/YfdzeqFZR1rqGutvzBIX6U0XTrBgvcbXGfc=
+			tnmPGX000eNz9ApNHrRsmfftF6GsllGBf8Eqswx5ICI=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFvVvtw4iHnxxJyL943u4ZZ/DwTBCWPKHNBTZ43oH2o=
+			XNXzX8klwsp9OHIVKZxbvz9JT4FG3bKdaC5zBlyqvqo=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IxKDn3ee0U8R3iSSi0P972OCsevM7j8addoC8JAEscw=
+			sESFGsabGto1V1pGwNE+9/Ksl+gLjmQUSrBS+jg0l0M=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KVaKIFJpRza4Ly+PYjTgNxW4WWTE/91bPqwgTW5FqSE=
+			pw6JdnKEO9qMPQa+7yvIwbCWkwkptbeCb/5zZkNC/Vo=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tlUncPRRtVBgJSvHuSDKq7YewQ65kwrQGEtweHUVjR0=
+			LDKygTdCoSpqdsYynCVSX3AHpW9qTatRqz3fQUHT7FM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/gERIrj8S82SiH9c6s+xNQro3vz0zntWqp8dRYHuJvA=
+			EDYxqInrwVQjpD2ekfIg9xF6JIfR0+nvJobMFmwzGyM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tlUncPRRtVBgJSvHuSDKq7YewQ65kwrQGEtweHUVjR0=
+			LDKygTdCoSpqdsYynCVSX3AHpW9qTatRqz3fQUHT7FM=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z7htJ4xQOBCb7uNUDaODG6L58vDv+JbNEOw4xkyNZKA=
+			EHHNwJSGQldmGGFm4OiFfOOmiUmQF/hxrHZZ1VJX+b8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
