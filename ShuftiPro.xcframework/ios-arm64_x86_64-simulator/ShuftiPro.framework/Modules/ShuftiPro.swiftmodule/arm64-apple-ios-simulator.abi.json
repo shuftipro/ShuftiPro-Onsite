@@ -5017,35 +5017,35 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 4263,
+      "offset": 4578,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 20334,
+      "offset": 21943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 20915,
+      "offset": 22524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 25436,
+      "offset": 27681,
       "length": 9,
       "value": "\"id_card\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 31813,
+      "offset": 34058,
       "length": 12,
       "value": "\"ocr_inputs\""
     },
@@ -5397,7 +5397,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 8,
-      "value": "\"1.3.54\""
+      "value": "\"1.3.55\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -7320,21 +7320,21 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16270,
+      "offset": 16819,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 30964,
+      "offset": 31513,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 41175,
+      "offset": 42235,
       "length": 2,
       "value": "10"
     },
@@ -9418,6 +9418,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4032,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/MFAHelpView\/Builder\/MFAHelpBuilder.swift",
       "kind": "StringLiteral",
       "offset": 249,
@@ -9714,21 +9721,21 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/Router\/ProofCapturingRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2165,
+      "offset": 2658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/Router\/ProofCapturingRouter.swift",
       "kind": "Array",
-      "offset": 3281,
+      "offset": 3774,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/Router\/ProofCapturingRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3360,
+      "offset": 3853,
       "length": 5,
       "value": "false"
     },

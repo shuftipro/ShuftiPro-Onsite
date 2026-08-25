@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ugACaUmU+SWRS0nqtPst3nutlAs=
+		c42JPD7J2vjNJ978tlfq99qRmh8=
 		</data>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		L4RY0Ay26WzqloVNo4FK5RMP4QY=
+		w9l5wFjMhC6flT0Yn/NxZFTWYeg=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jRqRANcB+5VtVBK4USkiZV8otYg=
+		2TLPPRUSHUvc9Kt6udVqPiV1bCY=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,23 +218,23 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hyHBrGDqHNiz4bIyNCi5l3Pzslc=
+		+H5pt0RfzueWMhR3S/FMi2AezoI=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Y5+A7uhAPAm04T38h9LQy3ilvIQ=
+		E8xC9+eySaxCCqAM/vegATxwFQg=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lZzlGU6MCZoJPSIgcEbcDPXAw5s=
+		++OYaRU9uy4YZHxIhOTdvUiO0FA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Y5+A7uhAPAm04T38h9LQy3ilvIQ=
+		E8xC9+eySaxCCqAM/vegATxwFQg=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9TZsBU5UwhKPrrUuoA4ny99IQz0=
+		1DfThuGV4iH4hcMM5OBWNReZk1o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -740,7 +740,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			73mp0Whi3eh3hVlgpxxqzZQn5YgvnaDQUBo3xJjQwio=
+			YbBug5NKmkXz6vz7u5lCEfzskRD8hHYSEg+aOR0r7aY=
 			</data>
 		</dict>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
@@ -964,7 +964,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q5PkP5FtxkboZLRqeqMEorX+pm6URO0cIjYuHTHyWmw=
+			yz2DOS9tQR5dNH2XIJyZXKQDHyJY1A4KdB/5pj0U68U=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1083,35 +1083,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GU+VYoyCVl1I/lhOAEP3/33OTab1TvcJG7lHq6CHLi8=
+			CQ0PI53cp/93i+QGq+zEI+0fAd3JOQYz2cKq3KpSPvA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I1o9ROiVmWzt7OEVSFV8MxPmeJnvt9or+bUvFlYDskU=
+			sqOBJkDpCt8X9aKUzspndaw32/CDGsu4lGGBN4teRIA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABMBgkApmtfncaSpqN+10I37HnlBmaDHhvIxK4n1+RI=
+			XFWJ3bMzbP5CSnM5HmsfZQIq8JPc8Bk6GiX2RL8pz1U=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I1o9ROiVmWzt7OEVSFV8MxPmeJnvt9or+bUvFlYDskU=
+			sqOBJkDpCt8X9aKUzspndaw32/CDGsu4lGGBN4teRIA=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Ak33wAEHrz4lUTx9/O1yoQTugZXhj1eNaZhe83qjYM=
+			UANz/PY8U9HKOfR6K4JmaQewXnl+t7gXjLT5iGWDpAg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
