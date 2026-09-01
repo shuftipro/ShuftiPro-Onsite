@@ -5418,7 +5418,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 8,
-      "value": "\"1.3.55\""
+      "value": "\"1.3.56\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -6858,84 +6858,91 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 632,
+      "offset": 661,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 694,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 708,
+      "offset": 737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 739,
+      "offset": 770,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 771,
+      "offset": 833,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 811,
+      "offset": 873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 953,
+      "offset": 1015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 988,
+      "offset": 1050,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 1130,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1169,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1246,
+      "offset": 1308,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/ProofsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1295,
+      "offset": 1357,
       "length": 5,
       "value": "false"
     },
@@ -9217,63 +9224,49 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 930,
+      "offset": 895,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1034,
+      "offset": 1045,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1148,
+      "offset": 1149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1243,
+      "offset": 1263,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1357,
+      "offset": 1358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1436,
+      "offset": 1472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1541,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1571,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1608,
+      "offset": 1551,
       "length": 5,
       "value": "false"
     },
@@ -9281,167 +9274,188 @@
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
       "offset": 1656,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1813,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "Array",
-      "offset": 1798,
+      "offset": 1913,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1839,
+      "offset": 1954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1882,
+      "offset": 1997,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 2664,
+      "offset": 2779,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2713,
+      "offset": 2828,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2871,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2794,
+      "offset": 2909,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2842,
+      "offset": 2957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2879,
+      "offset": 2994,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2918,
+      "offset": 3033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3007,
+      "offset": 3122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3056,
+      "offset": 3171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3321,
+      "offset": 3436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3373,
+      "offset": 3488,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3426,
+      "offset": 3541,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3470,
+      "offset": 3585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3531,
+      "offset": 3646,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3593,
+      "offset": 3708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3665,
+      "offset": 3780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3832,
+      "offset": 3947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3924,
+      "offset": 4039,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 4032,
+      "offset": 4147,
       "length": 4,
       "value": "true"
     },
