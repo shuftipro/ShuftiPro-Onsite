@@ -1606,6 +1606,10 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 - (void)captureOutput:(AVCaptureFileOutput * _Nonnull)_ didFinishRecordingToOutputFileAtURL:(NSURL * _Nonnull)_ fromConnections:(NSArray<AVCaptureConnection *> * _Nonnull)_ error:(NSError * _Nullable)_;
 @end
 
+@interface ProofCapturingViewController (SWIFT_EXTENSION(ShuftiPro))
+- (void)toggleMLFramePreview;
+@end
+
 SWIFT_CLASS("_TtC9ShuftiPro26ProofPreviewViewController")
 @interface ProofPreviewViewController : UIViewController <UIScrollViewDelegate>
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified previewDocumentHeading;
@@ -1640,6 +1644,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26ProofPreviewViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetDisConnected;
