@@ -5453,7 +5453,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 7,
-      "value": "\"1.4.1\""
+      "value": "\"1.4.2\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -7068,21 +7068,21 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42526,
+      "offset": 42627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42544,
+      "offset": 42645,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 48569,
+      "offset": 48670,
       "length": 3,
       "value": "9.0"
     },
@@ -7208,252 +7208,252 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19262,
+      "offset": 19813,
       "length": 18,
       "value": "\"primaryBtnStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 19282,
+      "offset": 19833,
       "length": 152,
       "value": "[(\"backgroundColor\", \"#0D1428\"), (\"color\", \"#ffffff\"), (\"borderColor\", \"#0D1428\"), (\"fontSize\", \"12\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19444,
+      "offset": 19995,
       "length": 20,
       "value": "\"secondaryBtnStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 19466,
+      "offset": 20017,
       "length": 152,
       "value": "[(\"backgroundColor\", \"#FFFFFF\"), (\"color\", \"#0D1428\"), (\"borderColor\", \"#0D1428\"), (\"fontSize\", \"12\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19628,
+      "offset": 20179,
       "length": 19,
       "value": "\"progressBarStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 19649,
+      "offset": 20200,
       "length": 108,
       "value": "[(\"color\", \"#F24348\"), (\"fontColor\", \"#0D1428\"), (\"fontSize\", \"18\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19767,
+      "offset": 20318,
       "length": 21,
       "value": "\"supportedTypeStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Array",
-      "offset": 19790,
+      "offset": 20341,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19802,
+      "offset": 20353,
       "length": 16,
       "value": "\"primaryHeading\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19834,
+      "offset": 20385,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19875,
+      "offset": 20426,
       "length": 7,
       "value": "\"color\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19884,
+      "offset": 20435,
       "length": 9,
       "value": "\"#0D1428\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19907,
+      "offset": 20458,
       "length": 10,
       "value": "\"fontSize\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19919,
+      "offset": 20470,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19937,
+      "offset": 20488,
       "length": 12,
       "value": "\"fontFamily\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19951,
+      "offset": 20502,
       "length": 16,
       "value": "\"Graphik-Medium\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 19987,
+      "offset": 20538,
       "length": 18,
       "value": "\"secondaryHeading\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20007,
+      "offset": 20558,
       "length": 159,
       "value": "[(\"backgroundColor\", \"#FFFFFF\"), (\"color\", \"#5C6C80\"), (\"fontSize\", \"12\"), (\"fontFamily\", \"Graphik-Regular\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20176,
+      "offset": 20727,
       "length": 12,
       "value": "\"normalText\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20204,
+      "offset": 20755,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20245,
+      "offset": 20796,
       "length": 7,
       "value": "\"color\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20254,
+      "offset": 20805,
       "length": 9,
       "value": "\"#0D1428\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20277,
+      "offset": 20828,
       "length": 10,
       "value": "\"fontSize\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20289,
+      "offset": 20840,
       "length": 4,
       "value": "\"12\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20307,
+      "offset": 20858,
       "length": 12,
       "value": "\"fontFamily\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20321,
+      "offset": 20872,
       "length": 17,
       "value": "\"Graphik-Regular\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20358,
+      "offset": 20909,
       "length": 14,
       "value": "\"loaderStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20374,
+      "offset": 20925,
       "length": 108,
       "value": "[(\"color\", \"#F24348\"), (\"fontColor\", \"#0D1428\"), (\"fontSize\", \"18\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20492,
+      "offset": 21043,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20514,
+      "offset": 21065,
       "length": 9,
       "value": "\"logoImg\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20553,
+      "offset": 21104,
       "length": 18,
       "value": "\"baseLayoutStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20573,
+      "offset": 21124,
       "length": 52,
       "value": "[(\"backgroundColor\", \"#FFFFFF\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20635,
+      "offset": 21186,
       "length": 24,
       "value": "\"headerBackgroundStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20661,
+      "offset": 21212,
       "length": 90,
       "value": "[(\"backgroundColor\", \"#F1F6FB\"), (\"borderColor\", \"#F1F6FB\")]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20761,
+      "offset": 21312,
       "length": 24,
       "value": "\"footerBackgroundStyles\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20787,
+      "offset": 21338,
       "length": 90,
       "value": "[(\"backgroundColor\", \"#F1F6FB\"), (\"borderColor\", \"#F1F6FB\")]"
     },
@@ -8489,14 +8489,14 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/PhoneEmailVerificationView\/View\/PhoneEmailInputViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16678,
+      "offset": 16779,
       "length": 6,
       "value": "\"2229\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/PhoneEmailVerificationView\/View\/PhoneEmailInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16713,
+      "offset": 16814,
       "length": 5,
       "value": "false"
     },
@@ -8629,28 +8629,28 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 36327,
+      "offset": 36428,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36450,
+      "offset": 36551,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "Array",
-      "offset": 36272,
+      "offset": 36373,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 36519,
+      "offset": 36620,
       "length": 3,
       "value": "0.0"
     },
@@ -9175,63 +9175,63 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31832,
+      "offset": 31932,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 75058,
+      "offset": 75158,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75215,
+      "offset": 75315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75575,
+      "offset": 75675,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75585,
+      "offset": 75685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75656,
+      "offset": 75756,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75740,
+      "offset": 75840,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75750,
+      "offset": 75850,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75824,
+      "offset": 75924,
       "length": 1,
       "value": "0"
     },
@@ -9859,6 +9859,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4483,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/MFAHelpView\/Builder\/MFAHelpBuilder.swift",
       "kind": "StringLiteral",
       "offset": 249,
@@ -10078,28 +10085,28 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10877,
+      "offset": 10888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10897,
+      "offset": 10908,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12674,
+      "offset": 12685,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12688,
+      "offset": 12699,
       "length": 4,
       "value": "1000"
     },
@@ -10240,48 +10247,48 @@
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
       "offset": 2801,
-      "length": 26,
-      "value": "\"CR1886793195121622904168\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 3001,
+      "offset": 2977,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3030,
+      "offset": 3006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3061,
+      "offset": 3037,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3772,
+      "offset": 3748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3816,
+      "offset": 3792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofPreview\/ViewModel\/ProofPreviewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4321,
+      "offset": 4297,
       "length": 2,
       "value": "\"\""
     },

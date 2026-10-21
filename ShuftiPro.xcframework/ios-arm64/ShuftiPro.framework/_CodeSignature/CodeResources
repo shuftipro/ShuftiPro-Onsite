@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		e8x87ePApxGUtnvCY9DNVhejmyQ=
+		Wl+GrGIGz8154c/J0ZQv1/H/WqI=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bQzQQQcFk+1uCvrf3MbGzbaazAw=
+		u9M6Y3U2lbSgcXonPjDg9SQjG00=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+ni74cNIIO1ZDHTTQL8dc0s5NMk=
+		hCelZ1x8mpJvbsmxYSgV1SOnxNg=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		a1cSyzoZ9X0lqQRsK+6CGPodtic=
+		u6emhuNh2N9UEP1iQaSamuq+wNw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -506,7 +506,7 @@
 		</data>
 		<key>StepperView.nib</key>
 		<data>
-		3U9NzArHHoTl+oiOe3Mc588Liy8=
+		vXMGQtOtSAl2SHqFpDCKdkNFDsc=
 		</data>
 		<key>SuccessVerified.svg</key>
 		<data>
@@ -964,7 +964,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxWiaudLiETEkcLHeENzovWLcLYwk9k2NgrAq44FQ38=
+			79jZYWImQn1vH7Ip5ApPJP4HRHobLQVKiUosFlDWJ4Q=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1083,7 +1083,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6iStgGd1ppiqCuacFmMyA9f7hEZv5S14COXEsLL3olY=
+			BLRpr5a32jPkOgI/xOV4QqBMjvREGh0cLZ5ADDB4vLc=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1111,7 +1111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jcpy451Vkybigi0b7iT42TQ75P4+prLeKoYZjMZVjV8=
+			bdXtdBYS0g0+qbguWlREjHKntw9KQSD9ScdXNlxwMyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1587,7 +1587,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9TMJjFYHQIYG7aJfjPmxIKzAu0dh/mMHZtQOLtNS9Vw=
+			EIb9+y6VfTlMwPaObMw7SQHWvgLP+AWHNhWVkKMe/z4=
 			</data>
 		</dict>
 		<key>SuccessVerified.svg</key>

@@ -2301,6 +2301,8 @@ SWIFT_CLASS("_TtC9ShuftiPro11StepperView")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified topConstraint;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified helpButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backButtonView;
+@property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified helpButtonLeadingToProgressBarConstraint;
+@property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified helpButtonLeadingToStepLabelConstraint;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (IBAction)backAction:(id _Nonnull)_;
