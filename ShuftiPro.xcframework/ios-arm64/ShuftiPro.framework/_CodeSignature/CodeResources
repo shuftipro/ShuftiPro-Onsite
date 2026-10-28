@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		RqZeWQg8JmqWTE2Jwiz9yU6HxQQ=
+		gOKYgTQQCRU4QFh1xldYv0BKoCY=
 		</data>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		Wl+GrGIGz8154c/J0ZQv1/H/WqI=
+		yx4K4tjOMNiHE42ZenyCdME4a+E=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u9M6Y3U2lbSgcXonPjDg9SQjG00=
+		Zx9OzEPROaU8xmXw5SXmuNPa0hU=
 		</data>
 		<key>InternetIssuePopUp.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		n5IaQlh5np+2eDMEsvV7fDICGYs=
+		EM+xMK8kX2GjmwyydzUTn4fd7fE=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+nt5HrzyZSn3Sx7DDMlH04r97ek=
+		t9tT4yelVmEMATsRxmGCJMfg0b4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -740,7 +740,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			59pbkXGhy5ogkPlT918Yl6cKF5O2rtakPplDCE3tKYQ=
+			8T7UZgIIEknIo5yp+Srp46gm3HnkeHYcTP2EaqblIYc=
 			</data>
 		</dict>
 		<key>CameraInstruction.storyboardc/CameraInstructionViewController.nib</key>
@@ -964,7 +964,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			79jZYWImQn1vH7Ip5ApPJP4HRHobLQVKiUosFlDWJ4Q=
+			AZ5vS4Z73BMCfb6czDF3Dl0Zlj7RtKtOZ12WIU+gIKY=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1083,7 +1083,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			65R6SDwSSXEf4VPXKQGEWjyJKNx8ksPUbYINiEPV4iw=
+			ViawjEpWJAxlxZv3di0JsX4unVnTUChtcdzM1+LnUlI=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1111,7 +1111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x7KLXRnWhsuiSi8DcyMkcpjxKPo17CCU2CrRbJKOdJ0=
+			sc6UjPC3zjF1gcj7YMG9AOEkbv/lRtgussmk/UMXT2A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -405,6 +405,7 @@ SWIFT_CLASS("_TtC9ShuftiPro25AddressHelpViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)helpViewClick:(UITapGestureRecognizer * _Nullable)_;
@@ -525,6 +526,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified addressAnyTextLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)_;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -608,6 +610,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31DataLoadingScreenViewController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified secretKeyLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetConnectedAgain;
@@ -654,6 +657,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified privacyTopView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)proceedButtonClickAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)_ cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -696,6 +700,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24EDDServiceViewController")
 - (void)viewDidLayoutSubviews;
 - (void)handleTableViewTap:(UITapGestureRecognizer * _Nonnull)_;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetConnectedAgain;
 - (IBAction)previousButtonAction:(id _Nonnull)_;
@@ -725,12 +730,13 @@ SWIFT_CLASS("_TtC9ShuftiPro18EKYCViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified labelLoading;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)webView:(WKWebView * _Nonnull)webView didStartProvisionalNavigation:(WKNavigation * _Null_unspecified)_;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
-- (void)webView:(WKWebView * _Nonnull)_ didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)error;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -757,6 +763,7 @@ SWIFT_CLASS("_TtC9ShuftiPro30ExtractedAddressViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)presentGeneralAlertInternetIssue;
@@ -838,6 +845,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24GPSAddressViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (IBAction)locationClickAction:(id _Nonnull)_;
 - (IBAction)docClickActionAction:(id _Nonnull)_;
@@ -902,6 +910,7 @@ SWIFT_CLASS("_TtC9ShuftiPro23ImageZoomViewController")
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified pdfView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)backAction:(id _Nonnull)_;
 - (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -1030,6 +1039,7 @@ SWIFT_CLASS("_TtC9ShuftiPro21MFAHelpViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified optionIcon3;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -1055,6 +1065,7 @@ SWIFT_CLASS("_TtC9ShuftiPro33MFASupportedChannelViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)internetConnectedAgain;
@@ -1110,6 +1121,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31MultipleSelectionViewController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified pageTitle;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)_;
@@ -1307,6 +1319,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26OCRDataInputViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)donePressed;
 - (void)internetConnectedAgain;
 - (void)presentGeneralAlertInternetIssue;
@@ -1389,6 +1402,7 @@ SWIFT_CLASS("_TtC9ShuftiPro32PersistentProfilesViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)backAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -1435,6 +1449,7 @@ SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
@@ -1569,6 +1584,7 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified supportedTypeRightConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)_;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)_;
@@ -1642,6 +1658,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26ProofPreviewViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topStackTopConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
@@ -1681,6 +1698,7 @@ SWIFT_CLASS("_TtC9ShuftiPro32ProofSubmitOptionsViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)internetConnectedAgain;
@@ -1840,6 +1858,7 @@ SWIFT_CLASS("_TtC9ShuftiPro20ResultViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified pendingImageView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
@@ -1874,6 +1893,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26RetryServiceViewController")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified topView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)internetConnectedAgain;
 - (IBAction)retryButtonClickAction:(id _Nonnull)_;
@@ -1894,10 +1914,11 @@ SWIFT_CLASS("_TtC9ShuftiPro28RiskAssessmentViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified labelLoading;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
-- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
-- (void)webView:(WKWebView * _Nonnull)_ didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)error;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -1935,6 +1956,7 @@ SWIFT_CLASS("_TtC9ShuftiPro35SelectCountryQuestionViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)_;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
@@ -2016,6 +2038,7 @@ SWIFT_CLASS("_TtC9ShuftiPro35SelectCountryWithCodeViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)crossClickAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)_ cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -2041,6 +2064,7 @@ SWIFT_CLASS("_TtC9ShuftiPro34SelectLanguageScreenViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified crossImage;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)_;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
@@ -2282,6 +2306,7 @@ SWIFT_CLASS("_TtC9ShuftiPro22SpoofGPSViewController")
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified addressDocBtn;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (IBAction)retryButtonAction:(id _Nonnull)_;
 - (IBAction)addressDocBtnAction:(id _Nonnull)_;
@@ -2320,6 +2345,7 @@ SWIFT_CLASS("_TtC9ShuftiPro36SupportedDocumentsListViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewHeight;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)handlePanGesture:(UIPanGestureRecognizer * _Nonnull)gesture;
 - (void)internetConnectedAgain;
@@ -2406,6 +2432,7 @@ SWIFT_CLASS("_TtC9ShuftiPro23TestingIDViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified crossImage;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)presentGeneralAlertInternetIssue;
@@ -2550,6 +2577,7 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified instructionStackTopSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)addressProcessinfDidFinish;
@@ -2599,6 +2627,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 - (void)viewDidLoad;
 - (void)presentGeneralAlertInternetIssue;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (IBAction)languageButton:(id _Nonnull)_;
@@ -2656,6 +2685,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified sendFeedbackView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)keyboardGestures:(UITapGestureRecognizer * _Nonnull)gesture;
@@ -2694,6 +2724,7 @@ SWIFT_CLASS("_TtC9ShuftiPro38VerificationRequirementsViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpaceForButtons;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (IBAction)proceedButtonClickAction:(id _Nonnull)_;
@@ -2798,6 +2829,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 - (IBAction)verifyCode:(id _Nonnull)_;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)presentGeneralAlertInternetIssue;
 - (void)mainViewTap:(UITapGestureRecognizer * _Nullable)_;
@@ -3222,6 +3254,7 @@ SWIFT_CLASS("_TtC9ShuftiPro25AddressHelpViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)helpViewClick:(UITapGestureRecognizer * _Nullable)_;
@@ -3342,6 +3375,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified addressAnyTextLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)_;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -3425,6 +3459,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31DataLoadingScreenViewController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified secretKeyLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetConnectedAgain;
@@ -3471,6 +3506,7 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified privacyTopView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)proceedButtonClickAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)_ cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -3513,6 +3549,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24EDDServiceViewController")
 - (void)viewDidLayoutSubviews;
 - (void)handleTableViewTap:(UITapGestureRecognizer * _Nonnull)_;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)presentGeneralAlertInternetIssue;
 - (void)internetConnectedAgain;
 - (IBAction)previousButtonAction:(id _Nonnull)_;
@@ -3542,12 +3579,13 @@ SWIFT_CLASS("_TtC9ShuftiPro18EKYCViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified labelLoading;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)webView:(WKWebView * _Nonnull)webView didStartProvisionalNavigation:(WKNavigation * _Null_unspecified)_;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
-- (void)webView:(WKWebView * _Nonnull)_ didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)error;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -3574,6 +3612,7 @@ SWIFT_CLASS("_TtC9ShuftiPro30ExtractedAddressViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)presentGeneralAlertInternetIssue;
@@ -3655,6 +3694,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24GPSAddressViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (IBAction)locationClickAction:(id _Nonnull)_;
 - (IBAction)docClickActionAction:(id _Nonnull)_;
@@ -3719,6 +3759,7 @@ SWIFT_CLASS("_TtC9ShuftiPro23ImageZoomViewController")
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified pdfView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)backAction:(id _Nonnull)_;
 - (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -3847,6 +3888,7 @@ SWIFT_CLASS("_TtC9ShuftiPro21MFAHelpViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified optionIcon3;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -3872,6 +3914,7 @@ SWIFT_CLASS("_TtC9ShuftiPro33MFASupportedChannelViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)internetConnectedAgain;
@@ -3927,6 +3970,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31MultipleSelectionViewController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified pageTitle;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)_;
@@ -4124,6 +4168,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26OCRDataInputViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)donePressed;
 - (void)internetConnectedAgain;
 - (void)presentGeneralAlertInternetIssue;
@@ -4206,6 +4251,7 @@ SWIFT_CLASS("_TtC9ShuftiPro32PersistentProfilesViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)backAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -4252,6 +4298,7 @@ SWIFT_CLASS("_TtC9ShuftiPro29PhoneEmailInputViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
@@ -4386,6 +4433,7 @@ SWIFT_CLASS("_TtC9ShuftiPro28ProofCapturingViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified supportedTypeRightConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)_;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)_;
@@ -4459,6 +4507,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26ProofPreviewViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified topStackTopConstraint;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
@@ -4498,6 +4547,7 @@ SWIFT_CLASS("_TtC9ShuftiPro32ProofSubmitOptionsViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)internetConnectedAgain;
@@ -4657,6 +4707,7 @@ SWIFT_CLASS("_TtC9ShuftiPro20ResultViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified pendingImageView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)presentGeneralAlertInternetIssue;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
@@ -4691,6 +4742,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26RetryServiceViewController")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified topView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)internetConnectedAgain;
 - (IBAction)retryButtonClickAction:(id _Nonnull)_;
@@ -4711,10 +4763,11 @@ SWIFT_CLASS("_TtC9ShuftiPro28RiskAssessmentViewController")
 @property (nonatomic, strong) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified labelLoading;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
-- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
-- (void)webView:(WKWebView * _Nonnull)_ didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)_;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)_ withError:(NSError * _Nonnull)error;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -4752,6 +4805,7 @@ SWIFT_CLASS("_TtC9ShuftiPro35SelectCountryQuestionViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)_;
 - (void)handleKeyboardWillHide:(NSNotification * _Nonnull)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
@@ -4833,6 +4887,7 @@ SWIFT_CLASS("_TtC9ShuftiPro35SelectCountryWithCodeViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewBottomSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)crossClickAction:(id _Nonnull)_;
 - (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)_ cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -4858,6 +4913,7 @@ SWIFT_CLASS("_TtC9ShuftiPro34SelectLanguageScreenViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified crossImage;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)topViewClick:(UITapGestureRecognizer * _Nullable)_;
 - (IBAction)crossButtonClickAction:(id _Nonnull)_;
@@ -5099,6 +5155,7 @@ SWIFT_CLASS("_TtC9ShuftiPro22SpoofGPSViewController")
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified addressDocBtn;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (IBAction)retryButtonAction:(id _Nonnull)_;
 - (IBAction)addressDocBtnAction:(id _Nonnull)_;
@@ -5137,6 +5194,7 @@ SWIFT_CLASS("_TtC9ShuftiPro36SupportedDocumentsListViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified tableViewHeight;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)handlePanGesture:(UIPanGestureRecognizer * _Nonnull)gesture;
 - (void)internetConnectedAgain;
@@ -5223,6 +5281,7 @@ SWIFT_CLASS("_TtC9ShuftiPro23TestingIDViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified crossImage;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)presentGeneralAlertInternetIssue;
@@ -5367,6 +5426,7 @@ SWIFT_CLASS("_TtC9ShuftiPro25UploadProofViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified instructionStackTopSpace;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)addressProcessinfDidFinish;
@@ -5416,6 +5476,7 @@ SWIFT_CLASS("_TtC9ShuftiPro31UserConsentTakingViewController")
 - (void)viewDidLoad;
 - (void)presentGeneralAlertInternetIssue;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (IBAction)languageButton:(id _Nonnull)_;
@@ -5473,6 +5534,7 @@ SWIFT_CLASS("_TtC9ShuftiPro26UserFeedBackViewController")
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified sendFeedbackView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)_;
 - (void)keyboardDidShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)keyboardGestures:(UITapGestureRecognizer * _Nonnull)gesture;
@@ -5511,6 +5573,7 @@ SWIFT_CLASS("_TtC9ShuftiPro38VerificationRequirementsViewController")
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpaceForButtons;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (IBAction)proceedButtonClickAction:(id _Nonnull)_;
@@ -5615,6 +5678,7 @@ SWIFT_CLASS("_TtC9ShuftiPro24VerifyCodeViewController")
 - (IBAction)verifyCode:(id _Nonnull)_;
 - (void)swipeRightGestureWithGesture:(UISwipeGestureRecognizer * _Nonnull)gesture;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)internetConnectedAgain;
 - (void)presentGeneralAlertInternetIssue;
 - (void)mainViewTap:(UITapGestureRecognizer * _Nullable)_;

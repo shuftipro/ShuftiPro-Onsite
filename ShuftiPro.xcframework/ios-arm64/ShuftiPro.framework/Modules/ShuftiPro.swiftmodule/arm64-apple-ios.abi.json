@@ -453,6 +453,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4919,21 +4926,21 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38613,
+      "offset": 38876,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39647,
+      "offset": 39910,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/View\/ResultViewController.swift",
       "kind": "StringLiteral",
-      "offset": 41380,
+      "offset": 41643,
       "length": 2,
       "value": "\"\""
     },
@@ -5400,6 +5407,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/JourneyEventLogger\/JourneyEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 10,
+      "value": "\"SPMOB103\""
+    },
+    {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/GPSAddressScreen\/Router\/GPSAddressRouter.swift",
       "kind": "Array",
       "offset": 661,
@@ -5453,7 +5467,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 7,
-      "value": "\"1.4.3\""
+      "value": "\"1.4.4\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -5465,7 +5479,7 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/GPSAddressScreen\/View\/GPSAddressViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 3295,
       "length": 51,
       "value": "\"Please wait while your address is being verified.\""
     },
@@ -6389,42 +6403,42 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/LogsSocketManager\/SocketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 9779,
+      "offset": 10651,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/LogsSocketManager\/SocketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 9817,
+      "offset": 10689,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/LogsSocketManager\/SocketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 9854,
+      "offset": 10726,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/LogsSocketManager\/SocketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 9894,
+      "offset": 10766,
       "length": 7,
       "value": "4"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/LogsSocketManager\/SocketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 9937,
+      "offset": 10809,
       "length": 7,
       "value": "5"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/LogsSocketManager\/SocketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 9969,
+      "offset": 10841,
       "length": 4,
       "value": "6"
     },
@@ -7068,21 +7082,21 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42627,
+      "offset": 42902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42645,
+      "offset": 42920,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/OCRDataScreen\/View\/OCRDataInputViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 48670,
+      "offset": 48945,
       "length": 3,
       "value": "9.0"
     },
@@ -7894,7 +7908,7 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/APICalling\/CallAPI.swift",
       "kind": "StringLiteral",
-      "offset": 35477,
+      "offset": 36035,
       "length": 5,
       "value": "\"GET\""
     },
@@ -8489,14 +8503,14 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/PhoneEmailVerificationView\/View\/PhoneEmailInputViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16779,
+      "offset": 17060,
       "length": 6,
       "value": "\"2229\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/PhoneEmailVerificationView\/View\/PhoneEmailInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16814,
+      "offset": 17095,
       "length": 5,
       "value": "false"
     },
@@ -8629,28 +8643,28 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 36428,
+      "offset": 36699,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36551,
+      "offset": 36822,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "Array",
-      "offset": 36373,
+      "offset": 36644,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/EDDServiceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 36620,
+      "offset": 36891,
       "length": 3,
       "value": "0.0"
     },
@@ -9175,63 +9189,63 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31932,
+      "offset": 32207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 75158,
+      "offset": 75433,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75315,
+      "offset": 75590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75675,
+      "offset": 75950,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75685,
+      "offset": 75960,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75756,
+      "offset": 76031,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75840,
+      "offset": 76115,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75850,
+      "offset": 76125,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75924,
+      "offset": 76199,
       "length": 1,
       "value": "0"
     },
@@ -9322,7 +9336,7 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/SpoofGPSScreen\/View\/SpoofGPSViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1143,
+      "offset": 1415,
       "length": 3,
       "value": "0.2"
     },
@@ -10092,28 +10106,28 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10888,
+      "offset": 11171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10908,
+      "offset": 11191,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12685,
+      "offset": 12968,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ExtractedAddressScreen\/View\/ExtractedAddressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12699,
+      "offset": 12982,
       "length": 4,
       "value": "1000"
     },
@@ -10155,7 +10169,7 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/UploadProofView\/View\/UploadProofViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8636,
+      "offset": 8909,
       "length": 4,
       "value": "true"
     },
