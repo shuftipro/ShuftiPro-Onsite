@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/ShuftiPro-Swift.h</key>
 		<data>
-		yx4K4tjOMNiHE42ZenyCdME4a+E=
+		ng1DHKO6eNADklldrfF0JxRdW0s=
 		</data>
 		<key>Headers/ShuftiPro.h</key>
 		<data>
@@ -218,11 +218,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		EM+xMK8kX2GjmwyydzUTn4fd7fE=
+		98p1Zkl1EUGIJD4CIbGxNrgsbQA=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6XlYgeQ7cF+difAzH5oHluCMpPs=
+		ePvhZiUadZhNzA7WVb1wPUBlmvk=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -230,11 +230,11 @@
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6XlYgeQ7cF+difAzH5oHluCMpPs=
+		ePvhZiUadZhNzA7WVb1wPUBlmvk=
 		</data>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		t9tT4yelVmEMATsRxmGCJMfg0b4=
+		NY4kQiLJGDkQT276EreReYd5D+4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -964,7 +964,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AZ5vS4Z73BMCfb6czDF3Dl0Zlj7RtKtOZ12WIU+gIKY=
+			+BkOo7aJzvnV+8yu3FYPCXToZLlNfnPxdwAJuManVHs=
 			</data>
 		</dict>
 		<key>Headers/ShuftiPro.h</key>
@@ -1083,14 +1083,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ViawjEpWJAxlxZv3di0JsX4unVnTUChtcdzM1+LnUlI=
+			hpn9WnDMcP10hY28g8/lHAz4CWSFV7eDWkDj7KUZswo=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cf0XhorBgR+EA7NiqUSPL74IVWsdtYnEwr/pKVaZNK4=
+			sIBdqYfQfHQiir2SXmxIbugYQ6zNJts9daDk6r7pYwU=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1104,14 +1104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cf0XhorBgR+EA7NiqUSPL74IVWsdtYnEwr/pKVaZNK4=
+			sIBdqYfQfHQiir2SXmxIbugYQ6zNJts9daDk6r7pYwU=
 			</data>
 		</dict>
 		<key>Modules/ShuftiPro.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sc6UjPC3zjF1gcj7YMG9AOEkbv/lRtgussmk/UMXT2A=
+			l3wHoFeTJaxLCup00p1mvGZbRYCtj1SGuAZFLKDxE0c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

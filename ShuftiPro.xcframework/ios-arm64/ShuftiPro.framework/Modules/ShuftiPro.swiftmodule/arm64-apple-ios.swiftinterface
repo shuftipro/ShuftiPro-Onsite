@@ -9,15 +9,19 @@ import CommonCrypto
 import CoreGraphics
 import CoreImage
 import CoreLocation
+import CoreMedia
 import CoreNFC
 import CoreVideo
 import CryptoKit
+import Darwin
 import DeveloperToolsSupport
 import Foundation
 import ImageIO
+import MachO
 import MessageUI
 import MobileCoreServices
 import Network
+import ObjectiveC
 import PDFKit
 import Security
 @_exported import ShuftiPro

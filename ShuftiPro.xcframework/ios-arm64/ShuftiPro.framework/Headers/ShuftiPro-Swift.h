@@ -537,6 +537,15 @@ SWIFT_CLASS("_TtC9ShuftiPro31CameraInstructionViewController")
 - (void)handlePanGesture:(UIPanGestureRecognizer * _Nonnull)gesture;
 @end
 
+/// Isolated camera/device integrity detector for the verification journey.
+/// Mirrors the Android <code>CameraIntegrityDetector</code> payload shape (see CameraIntegrityPayloadBuilder)
+/// so both platforms can be consumed by the same backend schema.
+SWIFT_CLASS("_TtC9ShuftiPro22CameraIntegrityManager")
+@interface CameraIntegrityManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 SWIFT_CLASS("_TtC9ShuftiPro22CameraModeSelectorView")
 @interface CameraModeSelectorView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;

@@ -1697,6 +1697,132 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiPro"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5066,28 +5192,28 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 21943,
+      "offset": 22067,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 22524,
+      "offset": 22648,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 27681,
+      "offset": 27940,
       "length": 9,
       "value": "\"id_card\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/ServicesConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 34058,
+      "offset": 34317,
       "length": 12,
       "value": "\"ocr_inputs\""
     },
@@ -5446,7 +5572,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 7,
-      "value": "\"1.4.4\""
+      "value": "\"1.4.5\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -6296,6 +6422,111 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 32,
+      "value": "\"com.shuftipro.camera_integrity\""
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityDeviceChecks.swift",
+      "kind": "Array",
+      "offset": 668,
+      "length": 91,
+      "value": "[\"frida\", \"fridagadget\", \"gum-js\", \"cycript\", \"libcycript\", \"substrated\", \"cydiasubstrate\"]"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityDeviceChecks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 809,
+      "length": 5,
+      "value": "27042"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityDeviceChecks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2466,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityFrameAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 661,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityFrameAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 697,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityFrameAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 730,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityFrameAnalyzer.swift",
+      "kind": "Array",
+      "offset": 772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityFrameAnalyzer.swift",
+      "kind": "Array",
+      "offset": 815,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityRiskScoring.swift",
+      "kind": "StringLiteral",
+      "offset": 78,
+      "length": 10,
+      "value": "\"CRITICAL\""
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityRiskScoring.swift",
+      "kind": "StringLiteral",
+      "offset": 105,
+      "length": 6,
+      "value": "\"HIGH\""
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityRiskScoring.swift",
+      "kind": "StringLiteral",
+      "offset": 130,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/Utilities\/CameraIntegrityManager\/CameraIntegrityRiskScoring.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 5,
+      "value": "\"LOW\""
+    },
+    {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/ServicesDataConfigurations\/RequestObjectConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 176,
@@ -6641,7 +6872,7 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/ViewModel\/ProofCapturingViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 52578,
+      "offset": 52939,
       "length": 3,
       "value": "0.0"
     },
@@ -7670,7 +7901,7 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/Result\/ViewModel\/ResultViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 42235,
+      "offset": 42495,
       "length": 2,
       "value": "10"
     },
@@ -8496,56 +8727,56 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 25220,
+      "offset": 25326,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 29950,
+      "offset": 30056,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 29989,
+      "offset": 30095,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 33874,
+      "offset": 33980,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 45700,
+      "offset": 45944,
       "length": 4,
       "value": "9901"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 45728,
+      "offset": 45972,
       "length": 4,
       "value": "9902"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 45755,
+      "offset": 45999,
       "length": 4,
       "value": "9903"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewontroller+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 45784,
+      "offset": 46028,
       "length": 4,
       "value": "9904"
     },
@@ -8727,14 +8958,14 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/QuitionAirTableViewCell\/QuestionAirTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 18498,
+      "offset": 18599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/EDDService\/View\/QuitionAirTableViewCell\/QuestionAirTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 19494,
+      "offset": 19595,
       "length": 5,
       "value": "false"
     },
@@ -9175,56 +9406,56 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 75433,
+      "offset": 75535,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75590,
+      "offset": 75692,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75950,
+      "offset": 76052,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75960,
+      "offset": 76062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 76031,
+      "offset": 76133,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 76115,
+      "offset": 76217,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 76125,
+      "offset": 76227,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/iOS\/onSiteSdk\/ios-onsite-sdk\/ShuftiPro\/UserScreens\/ProofCapturing\/View\/ProofCapturingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 76199,
+      "offset": 76301,
       "length": 1,
       "value": "0"
     },
