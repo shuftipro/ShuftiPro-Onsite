@@ -5551,7 +5551,7 @@
       "kind": "StringLiteral",
       "offset": 766,
       "length": 7,
-      "value": "\"1.4.5\""
+      "value": "\"1.4.7\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ShuftiProBundel\/ShuftiPro.swift",
@@ -7411,252 +7411,252 @@
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20150,
+      "offset": 20441,
       "length": 18,
       "value": "\"primaryBtnStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20170,
+      "offset": 20461,
       "length": 152,
       "value": "[(\"backgroundColor\", \"#0D1428\"), (\"color\", \"#ffffff\"), (\"borderColor\", \"#0D1428\"), (\"fontSize\", \"12\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20332,
+      "offset": 20623,
       "length": 20,
       "value": "\"secondaryBtnStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20354,
+      "offset": 20645,
       "length": 152,
       "value": "[(\"backgroundColor\", \"#FFFFFF\"), (\"color\", \"#0D1428\"), (\"borderColor\", \"#0D1428\"), (\"fontSize\", \"12\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20516,
+      "offset": 20807,
       "length": 19,
       "value": "\"progressBarStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20537,
+      "offset": 20828,
       "length": 108,
       "value": "[(\"color\", \"#F24348\"), (\"fontColor\", \"#0D1428\"), (\"fontSize\", \"18\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20655,
+      "offset": 20946,
       "length": 21,
       "value": "\"supportedTypeStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Array",
-      "offset": 20678,
+      "offset": 20969,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20690,
+      "offset": 20981,
       "length": 16,
       "value": "\"primaryHeading\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20722,
+      "offset": 21013,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20763,
+      "offset": 21054,
       "length": 7,
       "value": "\"color\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20772,
+      "offset": 21063,
       "length": 9,
       "value": "\"#0D1428\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20795,
+      "offset": 21086,
       "length": 10,
       "value": "\"fontSize\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20807,
+      "offset": 21098,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20825,
+      "offset": 21116,
       "length": 12,
       "value": "\"fontFamily\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20839,
+      "offset": 21130,
       "length": 16,
       "value": "\"Graphik-Medium\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 20875,
+      "offset": 21166,
       "length": 18,
       "value": "\"secondaryHeading\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 20895,
+      "offset": 21186,
       "length": 159,
       "value": "[(\"backgroundColor\", \"#FFFFFF\"), (\"color\", \"#5C6C80\"), (\"fontSize\", \"12\"), (\"fontFamily\", \"Graphik-Regular\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21064,
+      "offset": 21355,
       "length": 12,
       "value": "\"normalText\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21092,
+      "offset": 21383,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21133,
+      "offset": 21424,
       "length": 7,
       "value": "\"color\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21142,
+      "offset": 21433,
       "length": 9,
       "value": "\"#0D1428\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21165,
+      "offset": 21456,
       "length": 10,
       "value": "\"fontSize\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21177,
+      "offset": 21468,
       "length": 4,
       "value": "\"12\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21195,
+      "offset": 21486,
       "length": 12,
       "value": "\"fontFamily\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21209,
+      "offset": 21500,
       "length": 17,
       "value": "\"Graphik-Regular\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21246,
+      "offset": 21537,
       "length": 14,
       "value": "\"loaderStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 21262,
+      "offset": 21553,
       "length": 108,
       "value": "[(\"color\", \"#F24348\"), (\"fontColor\", \"#0D1428\"), (\"fontSize\", \"18\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21380,
+      "offset": 21671,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21402,
+      "offset": 21693,
       "length": 9,
       "value": "\"logoImg\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21441,
+      "offset": 21732,
       "length": 18,
       "value": "\"baseLayoutStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 21461,
+      "offset": 21752,
       "length": 52,
       "value": "[(\"backgroundColor\", \"#FFFFFF\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21523,
+      "offset": 21814,
       "length": 24,
       "value": "\"headerBackgroundStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 21549,
+      "offset": 21840,
       "length": 90,
       "value": "[(\"backgroundColor\", \"#F1F6FB\"), (\"borderColor\", \"#F1F6FB\")]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 21649,
+      "offset": 21940,
       "length": 24,
       "value": "\"footerBackgroundStyles\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/Utilities\/VerifyDataConfigs\/VerifyDataConfigs.swift",
       "kind": "Dictionary",
-      "offset": 21675,
+      "offset": 21966,
       "length": 90,
       "value": "[(\"backgroundColor\", \"#F1F6FB\"), (\"borderColor\", \"#F1F6FB\")]"
     },
@@ -9833,70 +9833,70 @@
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1086,
+      "offset": 1080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1236,
+      "offset": 1134,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1340,
+      "offset": 1284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1454,
+      "offset": 1388,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1549,
+      "offset": 1502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1663,
+      "offset": 1597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1742,
+      "offset": 1711,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1847,
+      "offset": 1790,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1895,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1877,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1914,
+      "offset": 1925,
       "length": 5,
       "value": "false"
     },
@@ -9909,59 +9909,59 @@
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2010,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 2004,
+      "offset": 2052,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "Array",
-      "offset": 2104,
+      "offset": 2152,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2145,
+      "offset": 2193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2188,
+      "offset": 2236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 2970,
+      "offset": 3018,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3019,
+      "offset": 3067,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3110,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3100,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
@@ -9973,105 +9973,112 @@
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3185,
+      "offset": 3196,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3224,
+      "offset": 3272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3313,
+      "offset": 3361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3362,
+      "offset": 3410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 3675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3679,
+      "offset": 3727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3732,
+      "offset": 3780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3776,
+      "offset": 3824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3837,
+      "offset": 3885,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3899,
+      "offset": 3947,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 3971,
+      "offset": 4019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 4138,
+      "offset": 4186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 4230,
+      "offset": 4278,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 4338,
+      "offset": 4386,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/saadtesting\/projects\/ios-onsite-sdk\/ShuftiPro\/ConfigurationSettings\/AppConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 4531,
+      "offset": 4579,
       "length": 5,
       "value": "false"
     },
